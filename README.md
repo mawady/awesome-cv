@@ -42,7 +42,7 @@
 ## Journals - Computer Vision
 - Tier 1 (IEEE TPAMI, IEEE TIP, IEEE TCSVT, Springer IJCV, Elsevier Pattern Recognition, Elsevier CVUI, Elsevier Expert Systems with Applications, Elsevier Neurocomputing, Springer Neural Computing and Applications)
 - Tier 2 ()
-- Tier 3 ()
+- Open Access (IEEE Access, MDPI Journal of Imaging)
 
 ---
 
