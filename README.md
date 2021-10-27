@@ -23,6 +23,11 @@
 - [MediaPipe](https://github.com/google/mediapipe), Google, iOS - Andriod - C++ - Python - Coral, Face Detection - Face Mesh - Iris - Hands - Pose - Holistic - Hair Segmentation - Object Detection - Box Tracking	- Instant Motion Tracking	- Objectron - KNIFT (Similar to SIFT)
 - [PyTorch image models](https://github.com/rwightman/pytorch-image-models), rwightman, PyTorch image classification models, scripts, pretrained weights
 - [segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch), PyTorch segmentation models with pretrained backbones
+- [mmdetection](https://github.com/open-mmlab/mmdetection), OpenMMLab, Image Detection Toolbox and Benchmark
+- [mmsegmentation](https://github.com/open-mmlab/mmsegmentation), OpenMMLab, Semantic Segmentation Toolbox and Benchmark
+- [mmocr](https://github.com/open-mmlab/mmocr), OpenMMLab, Text Detection, Recognition and Understanding Toolbox
+- [mmaction](https://github.com/open-mmlab/mmaction), OpenMMLab, An open-source toolbox for action understanding based on PyTorch
+- [mmtracking](https://github.com/open-mmlab/mmtracking), OpenMMLab, Video Perception Toolbox for object detection and tracking
 - [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning), PyTorchLightning, Lightweight PyTorch wrapper for high-performance AI research
 - [ignite](https://github.com/pytorch/ignite), PyTorch, High-level library to help with training and evaluating neural networks in PyTorch flexibly and transparently
 - [detectron2](https://github.com/facebookresearch/detectron2), Facebook, FAIR's next-generation platform for object detection, segmentation and other visual recognition tasks
@@ -33,7 +38,6 @@
 - [computervision-recipes](https://github.com/microsoft/computervision-recipes), Microsoft, Best Practices, code samples, and documentation for Computer Vision
 - [vit-pytorch](https://github.com/lucidrains/vit-pytorch), SOTA for vision transformers
 - [kornia](https://github.com/kornia/kornia), Open Source Differentiable Computer Vision Library
-- [mmdetection](https://github.com/open-mmlab/mmdetection), OpenMMLab Image Detection Toolbox and Benchmark
 - [libfacedetection](https://github.com/ShiqiYu/libfacedetection), An open source library for face detection in images, speed: ~1000FPS
 - [detr](https://github.com/facebookresearch/detr), Facebook, End-to-End Object Detection with Transformers
 - [ORB_SLAM2](https://github.com/raulmur/ORB_SLAM2), Real-Time SLAM for Monocular, Stereo and RGB-D Cameras, with Loop Detection and Relocalization Capabilities
@@ -43,7 +47,14 @@
 - [FaceDetection-DSFD](https://github.com/Tencent/FaceDetection-DSFD), Tencent, SOTA face detector.
 - [imagededup](https://github.com/idealo/imagededup), Image retrieval, CBIR, Find duplicate images made easy!
 - [image-match](https://github.com/ProvenanceLabs/image-match), Image retrieval, CBIR, Quickly search over billions of images
-- 
+- [image-quality-assessment](https://github.com/idealo/image-quality-assessment), Idealo, Image Aesthetic, NIMA model to predict the aesthetic and technical quality of images
+- [aesthetics](https://github.com/ylogx/aesthetics), Image Aesthetics Toolkit using Fisher Vectors
+- [pytorch-cnn-visualizations](https://github.com/utkuozbulak/pytorch-cnn-visualizations), Pytorch implementation of convolutional neural network visualization techniques
+- [yolov5](https://github.com/ultralytics/yolov5)
+- [U-2-Net](https://github.com/xuebinqin/U-2-Net), U^2-Net: Going Deeper with Nested U-Structure for Salient Object Detection
+- [ncnn](https://github.com/Tencent/ncnn), Tencent, High-performance neural network inference framework optimized for the mobile platform
+- [EasyOCR](https://github.com/JaidedAI/EasyOCR), Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc
+- [Bringing-Old-Photos-Back-to-Life](https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life), Microsoft, Bringing Old Photo Back to Life (CVPR 2020 oral)
 
 ---
 
@@ -59,6 +70,7 @@
 - [anomaly-detection-resources](https://github.com/yzhao062/anomaly-detection-resources), Anomaly detection related books, papers, videos, and toolboxes
 - [awesome-satellite-imagery-datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets) List of satellite image training datasets with annotations for computer vision and deep learning
 - [awesome-Face_Recognition](https://github.com/ChanChiChoi/awesome-Face_Recognition), Computer vision papers about faces.
+- [the-incredible-pytorch](https://github.com/ritchieng/the-incredible-pytorch), Curated list of tutorials, papers, projects, communities and more relating to PyTorch
 
 
 ---
@@ -69,7 +81,8 @@
 - [The "Python Machine Learning (3rd edition)" book code repository](https://github.com/rasbt/python-machine-learning-book-3rd-edition)
 - [Multithreading with OpenCV-Python to improve video processing performance](https://nrsyed.com/2018/07/05/multithreading-with-opencv-python-to-improve-video-processing-performance/)
 - [Computer Vision Zone](https://www.computervision.zone/) - Videos and implementations for computer vision projects
-
+- [MadeWithML](https://github.com/GokuMohandas/MadeWithML), Learn how to responsibly deliver value with ML
+- [d2l-en](https://github.com/d2l-ai/d2l-en), Interactive deep learning book with multi-framework code, math, and discussions. Adopted at 200 universities
 
 ---
 
