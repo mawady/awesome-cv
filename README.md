@@ -32,7 +32,11 @@
 - [albumentations](https://github.com/albumentations-team/albumentations), Fast image augmentation library and an easy-to-use wrapper around other libraries
 - [computervision-recipes](https://github.com/microsoft/computervision-recipes), Microsoft, Best Practices, code samples, and documentation for Computer Vision
 - [vit-pytorch](https://github.com/lucidrains/vit-pytorch), SOTA for vision transformers
-- [kornia](https://github.com/kornia/kornia), Open Source Differentiable Computer Vision Library 
+- [kornia](https://github.com/kornia/kornia), Open Source Differentiable Computer Vision Library
+- [mmdetection](https://github.com/open-mmlab/mmdetection), OpenMMLab Image Detection Toolbox and Benchmark
+- [libfacedetection](https://github.com/ShiqiYu/libfacedetection), An open source library for face detection in images, speed: ~1000FPS
+
+
 
 ---
 
