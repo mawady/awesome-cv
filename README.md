@@ -40,6 +40,9 @@
 - [face_classification](https://github.com/oarriaga/face_classification), Real-time face detection and emotion/gender classification
 - [object-Detection-Metrics](https://github.com/rafaelpadilla/Object-Detection-Metrics), Most popular metrics used to evaluate object detection algorithms
 - [pyod](https://github.com/yzhao062/pyod), Python Toolbox for Scalable Outlier Detection (Anomaly Detection)
+- [FaceDetection-DSFD](https://github.com/Tencent/FaceDetection-DSFD), Tencent, SOTA face detector.
+- [imagededup](https://github.com/idealo/imagededup), Image retrieval, CBIR, Find duplicate images made easy!
+- [image-match](https://github.com/ProvenanceLabs/image-match), Image retrieval, CBIR, Quickly search over billions of images
 - 
 
 ---
