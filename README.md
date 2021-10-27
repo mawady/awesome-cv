@@ -24,7 +24,10 @@
 - [PyTorch image models](https://github.com/rwightman/pytorch-image-models), rwightman, PyTorch image classification models, scripts, pretrained weights
 - [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning), PyTorchLightning, Lightweight PyTorch wrapper for high-performance AI research
 - [detectron2](https://github.com/facebookresearch/detectron2), Facebook, FAIR's next-generation platform for object detection, segmentation and other visual recognition tasks
-- [FastAI](https://github.com/fastai/fastai), FastAI, library over PyTorch used for learning and practicing machine learning and deep learning
+- [FastAI](https://github.com/fastai/fastai), FastAI, Library over PyTorch used for learning and practicing machine learning and deep learning
+- [pytorch_geometric](https://github.com/pyg-team/pytorch_geometric), Graph Neural Network Library for PyTorch
+- [MLflow](https://github.com/mlflow/mlflow), Open source platform for the machine learning lifecycle
+- [albumentations](https://github.com/albumentations-team/albumentations), Fast image augmentation library and an easy-to-use wrapper around other libraries.
 
 ---
 
@@ -34,6 +37,8 @@
 - [The "Python Machine Learning (3rd edition)" book code repository](https://github.com/rasbt/python-machine-learning-book-3rd-edition)
 - [Multithreading with OpenCV-Python to improve video processing performance](https://nrsyed.com/2018/07/05/multithreading-with-opencv-python-to-improve-video-processing-performance/)
 - [Computer Vision Zone](https://www.computervision.zone/) - Videos and implementations for computer vision projects
+
+
 ---
 
 ## Conferences - Computer Vision
