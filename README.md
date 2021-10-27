@@ -20,13 +20,15 @@
 ---
 
 ## Repos
-
+- [MediaPipe](https://github.com/google/mediapipe), Google, iOS - Andriod - C++ - Python - Coral, Face Detection - Face Mesh - Iris - Hands - Pose - Holistic - Hair Segmentation - Object Detection - Box Tracking	- Instant Motion Tracking	- Objectron - KNIFT (Similar to SIFT) 
 ---
 
 ## Misc
 
 - How to build a good poster - [Link1](https://urc.ucdavis.edu/sites/g/files/dgvnsk3561/files/local_resources/documents/pdf_documents/How_To_Make_an_Effective_Poster2.pdf) *** [Link2](https://www.animateyour.science/post/How-to-design-an-award-winning-conference-poster) *** [Link3](https://www.jamiebgall.co.uk/post/powerful-posters)
 - [The "Python Machine Learning (3rd edition)" book code repository](https://github.com/rasbt/python-machine-learning-book-3rd-edition)
+- [Multithreading with OpenCV-Python to improve video processing performance](https://nrsyed.com/2018/07/05/multithreading-with-opencv-python-to-improve-video-processing-performance/)
+- 
 
 ---
 
