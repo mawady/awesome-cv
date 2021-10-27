@@ -1,4 +1,4 @@
-# Awesome list for computer vision, machine learning, deep learning and data science [educational purposes]
+# Awesome educational list for computer vision (plus: machine learning, deep learning and data science)
 
 ---
 
