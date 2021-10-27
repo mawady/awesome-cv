@@ -35,7 +35,27 @@
 - [kornia](https://github.com/kornia/kornia), Open Source Differentiable Computer Vision Library
 - [mmdetection](https://github.com/open-mmlab/mmdetection), OpenMMLab Image Detection Toolbox and Benchmark
 - [libfacedetection](https://github.com/ShiqiYu/libfacedetection), An open source library for face detection in images, speed: ~1000FPS
+- [detr](https://github.com/facebookresearch/detr), Facebook, End-to-End Object Detection with Transformers
+- [ORB_SLAM2](https://github.com/raulmur/ORB_SLAM2), Real-Time SLAM for Monocular, Stereo and RGB-D Cameras, with Loop Detection and Relocalization Capabilities
+- [face_classification](https://github.com/oarriaga/face_classification), Real-time face detection and emotion/gender classification
+- [object-Detection-Metrics](https://github.com/rafaelpadilla/Object-Detection-Metrics), Most popular metrics used to evaluate object detection algorithms
+- [pyod](https://github.com/yzhao062/pyod), Python Toolbox for Scalable Outlier Detection (Anomaly Detection)
+- 
 
+---
+
+## Annotation Tools
+- [VoTT](https://github.com/microsoft/VoTT), Microsoft, Visual Object Tagging Tool: An electron app for building end to end Object Detection Models from Images and Videos
+- [labelme](https://github.com/wkentaro/labelme), Image Polygonal Annotation with Python (polygon, rectangle, circle, line, point and image-level flag annotation)
+- [labelImg](https://github.com/tzutalin/labelImg), Graphical image annotation tool and label object bounding boxes in images
+
+
+---
+
+## Awesome lists
+- [anomaly-detection-resources](https://github.com/yzhao062/anomaly-detection-resources), Anomaly detection related books, papers, videos, and toolboxes
+- [awesome-satellite-imagery-datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets) List of satellite image training datasets with annotations for computer vision and deep learning
+- [awesome-Face_Recognition](https://github.com/ChanChiChoi/awesome-Face_Recognition), Computer vision papers about faces.
 
 
 ---
