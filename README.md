@@ -32,6 +32,14 @@
 
 ---
 
+## Conferences - Computer Vision
+- Tier 1 (ICCV, CVPR, ECCV, WACV, ICASSP, MICCAI, IROS)
+- Tier 2 (ACCV, VCIP, ICIP, CAIP, BMVC, VISAPP, ICPR, ACIVS, EUSIPCO, ICRA)
+- Tier 3 (ICIAP, ICISP, ICIAR, ICVS)
+
+---
+
 ## Thanks
 - Dan Harvey
 - Frida De Sigley
+- [CORE Conference Ranking](http://portal.core.edu.au/conf-ranks/)
