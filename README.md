@@ -7,15 +7,15 @@
 - [Intro to Deep Learning with PyTorch](https://www.udacity.com/course/deep-learning-pytorch--ud188), Udacity, Deep Learning
 - [Introduction to Python Programming](https://www.udacity.com/course/introduction-to-python--ud1110), Udacity, Programming
 - [Intro to Data Science](https://www.udacity.com/courses/ud359), Udacity, Data Science 
-- Intro to Data Analysis, Udacity, Data Science - [Link](https://www.udacity.com/courses/ud170)
-- Introduction to Computer Vision, Udacity, Computer Vision - [Link](https://www.udacity.com/courses/ud810)
-- Segmentation and Clustering, Udacity, Data Science - [Link](https://www.udacity.com/course/segmentation-and-clustering--ud981)
-- Machine Learning with Scikit-Learn, LinkedIn Learning, Machine Learning - [Link](https://www.linkedin.com/learning/machine-learning-with-scikit-learn)
-- Python for Data Science Essential Training Part 1, LinkedIn Learning, Data Science - [Link](https://www.linkedin.com/learning/python-for-data-science-essential-training-part-1)
-- Python for Data Science Essential Training Part 2, LinkedIn Learning, Data Science - [Link](https://www.linkedin.com/learning/python-for-data-science-essential-training-part-2)
-- OpenCV for Python Developers, LinkedIn Learning, Computer Vision - [Link](https://www.linkedin.com/learning/opencv-for-python-developers)
-- Python Data Analysis, LinkedIn Learning, Programming - [Link](https://www.linkedin.com/learning/python-data-analysis-2)
-- Learning Python, LinkedIn Learning, Programming - [Link](https://www.linkedin.com/learning/learning-python)
+- [Intro to Data Analysis](https://www.udacity.com/courses/ud170), Udacity, Data Science
+- [Introduction to Computer Vision](https://www.udacity.com/courses/ud810), Udacity, Computer Vision
+- [Segmentation and Clustering](https://www.udacity.com/course/segmentation-and-clustering--ud981), Udacity, Data Science
+- [Machine Learning with Scikit-Learn](https://www.linkedin.com/learning/machine-learning-with-scikit-learn), LinkedIn Learning, Machine Learning
+- [Python for Data Science Essential Training Part 1](https://www.linkedin.com/learning/python-for-data-science-essential-training-part-1), LinkedIn Learning, Data Science 
+- [Python for Data Science Essential Training Part 2](https://www.linkedin.com/learning/python-for-data-science-essential-training-part-2), LinkedIn Learning, Data Science
+- [OpenCV for Python Developers](https://www.linkedin.com/learning/opencv-for-python-developers), LinkedIn Learning, Computer Vision
+- [Python Data Analysis](https://www.linkedin.com/learning/python-data-analysis-2), LinkedIn Learning, Programming
+- [Learning Python](https://www.linkedin.com/learning/learning-python), LinkedIn Learning, Programming
 
 ---
 
@@ -25,8 +25,8 @@
 
 ## Misc
 
-- How to build a good poster - [Link1](https://urc.ucdavis.edu/sites/g/files/dgvnsk3561/files/local_resources/documents/pdf_documents/How_To_Make_an_Effective_Poster2.pdf) [Link2](https://www.animateyour.science/post/How-to-design-an-award-winning-conference-poster) [Link3](https://www.jamiebgall.co.uk/post/powerful-posters)
-- The "Python Machine Learning (3rd edition)" book code repository - [Link](https://github.com/rasbt/python-machine-learning-book-3rd-edition)
+- How to build a good poster - [Link1](https://urc.ucdavis.edu/sites/g/files/dgvnsk3561/files/local_resources/documents/pdf_documents/How_To_Make_an_Effective_Poster2.pdf) *** [Link2](https://www.animateyour.science/post/How-to-design-an-award-winning-conference-poster) *** [Link3](https://www.jamiebgall.co.uk/post/powerful-posters)
+- [The "Python Machine Learning (3rd edition)" book code repository](https://github.com/rasbt/python-machine-learning-book-3rd-edition)
 
 ---
 
