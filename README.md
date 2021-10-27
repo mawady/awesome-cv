@@ -20,7 +20,12 @@
 ---
 
 ## Repos
-- [MediaPipe](https://github.com/google/mediapipe), Google, iOS - Andriod - C++ - Python - Coral, Face Detection - Face Mesh - Iris - Hands - Pose - Holistic - Hair Segmentation - Object Detection - Box Tracking	- Instant Motion Tracking	- Objectron - KNIFT (Similar to SIFT) 
+- [MediaPipe](https://github.com/google/mediapipe), Google, iOS - Andriod - C++ - Python - Coral, Face Detection - Face Mesh - Iris - Hands - Pose - Holistic - Hair Segmentation - Object Detection - Box Tracking	- Instant Motion Tracking	- Objectron - KNIFT (Similar to SIFT)
+- [PyTorch image models](https://github.com/rwightman/pytorch-image-models), rwightman, PyTorch image classification models, scripts, pretrained weights
+- [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning), PyTorchLightning, Lightweight PyTorch wrapper for high-performance AI research
+- [detectron2](https://github.com/facebookresearch/detectron2), Facebook, FAIR's next-generation platform for object detection, segmentation and other visual recognition tasks
+- [FastAI](https://github.com/fastai/fastai), FastAI, library over PyTorch used for learning and practicing machine learning and deep learning
+
 ---
 
 ## Misc
@@ -29,7 +34,6 @@
 - [The "Python Machine Learning (3rd edition)" book code repository](https://github.com/rasbt/python-machine-learning-book-3rd-edition)
 - [Multithreading with OpenCV-Python to improve video processing performance](https://nrsyed.com/2018/07/05/multithreading-with-opencv-python-to-improve-video-processing-performance/)
 - [Computer Vision Zone](https://www.computervision.zone/) - Videos and implementations for computer vision projects
-
 ---
 
 ## Conferences - Computer Vision
