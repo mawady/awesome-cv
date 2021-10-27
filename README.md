@@ -22,7 +22,9 @@
 ## Repos
 - [MediaPipe](https://github.com/google/mediapipe), Google, iOS - Andriod - C++ - Python - Coral, Face Detection - Face Mesh - Iris - Hands - Pose - Holistic - Hair Segmentation - Object Detection - Box Tracking	- Instant Motion Tracking	- Objectron - KNIFT (Similar to SIFT)
 - [PyTorch image models](https://github.com/rwightman/pytorch-image-models), rwightman, PyTorch image classification models, scripts, pretrained weights
+- [segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch), PyTorch segmentation models with pretrained backbones
 - [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning), PyTorchLightning, Lightweight PyTorch wrapper for high-performance AI research
+- [ignite](https://github.com/pytorch/ignite), PyTorch, High-level library to help with training and evaluating neural networks in PyTorch flexibly and transparently
 - [detectron2](https://github.com/facebookresearch/detectron2), Facebook, FAIR's next-generation platform for object detection, segmentation and other visual recognition tasks
 - [FastAI](https://github.com/fastai/fastai), FastAI, Library over PyTorch used for learning and practicing machine learning and deep learning
 - [pytorch_geometric](https://github.com/pyg-team/pytorch_geometric), Graph Neural Network Library for PyTorch
