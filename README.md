@@ -91,3 +91,4 @@
 - Dan Harvey
 - Frida De Sigley
 - [CORE Conference Ranking](http://portal.core.edu.au/conf-ranks/)
+- [Scimago Journal Ranking](https://www.scimagojr.com/journalrank.php)
