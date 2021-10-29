@@ -58,6 +58,12 @@
 
 ---
 
+## Task Management Tools
+- [MLflow](https://mlflow.org), Platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry
+- [Apache Airflow](https://airflow.apache.org), Apache/AirBnB, Platform created by the community to programmatically author, schedule and monitor workflows
+
+---
+
 ## Annotation Tools
 - [VoTT](https://github.com/microsoft/VoTT), Microsoft, Visual Object Tagging Tool: An electron app for building end to end Object Detection Models from Images and Videos
 - [labelme](https://github.com/wkentaro/labelme), Image Polygonal Annotation with Python (polygon, rectangle, circle, line, point and image-level flag annotation)
