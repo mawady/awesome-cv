@@ -89,6 +89,7 @@
 - [Computer Vision Zone](https://www.computervision.zone/) - Videos and implementations for computer vision projects
 - [MadeWithML](https://github.com/GokuMohandas/MadeWithML), Learn how to responsibly deliver value with ML
 - [d2l-en](https://github.com/d2l-ai/d2l-en), Interactive deep learning book with multi-framework code, math, and discussions. Adopted at 200 universities
+- [Writing Pet Peeves](https://www.cs.ubc.ca/~tmm/writing.htmt), writing guide for correctness, references, and style
 
 ---
 
