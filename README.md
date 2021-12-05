@@ -68,6 +68,7 @@
 - [VoTT](https://github.com/microsoft/VoTT), Microsoft, Visual Object Tagging Tool: An electron app for building end to end Object Detection Models from Images and Videos
 - [labelme](https://github.com/wkentaro/labelme), Image Polygonal Annotation with Python (polygon, rectangle, circle, line, point and image-level flag annotation)
 - [labelImg](https://github.com/tzutalin/labelImg), Graphical image annotation tool and label object bounding boxes in images
+- [VIA](https://www.robots.ox.ac.uk/~vgg/software/via/), VGG Oxford, HTML-based standalone manual annotation software for image, audio and video
 
 
 ---
