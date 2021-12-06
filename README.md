@@ -33,7 +33,6 @@
 - [detectron2](https://github.com/facebookresearch/detectron2), Facebook, FAIR's next-generation platform for object detection, segmentation and other visual recognition tasks
 - [FastAI](https://github.com/fastai/fastai), FastAI, Library over PyTorch used for learning and practicing machine learning and deep learning
 - [pytorch_geometric](https://github.com/pyg-team/pytorch_geometric), Graph Neural Network Library for PyTorch
-- [MLflow](https://github.com/mlflow/mlflow), Open source platform for the machine learning lifecycle
 - [albumentations](https://github.com/albumentations-team/albumentations), Fast image augmentation library and an easy-to-use wrapper around other libraries
 - [computervision-recipes](https://github.com/microsoft/computervision-recipes), Microsoft, Best Practices, code samples, and documentation for Computer Vision
 - [vit-pytorch](https://github.com/lucidrains/vit-pytorch), SOTA for vision transformers
