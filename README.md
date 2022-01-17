@@ -58,6 +58,8 @@
 ---
 
 ## Dataset collections
+- [PyTorch - CV Datasets](https://pytorch.org/vision/stable/datasets.html), Meta
+- [Tensorflow - CV Datasets](https://www.tensorflow.org/datasets/catalog/overview#image), Google
 - [CVonline: Image Databases](https://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm), Edinburgh University, Thanks to Robert Fisher!
 - [Yet Another Computer Vision Index To Datasets (YACVID)](http://yacvid.hayko.at), Thanks to Hayko Riemenschneider!
 - [Kaggle](https://www.kaggle.com/datasets?tags=13207-Computer+Vision)
