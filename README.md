@@ -4,10 +4,10 @@
 > * **[Dataset Collections](https://github.com/mawady/Awesome_CV#Dataset-Collections)**
 > * **[Task Management Tools](https://github.com/mawady/Awesome_CV#Task-Management-Tools)**
 > * **[Annotation Tools](https://github.com/mawady/Awesome_CV#Annotation-Tools)**
-Awesome Lists
-Misc
-Conferences in Computer Vision
-Journals in Computer Vision
+> * **[Awesome Lists](https://github.com/mawady/Awesome_CV#Awesome-Lists)**
+> * **[Misc](https://github.com/mawady/Awesome_CV#Misc)**
+> * **[Conferences in Computer Vision](https://github.com/mawady/Awesome_CV#Conferences-in-Computer-Vision)**
+> * **[Journals in Computer Vision](https://github.com/mawady/Awesome_CV#Journals-in-Computer-Vision)**
 ---
 
 ## Courses
