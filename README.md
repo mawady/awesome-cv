@@ -1,5 +1,9 @@
 # Awesome educational list for computer vision (plus: machine learning, deep learning and data science)
-> * **[Courses](https://github.com/mawady/Awesome_CV#Courses)**;   
+> * **[Courses](https://github.com/mawady/Awesome_CV#Courses)**;
+> * **[Repos](https://github.com/mawady/Awesome_CV#Repos)**;
+> * **[Dataset Collections](https://github.com/mawady/Awesome_CV#Dataset-Collections)**;
+> * **[Task Management Tools](https://github.com/mawady/Awesome_CV#Task-Management-Tools)**;
+> * **[Annotation Tools](https://github.com/mawady/Awesome_CV#Annotation-Tools)**
 
 ---
 
@@ -58,7 +62,7 @@
 
 ---
 
-## Dataset collections
+## Dataset Collections
 - [PyTorch - CV Datasets](https://pytorch.org/vision/stable/datasets.html), Meta
 - [Tensorflow - CV Datasets](https://www.tensorflow.org/datasets/catalog/overview#image), Google
 - [CVonline: Image Databases](https://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm), Edinburgh University, Thanks to Robert Fisher!
