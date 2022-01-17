@@ -1,10 +1,13 @@
 # Awesome educational list for computer vision (plus: machine learning, deep learning and data science)
-> * **[Courses](https://github.com/mawady/Awesome_CV#Courses)**;
-> * **[Repos](https://github.com/mawady/Awesome_CV#Repos)**;
-> * **[Dataset Collections](https://github.com/mawady/Awesome_CV#Dataset-Collections)**;
-> * **[Task Management Tools](https://github.com/mawady/Awesome_CV#Task-Management-Tools)**;
+> * **[Courses](https://github.com/mawady/Awesome_CV#Courses)**
+> * **[Repos](https://github.com/mawady/Awesome_CV#Repos)**
+> * **[Dataset Collections](https://github.com/mawady/Awesome_CV#Dataset-Collections)**
+> * **[Task Management Tools](https://github.com/mawady/Awesome_CV#Task-Management-Tools)**
 > * **[Annotation Tools](https://github.com/mawady/Awesome_CV#Annotation-Tools)**
-
+Awesome Lists
+Misc
+Conferences in Computer Vision
+Journals in Computer Vision
 ---
 
 ## Courses
@@ -89,7 +92,7 @@
 
 ---
 
-## Awesome lists
+## Awesome Lists
 - [anomaly-detection-resources](https://github.com/yzhao062/anomaly-detection-resources), Anomaly detection related books, papers, videos, and toolboxes
 - [awesome-satellite-imagery-datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets) List of satellite image training datasets with annotations for computer vision and deep learning
 - [awesome-Face_Recognition](https://github.com/ChanChiChoi/awesome-Face_Recognition), Computer vision papers about faces.
@@ -111,14 +114,14 @@
 
 ---
 
-## Conferences - Computer Vision
+## Conferences in Computer Vision
 - Tier 1 (ICCV, CVPR, ECCV, WACV, ICASSP, MICCAI, IROS)
 - Tier 2 (ACCV, VCIP, ICIP, CAIP, BMVC, VISAPP, ICPR, ACIVS, EUSIPCO, ICRA)
 - Tier 3 (ICIAP, ICISP, ICIAR, ICVS)
 
 ---
 
-## Journals - Computer Vision
+## Journals in Computer Vision
 - Tier 1 (IEEE TPAMI, IEEE TIP, IEEE TCSVT, Springer IJCV, Elsevier Pattern Recognition, Elsevier CVIU, Elsevier Expert Systems with Applications, Elsevier Neurocomputing, Springer Neural Computing and Applications)
 - Tier 2 (Elsevier Image and Vision Computing, Elsevier Pattern Recognition Letters, Elsevier Journal of Visual Communication and Image Representation, Springer Journal of Mathematical Imaging and Vision, SPIE Journal of Electronic Imaging, IET Image Processing, Springer Pattern Analysis and Applications, Springer Machine Vision and Applications, IET Computer Vision)
 - Open Access (IEEE Access, MDPI Journal of Imaging)
