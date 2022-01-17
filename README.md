@@ -57,6 +57,16 @@
 
 ---
 
+## Dataset collections
+- [CVonline: Image Databases](https://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm), Edinburgh University, Thanks to Robert Fisher!
+- [Yet Another Computer Vision Index To Datasets (YACVID)](http://yacvid.hayko.at), Thanks to Hayko Riemenschneider!
+- [Kaggle](https://www.kaggle.com/datasets?tags=13207-Computer+Vision)
+- [PaperWithCode](https://paperswithcode.com/area/computer-vision), Meta
+- [RoboFlow](https://public.roboflow.com)
+- [VisualData](https://visualdata.io/discovery)
+
+---
+
 ## Task Management Tools
 - [MLflow](https://mlflow.org), Platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry
 - [Apache Airflow](https://airflow.apache.org), Apache/AirBnB, Platform created by the community to programmatically author, schedule and monitor workflows
