@@ -1,6 +1,7 @@
 # Awesome educational list for computer vision
 > * **[Reference Books](https://github.com/mawady/Awesome_CV#Reference-Books)**
 > * **[Courses](https://github.com/mawady/Awesome_CV#Courses)**
+> * **[YouTube Playlists](https://github.com/mawady/Awesome_CV#YouTube-Playlists)**
 > * **[Repos](https://github.com/mawady/Awesome_CV#Repos)**
 > * **[Dataset Collections](https://github.com/mawady/Awesome_CV#Dataset-Collections)**
 > * **[Task Management Tools](https://github.com/mawady/Awesome_CV#Task-Management-Tools)**
@@ -36,6 +37,19 @@
 - [OpenCV for Python Developers](https://www.linkedin.com/learning/opencv-for-python-developers), LinkedIn Learning, Computer Vision
 - [Python Data Analysis](https://www.linkedin.com/learning/python-data-analysis-2), LinkedIn Learning, Programming
 - [Learning Python](https://www.linkedin.com/learning/learning-python), LinkedIn Learning, Programming
+
+---
+
+## YouTube Playlists
+- [Computer Vision - University of Tübingen - Andreas Geiger - 2021](https://www.youtube.com/playlist?list=PL05umP7R6ij35L2MHGzis8AEHz7mg381_)
+- [Computer Vision - University of Central Florida - Mubarak Shah - 2012](https://www.youtube.com/playlist?list=PLd3hlSJsX_ImKP68wfKZJVIPTd8Ie5u-9)
+- [Computer Vision - University of Central Florida - Yogesh S Rawat/Mubarak Shah - 2021](https://www.youtube.com/playlist?list=PLd3hlSJsX_IkXSinyREhlMjFvpNfpazfN)
+- [Convolutional Neural Networks for Visual Recognition - Stanford University - Fei-Fei Li - 2017](https://www.youtube.com/playlist?list=PLf7L7Kg8_FNxHATtLwDceyh72QQL9pvpQ)
+- [Deep Learning for Computer Vision - University of Michigan - Justin Johnson - 2020](https://www.youtube.com/playlist?list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r)
+- [Advanced Deep Learning for Computer Vision - Technical University of Munich - Laura Leal-Taixé and Matthias Niessner - 2020](https://www.youtube.com/playlist?list=PLog3nOPCjKBnjhuHMIXu4ISE4Z4f2jm39)
+- [Advanced Computer Vision - University of Central Florida - Mubarak Shah - 2021](https://www.youtube.com/playlist?list=PLd3hlSJsX_Ilwca04yxhrjcdzx7BS2vDh)
+- [Multiple View Geometry - Technical University of Munich - Daniel Cremers - 2013](https://www.youtube.com/playlist?list=PLTBdjV_4f-EJn6udZ34tht9EVIW7lbeo4)
+- [Variational Methods for Computer Vision - Technical University of Munich - Daniel Cremers - 2013](https://www.youtube.com/playlist?list=PLTBdjV_4f-EJ7A2iIH5L5ztqqrWYjP2RI)
 
 ---
 
