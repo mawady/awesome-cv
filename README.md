@@ -1,4 +1,5 @@
 # Awesome educational list for computer vision
+> * **[Reference Books](https://github.com/mawady/Awesome_CV#Reference-Books)**
 > * **[Courses](https://github.com/mawady/Awesome_CV#Courses)**
 > * **[Repos](https://github.com/mawady/Awesome_CV#Repos)**
 > * **[Dataset Collections](https://github.com/mawady/Awesome_CV#Dataset-Collections)**
@@ -8,6 +9,17 @@
 > * **[Misc](https://github.com/mawady/Awesome_CV#Misc)**
 > * **[Conferences in Computer Vision](https://github.com/mawady/Awesome_CV#Conferences-in-Computer-Vision)**
 > * **[Journals in Computer Vision](https://github.com/mawady/Awesome_CV#Journals-in-Computer-Vision)**
+---
+
+## Reference Books
+- González, Rafael Corsino and Richard E. Woods. “Digital image processing, 4th Edition.” (2018). [goodreads](https://www.goodreads.com/book/show/42937189-digital-image-processing)
+- Bishop, Charles M.. “Pattern recognition and machine learning, 5th Edition.” Information science and statistics (2007). [goodreads](https://www.goodreads.com/book/show/37572203-pattern-recognition-and-machine-learning)
+- Szeliski, Richard. “Computer Vision - Algorithms and Applications.” Texts in Computer Science (2010). [goodreads](https://www.goodreads.com/book/show/9494221-computer-vision)
+- Prince, Simon. “Computer Vision: Models, Learning, and Inference.” (2012). [goodreads](https://www.goodreads.com/book/show/15792261-computer-vision)
+- Forsyth, David Alexander and Jean Ponce. “Computer Vision - A Modern Approach, Second Edition.” (2011). [goodreads](https://www.goodreads.com/book/show/14857613-computer-vision)
+- Harltey, Andrew and Andrew Zisserman. “Multiple view geometry in computer vision (2. ed.).” (2003). [goodreads](https://www.goodreads.com/book/show/89897.Multiple_View_Geometry_in_Computer_Vision)
+- Stockman, George C. and Linda G. Shapiro. “Computer Vision.” (2001). [goodreads](https://www.goodreads.com/book/show/19371156-computer-vision)
+
 ---
 
 ## Courses
