@@ -1,4 +1,4 @@
-# Awesome educational list for computer vision (plus: machine learning, deep learning and data science)
+# Awesome educational list for computer vision
 > * **[Courses](https://github.com/mawady/Awesome_CV#Courses)**
 > * **[Repos](https://github.com/mawady/Awesome_CV#Repos)**
 > * **[Dataset Collections](https://github.com/mawady/Awesome_CV#Dataset-Collections)**
