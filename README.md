@@ -100,6 +100,7 @@
 - [PaperWithCode](https://paperswithcode.com/area/computer-vision), Meta
 - [RoboFlow](https://public.roboflow.com)
 - [VisualData](https://visualdata.io/discovery)
+- [CUHK Computer Vision](http://www.ee.cuhk.edu.hk/~xgwang/datasets.html)
 
 ---
 
@@ -155,7 +156,7 @@
 ---
 
 ## Thanks
-- Frida De Sigley
+- [Frida de Sigley](https://github.com/fdsig) 
 - Dan Harvey
 - [CORE Conference Ranking](http://portal.core.edu.au/conf-ranks/)
 - [Scimago Journal Ranking](https://www.scimagojr.com/journalrank.php)
