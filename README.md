@@ -101,6 +101,7 @@
 - [RoboFlow](https://public.roboflow.com)
 - [VisualData](https://visualdata.io/discovery)
 - [CUHK Computer Vision](http://www.ee.cuhk.edu.hk/~xgwang/datasets.html)
+- [VGG - University of Oxford](https://www.robots.ox.ac.uk/~vgg/data/)
 
 ---
 
