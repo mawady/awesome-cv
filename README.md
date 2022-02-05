@@ -159,5 +159,5 @@
 ## Thanks
 - [Frida de Sigley](https://github.com/fdsig) 
 - Dan Harvey
-- [CORE Conference Ranking](http://portal.core.edu.au/conf-ranks/)
+- [CORE Conference Ranking](http://portal.core.edu.au/conf-ranks/?search=4603&by=all&source=CORE2021&sort=arank&page=1)
 - [Scimago Journal Ranking](https://www.scimagojr.com/journalrank.php)
