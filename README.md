@@ -88,6 +88,7 @@
 - [ncnn](https://github.com/Tencent/ncnn), Tencent, High-performance neural network inference framework optimized for the mobile platform
 - [EasyOCR](https://github.com/JaidedAI/EasyOCR), Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc
 - [Bringing-Old-Photos-Back-to-Life](https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life), Microsoft, Bringing Old Photo Back to Life (CVPR 2020 oral)
+- [SAHI](https://github.com/obss/sahi), A lightweight vision library for performing large scale object detection/ instance segmentation
 
 ---
 
@@ -116,6 +117,7 @@
 - [labelme](https://github.com/wkentaro/labelme), Image Polygonal Annotation with Python (polygon, rectangle, circle, line, point and image-level flag annotation)
 - [labelImg](https://github.com/tzutalin/labelImg), Graphical image annotation tool and label object bounding boxes in images
 - [VIA](https://www.robots.ox.ac.uk/~vgg/software/via/), VGG Oxford, HTML-based standalone manual annotation software for image, audio and video
+- [FiftyOne](https://github.com/voxel51/fiftyone), open-source tool for building high-quality datasets and computer vision models
 
 
 ---
@@ -139,6 +141,7 @@
 - [MadeWithML](https://github.com/GokuMohandas/MadeWithML), Learn how to responsibly deliver value with ML
 - [d2l-en](https://github.com/d2l-ai/d2l-en), Interactive deep learning book with multi-framework code, math, and discussions. Adopted at 200 universities
 - [Writing Pet Peeves](https://www.cs.ubc.ca/~tmm/writing.htmt), writing guide for correctness, references, and style
+- [Hitchhiker's Guide to Python](https://docs.python-guide.org), Python best practices guidebook, written for humans
 
 ---
 
