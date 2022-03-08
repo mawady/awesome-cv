@@ -10,6 +10,7 @@
 > * **[Misc](https://github.com/mawady/Awesome_CV#Misc)**
 > * **[Conferences in Computer Vision](https://github.com/mawady/Awesome_CV#Conferences-in-Computer-Vision)**
 > * **[Journals in Computer Vision](https://github.com/mawady/Awesome_CV#Journals-in-Computer-Vision)**
+> * **[Summer Schools in Computer Vision](https://github.com/mawady/Awesome_CV#Summer-Schools-in-Computer-Vision)**
 ---
 
 ## Reference Books
@@ -156,6 +157,13 @@
 - Tier 1 (IEEE TPAMI, IEEE TIP, IEEE TCSVT, Springer IJCV, Elsevier Pattern Recognition, Elsevier CVIU, Elsevier Expert Systems with Applications, Elsevier Neurocomputing, Springer Neural Computing and Applications)
 - Tier 2 (Elsevier Image and Vision Computing, Elsevier Pattern Recognition Letters, Elsevier Journal of Visual Communication and Image Representation, Springer Journal of Mathematical Imaging and Vision, SPIE Journal of Electronic Imaging, IET Image Processing, Springer Pattern Analysis and Applications, Springer Machine Vision and Applications, IET Computer Vision)
 - Open Access (IEEE Access, MDPI Journal of Imaging)
+
+---
+
+## Summer Schools in Computer Vision
+- International Computer Vision Summer School (IVCSS) [2007-Present], Sicily, Italy [2022](https://iplab.dmi.unict.it/icvss2022/)
+- Machine Intelligence and Visual Computing Summer School (VISUM) [2013-Present], Porto, Portugal [2022](https://visum.inesctec.pt)
+- BMVA British Computer Vision Summer School (CVSS) [2013-2020], UK [Website](https://britishmachinevisionassociation.github.io/summer-school)
 
 ---
 
