@@ -161,9 +161,9 @@
 ---
 
 ## Summer Schools in Computer Vision
-- International Computer Vision Summer School (IVCSS) [2007-Present], Sicily, Italy [2022](https://iplab.dmi.unict.it/icvss2022/)
-- Machine Intelligence and Visual Computing Summer School (VISUM) [2013-Present], Porto, Portugal [2022](https://visum.inesctec.pt)
-- BMVA British Computer Vision Summer School (CVSS) [2013-2020], UK [Website](https://britishmachinevisionassociation.github.io/summer-school)
+- International Computer Vision Summer School (IVCSS) [2007-Present], Sicily, Italy [[2022](https://iplab.dmi.unict.it/icvss2022/)]
+- Machine Intelligence and Visual Computing Summer School (VISUM) [2013-Present], Porto, Portugal [[2022](https://visum.inesctec.pt)]
+- BMVA British Computer Vision Summer School (CVSS) [2013-2020], UK [[Website](https://britishmachinevisionassociation.github.io/summer-school)]
 
 ---
 
