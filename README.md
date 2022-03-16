@@ -110,6 +110,7 @@
 ## Task Management Tools
 - [MLflow](https://mlflow.org), Platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry
 - [Apache Airflow](https://airflow.apache.org), Apache/AirBnB, Platform created by the community to programmatically author, schedule and monitor workflows
+- [Ploomber](https://github.com/ploomber/ploomber), fastest way to build data pipelines.
 
 ---
 
