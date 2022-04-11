@@ -58,6 +58,7 @@
 - [MediaPipe](https://github.com/google/mediapipe), Google, iOS - Andriod - C++ - Python - Coral, Face Detection - Face Mesh - Iris - Hands - Pose - Holistic - Hair Segmentation - Object Detection - Box Tracking	- Instant Motion Tracking	- Objectron - KNIFT (Similar to SIFT)
 - [PyTorch image models](https://github.com/rwightman/pytorch-image-models), rwightman, PyTorch image classification models, scripts, pretrained weights
 - [segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch), PyTorch segmentation models with pretrained backbones
+- [mmclassification](https://github.com/open-mmlab/mmclassification), OpenMMLab, Image Classification Toolbox and Benchmark
 - [mmdetection](https://github.com/open-mmlab/mmdetection), OpenMMLab, Image Detection Toolbox and Benchmark
 - [mmsegmentation](https://github.com/open-mmlab/mmsegmentation), OpenMMLab, Semantic Segmentation Toolbox and Benchmark
 - [mmocr](https://github.com/open-mmlab/mmocr), OpenMMLab, Text Detection, Recognition and Understanding Toolbox
