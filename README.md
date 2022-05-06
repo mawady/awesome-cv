@@ -148,8 +148,8 @@
 - [python-fire](https://github.com/google/python-fire), Google, a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
 - [shotcut](https://shotcut.org), a free, open source, cross-platform video editor.
 - [PyTorch Computer Vision Cookbook](https://github.com/PacktPublishing/PyTorch-Computer-Vision-Cookbook), PyTorch Computer Vision Cookbook, Published by Packt.
-- [Machine Learning Mastery - Blogs](https://machinelearningmastery.com/blog/), Blogs written by Jason Brownlee about machine learning.
-- [PyImageSearch - Blogs](https://pyimagesearch.com/blog/), Blogs written by Adrian Rosebrock about computer vision.
+- [Machine Learning Mastery - Blogs](https://machinelearningmastery.com/blog/), Blogs written by [Jason Brownlee](https://scholar.google.com/citations?hl=en&user=hVaJhRYAAAAJ) about machine learning.
+- [PyImageSearch - Blogs](https://pyimagesearch.com/blog/), Blogs written by [Adrian Rosebrock](https://scholar.google.com/citations?user=bLEhONMAAAAJ&hl) about computer vision.
 
 ---
 
