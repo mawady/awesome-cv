@@ -137,7 +137,7 @@
 ## Misc
 
 - How to build a good poster - [[Link1](https://urc.ucdavis.edu/sites/g/files/dgvnsk3561/files/local_resources/documents/pdf_documents/How_To_Make_an_Effective_Poster2.pdf)] [[Link2](https://www.animateyour.science/post/How-to-design-an-award-winning-conference-poster)] [[Link3](https://www.jamiebgall.co.uk/post/powerful-posters)]
-- How to report a good report - [Link1](https://www.dur.ac.uk/resources/academic.office/academic_registrar/report_writing_guidance.pdf)
+- How to report a good report - [[Link1](https://cs.swan.ac.uk/~csbob/teaching/cs354-projectSpec/laramee10projectGuideline.pdf)] [[link2](https://www.cst.cam.ac.uk/teaching/part-ii/projects/dissertation)]
 - [The "Python Machine Learning (3rd edition)" book code repository](https://github.com/rasbt/python-machine-learning-book-3rd-edition)
 - [Multithreading with OpenCV-Python to improve video processing performance](https://nrsyed.com/2018/07/05/multithreading-with-opencv-python-to-improve-video-processing-performance/)
 - [Computer Vision Zone](https://www.computervision.zone/) - Videos and implementations for computer vision projects
