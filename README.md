@@ -146,6 +146,7 @@
 - [Writing Pet Peeves](https://www.cs.ubc.ca/~tmm/writing.htmt), writing guide for correctness, references, and style
 - [Hitchhiker's Guide to Python](https://docs.python-guide.org), Python best practices guidebook, written for humans
 - [python-fire](https://github.com/google/python-fire), Google, a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
+- [shotcut](https://shotcut.org), a free, open source, cross-platform video editor.
 
 ---
 
