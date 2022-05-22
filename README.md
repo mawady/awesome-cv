@@ -1,6 +1,7 @@
 # Awesome educational list for computer vision
 > * **[Reference Books](https://github.com/mawady/Awesome_CV#Reference-Books)**
-> * **[Courses](https://github.com/mawady/Awesome_CV#Courses)**
+> * **[Online Courses](https://github.com/mawady/Awesome_CV#Online-Courses)**
+> * **[Uni Courses](https://github.com/mawady/Awesome_CV#Uni-Courses)**
 > * **[YouTube Playlists](https://github.com/mawady/Awesome_CV#YouTube-Playlists)**
 > * **[Repos](https://github.com/mawady/Awesome_CV#Repos)**
 > * **[Dataset Collections](https://github.com/mawady/Awesome_CV#Dataset-Collections)**
@@ -24,7 +25,7 @@
 
 ---
 
-## Courses
+## Online Courses
 - [Introduction to Machine Learning Course](https://www.udacity.com/course/intro-to-machine-learning--ud120), Udacity, Data Science
 - [Intro to Deep Learning with PyTorch](https://www.udacity.com/course/deep-learning-pytorch--ud188), Udacity, Deep Learning
 - [Introduction to Python Programming](https://www.udacity.com/course/introduction-to-python--ud1110), Udacity, Programming
@@ -39,6 +40,12 @@
 - [Python Data Analysis](https://www.linkedin.com/learning/python-data-analysis-2), LinkedIn Learning, Programming
 - [Learning Python](https://www.linkedin.com/learning/learning-python), LinkedIn Learning, Programming
 
+---
+
+## Uni Courses
+- [Introduction to Computer Vision](https://browncsci1430.github.io/), Brown, Computer Vision
+- [Advances in Computer Vision](http://6.869.csail.mit.edu/sp22/), MIT, Computer Vision
+- [Deep Learning for Computer Vision](http://cs231n.stanford.edu), Stanford, Deep Learning / Computer Vision
 ---
 
 ## YouTube Playlists
