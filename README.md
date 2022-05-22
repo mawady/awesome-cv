@@ -1,4 +1,4 @@
-# Awesome educational list for computer vision
+# Curated educational list for computer vision
 > * **[Reference Books](https://github.com/mawady/Awesome_CV#Reference-Books)**
 > * **[Online Courses](https://github.com/mawady/Awesome_CV#Online-Courses)**
 > * **[Uni Courses](https://github.com/mawady/Awesome_CV#Uni-Courses)**
