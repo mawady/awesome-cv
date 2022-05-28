@@ -15,30 +15,34 @@
 ---
 
 ## Reference Books
-- González, Rafael Corsino and Richard E. Woods. “Digital image processing, 4th Edition.” (2018). [goodreads](https://www.goodreads.com/book/show/42937189-digital-image-processing)
-- Bishop, Charles M.. “Pattern recognition and machine learning, 5th Edition.” Information science and statistics (2007). [goodreads](https://www.goodreads.com/book/show/37572203-pattern-recognition-and-machine-learning)
-- Szeliski, Richard. “Computer Vision - Algorithms and Applications.” Texts in Computer Science (2010). [goodreads](https://www.goodreads.com/book/show/9494221-computer-vision)
-- Prince, Simon. “Computer Vision: Models, Learning, and Inference.” (2012). [goodreads](https://www.goodreads.com/book/show/15792261-computer-vision)
-- Forsyth, David Alexander and Jean Ponce. “Computer Vision - A Modern Approach, Second Edition.” (2011). [goodreads](https://www.goodreads.com/book/show/14857613-computer-vision)
-- Harltey, Andrew and Andrew Zisserman. “Multiple view geometry in computer vision (2. ed.).” (2003). [goodreads](https://www.goodreads.com/book/show/89897.Multiple_View_Geometry_in_Computer_Vision)
-- Stockman, George C. and Linda G. Shapiro. “Computer Vision.” (2001). [goodreads](https://www.goodreads.com/book/show/19371156-computer-vision)
+| Book | Links |
+| --------------- | --------------- |
+| González, Rafael Corsino and Richard E. Woods. “Digital image processing, 4th Edition.” (2018). | [goodreads](https://www.goodreads.com/book/show/42937189-digital-image-processing) |
+| Prince, Simon. “Computer Vision: Models, Learning, and Inference.” (2012). | [goodreads](https://www.goodreads.com/book/show/15792261-computer-vision) |
+| Forsyth, David Alexander and Jean Ponce. “Computer Vision - A Modern Approach, Second Edition.” (2011). |[goodreads](https://www.goodreads.com/book/show/14857613-computer-vision) |
+| Szeliski, Richard. “Computer Vision - Algorithms and Applications.” Texts in Computer Science (2010). | [goodreads](https://www.goodreads.com/book/show/9494221-computer-vision) | 
+| Bishop, Charles M.. “Pattern recognition and machine learning, 5th Edition.” Information science and statistics (2007). | [goodreads](https://www.goodreads.com/book/show/37572203-pattern-recognition-and-machine-learning) |
+| Harltey, Andrew and Andrew Zisserman. “Multiple view geometry in computer vision (2. ed.).” (2003). | [goodreads](https://www.goodreads.com/book/show/89897.Multiple_View_Geometry_in_Computer_Vision) |
+| Stockman, George C. and Linda G. Shapiro. “Computer Vision.” (2001). | [goodreads](https://www.goodreads.com/book/show/19371156-computer-vision) |
 
 ---
 
 ## Online Courses
-- [Introduction to Machine Learning Course](https://www.udacity.com/course/intro-to-machine-learning--ud120), Udacity, Data Science
-- [Intro to Deep Learning with PyTorch](https://www.udacity.com/course/deep-learning-pytorch--ud188), Udacity, Deep Learning
-- [Introduction to Python Programming](https://www.udacity.com/course/introduction-to-python--ud1110), Udacity, Programming
-- [Intro to Data Science](https://www.udacity.com/courses/ud359), Udacity, Data Science 
-- [Intro to Data Analysis](https://www.udacity.com/courses/ud170), Udacity, Data Science
-- [Introduction to Computer Vision](https://www.udacity.com/courses/ud810), Udacity, Computer Vision
-- [Segmentation and Clustering](https://www.udacity.com/course/segmentation-and-clustering--ud981), Udacity, Data Science
-- [Machine Learning with Scikit-Learn](https://www.linkedin.com/learning/machine-learning-with-scikit-learn), LinkedIn Learning, Machine Learning
-- [Python for Data Science Essential Training Part 1](https://www.linkedin.com/learning/python-for-data-science-essential-training-part-1), LinkedIn Learning, Data Science 
-- [Python for Data Science Essential Training Part 2](https://www.linkedin.com/learning/python-for-data-science-essential-training-part-2), LinkedIn Learning, Data Science
-- [OpenCV for Python Developers](https://www.linkedin.com/learning/opencv-for-python-developers), LinkedIn Learning, Computer Vision
-- [Python Data Analysis](https://www.linkedin.com/learning/python-data-analysis-2), LinkedIn Learning, Programming
-- [Learning Python](https://www.linkedin.com/learning/learning-python), LinkedIn Learning, Programming
+| Course | Tag | Platform |
+| --------------- | --------------- | --------------- |
+| [Introduction to Python Programming](https://www.udacity.com/course/introduction-to-python--ud1110) | `Programming` | Udacity |
+| [Learning Python](https://www.linkedin.com/learning/learning-python) | `Programming` | LinkedIn Learning |
+| [Intro to Data Science](https://www.udacity.com/courses/ud359) | `Data Science` | Udacity |
+| [Intro to Data Analysis](https://www.udacity.com/courses/ud170) | `Data Science` | Udacity |
+| [Python Data Analysis](https://www.linkedin.com/learning/python-data-analysis-2) | `Data Science` | LinkedIn Learning | 
+| [Segmentation and Clustering](https://www.udacity.com/course/segmentation-and-clustering--ud981) | `Data Science` | Udacity |
+| [Python for Data Science Essential Training Part 1](https://www.linkedin.com/learning/python-for-data-science-essential-training-part-1) | `Data Science` | LinkedIn Learning | 
+| [Python for Data Science Essential Training Part 2](https://www.linkedin.com/learning/python-for-data-science-essential-training-part-2) | `Data Science` | LinkedIn Learning | 
+| [Introduction to Machine Learning Course](https://www.udacity.com/course/intro-to-machine-learning--ud120) | `Machine Learning` | Udacity |
+| [Machine Learning with Scikit-Learn](https://www.linkedin.com/learning/machine-learning-with-scikit-learn) | `Machine Learning` | LinkedIn Learning | 
+| [Intro to Deep Learning with PyTorch](https://www.udacity.com/course/deep-learning-pytorch--ud188) | `Deep Learning` | Udacity |
+| [Introduction to Computer Vision](https://www.udacity.com/courses/ud810) | `Computer Vision` | Udacity |
+| [OpenCV for Python Developers](https://www.linkedin.com/learning/opencv-for-python-developers) |`Computer Vision` | LinkedIn Learning | 
 
 ---
 
