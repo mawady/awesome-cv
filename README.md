@@ -62,42 +62,43 @@
 ---
 
 ## Repos
-- [MediaPipe](https://github.com/google/mediapipe), Google, iOS - Andriod - C++ - Python - Coral, Face Detection - Face Mesh - Iris - Hands - Pose - Holistic - Hair Segmentation - Object Detection - Box Tracking	- Instant Motion Tracking	- Objectron - KNIFT (Similar to SIFT)
-- [PyTorch image models](https://github.com/rwightman/pytorch-image-models), rwightman, PyTorch image classification models, scripts, pretrained weights
-- [segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch), PyTorch segmentation models with pretrained backbones
-- [mmclassification](https://github.com/open-mmlab/mmclassification), OpenMMLab, Image Classification Toolbox and Benchmark
-- [mmdetection](https://github.com/open-mmlab/mmdetection), OpenMMLab, Image Detection Toolbox and Benchmark
-- [mmsegmentation](https://github.com/open-mmlab/mmsegmentation), OpenMMLab, Semantic Segmentation Toolbox and Benchmark
-- [mmocr](https://github.com/open-mmlab/mmocr), OpenMMLab, Text Detection, Recognition and Understanding Toolbox
-- [mmaction](https://github.com/open-mmlab/mmaction), OpenMMLab, An open-source toolbox for action understanding based on PyTorch
-- [mmtracking](https://github.com/open-mmlab/mmtracking), OpenMMLab, Video Perception Toolbox for object detection and tracking
-- [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning), PyTorchLightning, Lightweight PyTorch wrapper for high-performance AI research
-- [ignite](https://github.com/pytorch/ignite), PyTorch, High-level library to help with training and evaluating neural networks in PyTorch flexibly and transparently
-- [detectron2](https://github.com/facebookresearch/detectron2), Facebook, FAIR's next-generation platform for object detection, segmentation and other visual recognition tasks
-- [FastAI](https://github.com/fastai/fastai), FastAI, Library over PyTorch used for learning and practicing machine learning and deep learning
-- [pytorch_geometric](https://github.com/pyg-team/pytorch_geometric), Graph Neural Network Library for PyTorch
-- [albumentations](https://github.com/albumentations-team/albumentations), Fast image augmentation library and an easy-to-use wrapper around other libraries
-- [computervision-recipes](https://github.com/microsoft/computervision-recipes), Microsoft, Best Practices, code samples, and documentation for Computer Vision
-- [vit-pytorch](https://github.com/lucidrains/vit-pytorch), SOTA for vision transformers
-- [kornia](https://github.com/kornia/kornia), Open Source Differentiable Computer Vision Library
-- [libfacedetection](https://github.com/ShiqiYu/libfacedetection), An open source library for face detection in images, speed: ~1000FPS
-- [detr](https://github.com/facebookresearch/detr), Facebook, End-to-End Object Detection with Transformers
-- [ORB_SLAM2](https://github.com/raulmur/ORB_SLAM2), Real-Time SLAM for Monocular, Stereo and RGB-D Cameras, with Loop Detection and Relocalization Capabilities
-- [face_classification](https://github.com/oarriaga/face_classification), Real-time face detection and emotion/gender classification
-- [object-Detection-Metrics](https://github.com/rafaelpadilla/Object-Detection-Metrics), Most popular metrics used to evaluate object detection algorithms
-- [pyod](https://github.com/yzhao062/pyod), Python Toolbox for Scalable Outlier Detection (Anomaly Detection)
-- [FaceDetection-DSFD](https://github.com/Tencent/FaceDetection-DSFD), Tencent, SOTA face detector.
-- [imagededup](https://github.com/idealo/imagededup), Image retrieval, CBIR, Find duplicate images made easy!
-- [image-match](https://github.com/ProvenanceLabs/image-match), Image retrieval, CBIR, Quickly search over billions of images
+### Legends: Object Classification [ObjCls], Object Detection [ObjDet], Object Segmentation [ObjSeg], General Library [GenLib], Text Reading / Object Character Recognition [OCR], Action Recognition [ActRec], Object Tracking [ObjTrk], Data Augmentation [DatAug], Simultaneous Localization and Mapping [SLAM], Outlier/Anomaly/Novelty Detection [NvlDet], Content-based Image Retrieval [CBIR]
+- [MediaPipe](https://github.com/google/mediapipe), [ObjCls] [ObjDet] [ObjSeg] [ObjTrk] [GenLib] Google, iOS - Andriod - C++ - Python - Coral, Face Detection - Face Mesh - Iris - Hands - Pose - Holistic - Hair Segmentation - Object Detection - Box Tracking	- Instant Motion Tracking	- Objectron - KNIFT (Similar to SIFT)
+- [PyTorch image models](https://github.com/rwightman/pytorch-image-models), [ObjCls] rwightman, PyTorch image classification models, scripts, pretrained weights
+- [segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch), [ObjSeg] qubvel, PyTorch segmentation models with pretrained backbones
+- [mmclassification](https://github.com/open-mmlab/mmclassification), [ObjCls] OpenMMLab, Image Classification Toolbox and Benchmark
+- [mmdetection](https://github.com/open-mmlab/mmdetection), OpenMMLab, [ObjDet] Image Detection Toolbox and Benchmark
+- [mmsegmentation](https://github.com/open-mmlab/mmsegmentation), [ObjSeg] OpenMMLab, Semantic Segmentation Toolbox and Benchmark
+- [mmocr](https://github.com/open-mmlab/mmocr), [OCR] OpenMMLab, Text Detection, Recognition and Understanding Toolbox
+- [mmaction](https://github.com/open-mmlab/mmaction), [ActRec] OpenMMLab, An open-source toolbox for action understanding based on PyTorch
+- [mmtracking](https://github.com/open-mmlab/mmtracking), [ObjTrk] OpenMMLab, Video Perception Toolbox for object detection and tracking
+- [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning), [GenLib] PyTorchLightning, Lightweight PyTorch wrapper for high-performance AI research
+- [ignite](https://github.com/pytorch/ignite), [GenLib] PyTorch, High-level library to help with training and evaluating neural networks in PyTorch flexibly and transparently
+- [detectron2](https://github.com/facebookresearch/detectron2), [ObjDet] [ObjSeg] Facebook, FAIR's next-generation platform for object detection, segmentation and other visual recognition tasks
+- [FastAI](https://github.com/fastai/fastai), [GenLib] FastAI, Library over PyTorch used for learning and practicing machine learning and deep learning
+- [pytorch_geometric](https://github.com/pyg-team/pytorch_geometric), [GenLib] Graph Neural Network Library for PyTorch
+- [albumentations](https://github.com/albumentations-team/albumentations), [DatAug] Fast image augmentation library and an easy-to-use wrapper around other libraries
+- [computervision-recipes](https://github.com/microsoft/computervision-recipes), [GenLib] Microsoft, Best Practices, code samples, and documentation for Computer Vision
+- [vit-pytorch](https://github.com/lucidrains/vit-pytorch), [ObjCls] SOTA for vision transformers
+- [kornia](https://github.com/kornia/kornia), [GenLib] Open Source Differentiable Computer Vision Library
+- [libfacedetection](https://github.com/ShiqiYu/libfacedetection), [ObjDet] An open source library for face detection in images, speed: ~1000FPS
+- [detr](https://github.com/facebookresearch/detr), [ObjDet] Facebook, End-to-End Object Detection with Transformers
+- [ORB_SLAM2](https://github.com/raulmur/ORB_SLAM2), [SLAM] Real-Time SLAM for Monocular, Stereo and RGB-D Cameras, with Loop Detection and Relocalization Capabilities
+- [face_classification](https://github.com/oarriaga/face_classification), [ObjCls] [ObjDet] Real-time face detection and emotion/gender classification
+- [object-Detection-Metrics](https://github.com/rafaelpadilla/Object-Detection-Metrics), [ObjDet] Most popular metrics used to evaluate object detection algorithms
+- [pyod](https://github.com/yzhao062/pyod), [NvlDet] Python Toolbox for Scalable Outlier Detection (Anomaly Detection)
+- [FaceDetection-DSFD](https://github.com/Tencent/FaceDetection-DSFD), [ObjDet] Tencent, SOTA face detector.
+- [imagededup](https://github.com/idealo/imagededup), [CBIR] Image retrieval, CBIR, Find duplicate images made easy!
+- [image-match](https://github.com/ProvenanceLabs/image-match), [CBIR] Image retrieval, CBIR, Quickly search over billions of images
+- [yolov5](https://github.com/ultralytics/yolov5) [ObjDet] ultralytics
+- [U-2-Net](https://github.com/xuebinqin/U-2-Net), [ObjDet] ultralytics U^2-Net: Going Deeper with Nested U-Structure for Salient Object Detection
+- [ncnn](https://github.com/Tencent/ncnn), [GenLib] Tencent, High-performance neural network inference framework optimized for the mobile platform
+- [EasyOCR](https://github.com/JaidedAI/EasyOCR), [OCR] Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc
+- [SAHI](https://github.com/obss/sahi), [ObjDet] [ObjSeg] A lightweight vision library for performing large scale object detection/ instance segmentation
+- [Bringing-Old-Photos-Back-to-Life](https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life), Microsoft, Bringing Old Photo Back to Life (CVPR 2020 oral)
 - [image-quality-assessment](https://github.com/idealo/image-quality-assessment), Idealo, Image Aesthetic, NIMA model to predict the aesthetic and technical quality of images
 - [aesthetics](https://github.com/ylogx/aesthetics), Image Aesthetics Toolkit using Fisher Vectors
 - [pytorch-cnn-visualizations](https://github.com/utkuozbulak/pytorch-cnn-visualizations), Pytorch implementation of convolutional neural network visualization techniques
-- [yolov5](https://github.com/ultralytics/yolov5)
-- [U-2-Net](https://github.com/xuebinqin/U-2-Net), U^2-Net: Going Deeper with Nested U-Structure for Salient Object Detection
-- [ncnn](https://github.com/Tencent/ncnn), Tencent, High-performance neural network inference framework optimized for the mobile platform
-- [EasyOCR](https://github.com/JaidedAI/EasyOCR), Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc
-- [Bringing-Old-Photos-Back-to-Life](https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life), Microsoft, Bringing Old Photo Back to Life (CVPR 2020 oral)
-- [SAHI](https://github.com/obss/sahi), A lightweight vision library for performing large scale object detection/ instance segmentation
 
 ---
 
