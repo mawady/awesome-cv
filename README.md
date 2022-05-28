@@ -28,7 +28,7 @@
 ---
 
 ## Online Courses
-| Course | Tag | Platform |
+| Course | Tags | Platform |
 | --------------- | --------------- | --------------- |
 | [Introduction to Python Programming](https://www.udacity.com/course/introduction-to-python--ud1110) | `Programming` | Udacity |
 | [Learning Python](https://www.linkedin.com/learning/learning-python) | `Programming` | LinkedIn Learning |
@@ -42,26 +42,31 @@
 | [Machine Learning with Scikit-Learn](https://www.linkedin.com/learning/machine-learning-with-scikit-learn) | `Machine Learning` | LinkedIn Learning | 
 | [Intro to Deep Learning with PyTorch](https://www.udacity.com/course/deep-learning-pytorch--ud188) | `Deep Learning` | Udacity |
 | [Introduction to Computer Vision](https://www.udacity.com/courses/ud810) | `Computer Vision` | Udacity |
-| [OpenCV for Python Developers](https://www.linkedin.com/learning/opencv-for-python-developers) |`Computer Vision` | LinkedIn Learning | 
+| [OpenCV for Python Developers](https://www.linkedin.com/learning/opencv-for-python-developers) | `Computer Vision` | LinkedIn Learning | 
 
 ---
 
 ## Uni Courses
-- [Introduction to Computer Vision](https://browncsci1430.github.io/), Brown, Computer Vision
-- [Advances in Computer Vision](http://6.869.csail.mit.edu/sp22/), MIT, Computer Vision
-- [Deep Learning for Computer Vision](http://cs231n.stanford.edu), Stanford, Deep Learning / Computer Vision
+| Course | Tags | University |
+| --------------- | --------------- | --------------- |
+| [Introduction to Computer Vision](https://browncsci1430.github.io/) |`Computer Vision` | Brown |
+| [Advances in Computer Vision](http://6.869.csail.mit.edu/sp22/) |`Computer Vision` | MIT |
+| [Deep Learning for Computer Vision](http://cs231n.stanford.edu) |`Computer Vision` `Deep Learning`  | Stanford |
 ---
 
 ## YouTube Playlists
-- [Computer Vision - University of Tübingen - Andreas Geiger - 2021](https://www.youtube.com/playlist?list=PL05umP7R6ij35L2MHGzis8AEHz7mg381_)
-- [Computer Vision - University of Central Florida - Mubarak Shah - 2012](https://www.youtube.com/playlist?list=PLd3hlSJsX_ImKP68wfKZJVIPTd8Ie5u-9)
-- [Computer Vision - University of Central Florida - Yogesh S Rawat/Mubarak Shah - 2021](https://www.youtube.com/playlist?list=PLd3hlSJsX_IkXSinyREhlMjFvpNfpazfN)
-- [Convolutional Neural Networks for Visual Recognition - Stanford University - Fei-Fei Li - 2017](https://www.youtube.com/playlist?list=PLf7L7Kg8_FNxHATtLwDceyh72QQL9pvpQ)
-- [Deep Learning for Computer Vision - University of Michigan - Justin Johnson - 2020](https://www.youtube.com/playlist?list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r)
-- [Advanced Deep Learning for Computer Vision - Technical University of Munich - Laura Leal-Taixé and Matthias Niessner - 2020](https://www.youtube.com/playlist?list=PLog3nOPCjKBnjhuHMIXu4ISE4Z4f2jm39)
-- [Advanced Computer Vision - University of Central Florida - Mubarak Shah - 2021](https://www.youtube.com/playlist?list=PLd3hlSJsX_Ilwca04yxhrjcdzx7BS2vDh)
-- [Multiple View Geometry - Technical University of Munich - Daniel Cremers - 2013](https://www.youtube.com/playlist?list=PLTBdjV_4f-EJn6udZ34tht9EVIW7lbeo4)
-- [Variational Methods for Computer Vision - Technical University of Munich - Daniel Cremers - 2013](https://www.youtube.com/playlist?list=PLTBdjV_4f-EJ7A2iIH5L5ztqqrWYjP2RI)
+| Course | Year | Instructor | University |
+| --------------- | --------------- | --------------- | --------------- | 
+| [Computer Vision](https://www.youtube.com/playlist?list=PL05umP7R6ij35L2MHGzis8AEHz7mg381_)| 2021 | Andreas Geiger | University of Tübingen |
+| [Computer Vision](https://www.youtube.com/playlist?list=PLd3hlSJsX_IkXSinyREhlMjFvpNfpazfN) | 2021 | Yogesh S Rawat / Mubarak Shah | University of Central Florida |
+| [Computer Vision](https://www.youtube.com/playlist?list=PLd3hlSJsX_ImKP68wfKZJVIPTd8Ie5u-9) | 2012| Mubarak Shah | University of Central Florida |
+| [Convolutional Neural Networks for Visual Recognition](https://www.youtube.com/playlist?list=PLf7L7Kg8_FNxHATtLwDceyh72QQL9pvpQ) | 2017 | Fei-Fei Li | Stanford University  |
+| [Deep Learning for Computer Vision](https://www.youtube.com/playlist?list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r) | 2020 | Justin Johnson | University of Michigan |
+| [Advanced Deep Learning for Computer Vision](https://www.youtube.com/playlist?list=PLog3nOPCjKBnjhuHMIXu4ISE4Z4f2jm39)| 2020 | Laura Leal-Taixé / Matthias Niessner  | Technical University of Munich |
+| [Advanced Computer Vision](https://www.youtube.com/playlist?list=PLd3hlSJsX_Ilwca04yxhrjcdzx7BS2vDh) | 2021| Mubarak Shah | University of Central Florida |
+| [Multiple View Geometry](https://www.youtube.com/playlist?list=PLTBdjV_4f-EJn6udZ34tht9EVIW7lbeo4) | 2013 | Daniel Cremers | Technical University of Munich |
+| [Variational Methods for Computer Vision](https://www.youtube.com/playlist?list=PLTBdjV_4f-EJ7A2iIH5L5ztqqrWYjP2RI) | 2013 | Daniel Cremers | Technical University of Munich |
+
 
 ---
 
