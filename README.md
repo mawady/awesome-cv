@@ -81,8 +81,11 @@
 | [OpenCV](https://github.com/opencv/opencv) | Open Source Computer Vision Library|
 | [Pillow](https://github.com/python-pillow/Pillow)| The friendly PIL fork (Python Imaging Library)|
 | [scikit-image](https://github.com/scikit-image/scikit-image) | Image processing in Python|
+| [SciPy](https://github.com/scipy/scipy)| open-source software for mathematics, science, and engineering|
 | [mmcv](https://github.com/open-mmlab/mmcv)| OpenMMLab Computer Vision Foundation|
 | [imutils](https://github.com/PyImageSearch/imutils) | A series of convenience functions to make basic image processing operations|
+| [pgmagick](https://github.com/hhatto/pgmagick)| boost.python based wrapper for GraphicsMagick/ImageMagick|
+| [Mahotas](https://github.com/luispedro/mahotas) | library of fast computer vision algorithms (last updated: 2021)|
 | [SimpleCV](https://github.com/sightmachine/SimpleCV#raspberry-pi) | The Open Source Framework for Machine Vision (last updated: 2015)|
 
 ---
