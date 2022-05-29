@@ -71,7 +71,7 @@
 ---
 
 ## Repos
-### Tags: Object Classification `[ObjCls]`, Object Detection `[ObjDet]`, Object Segmentation `[ObjSeg]`, General Library `[GenLib]`, Text Reading / Object Character Recognition `[OCR]`, Action Recognition `[ActRec]`, Object Tracking `[ObjTrk]`, Data Augmentation `[DatAug]`, Simultaneous Localization and Mapping `[SLAM]`, Outlier/Anomaly/Novelty Detection `[NvlDet]`, Content-based Image Retrieval `[CBIR]`, Image Enhancement `[ImgEnh]`, Aesthetic Assessment `[AesAss]`, Explainable Artificial Intelligence `[XAI]`, Text-to-Image Generation `[TexImg]`
+### Tags: Object Classification `[ObjCls]`, Object Detection `[ObjDet]`, Object Segmentation `[ObjSeg]`, General Library `[GenLib]`, Text Reading / Object Character Recognition `[OCR]`, Action Recognition `[ActRec]`, Object Tracking `[ObjTrk]`, Data Augmentation `[DatAug]`, Simultaneous Localization and Mapping `[SLAM]`, Outlier/Anomaly/Novelty Detection `[NvlDet]`, Content-based Image Retrieval `[CBIR]`, Image Enhancement `[ImgEnh]`, Aesthetic Assessment `[AesAss]`, Explainable Artificial Intelligence `[XAI]`, Text-to-Image Generation `[TexImg]`, Pose Estimation `PosEst`, Video Matting `VidMat`
 
 | Repo | Tags | Description |
 | --------------- | --------------- | --------------- |
@@ -114,6 +114,8 @@
 | [pytorch-cnn-visualizations](https://github.com/utkuozbulak/pytorch-cnn-visualizations) | `[XAI]` | Pytorch implementation of convolutional neural network visualization techniques |
 | [DALLE2-pytorch](https://github.com/lucidrains/DALLE2-pytorch) | `[TexImg]` | Implementation of DALL-E 2, OpenAI's updated text-to-image synthesis neural network, in Pytorch |
 | [imagen-pytorch](https://github.com/lucidrains/imagen-pytorch) | `[TexImg]` | Implementation of Imagen, Google's Text-to-Image Neural Network, in Pytorch |
+| [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)| `PosEst` | OpenPose: Real-time multi-person keypoint detection library for body, face, hands, and foot estimation |
+| [RobustVideoMatting](https://github.com/PeterL1n/RobustVideoMatting) | `VidMat` | Robust Video Matting in PyTorch, TensorFlow, TensorFlow.js, ONNX, CoreML! |
 
 ---
 
@@ -173,7 +175,7 @@
 - [PyTorch Computer Vision Cookbook](https://github.com/PacktPublishing/PyTorch-Computer-Vision-Cookbook), PyTorch Computer Vision Cookbook, Published by Packt.
 - [Machine Learning Mastery - Blogs](https://machinelearningmastery.com/blog/), Blogs written by [Jason Brownlee](https://scholar.google.com/citations?hl=en&user=hVaJhRYAAAAJ) about machine learning.
 - [PyImageSearch - Blogs](https://pyimagesearch.com/blog/), Blogs written by [Adrian Rosebrock](https://scholar.google.com/citations?user=bLEhONMAAAAJ&hl) about computer vision.
-
+- [jetson-inference](https://github.com/dusty-nv/jetson-inference), guide to deploying deep-learning inference networks and deep vision primitives with TensorRT and NVIDIA Jetson.
 ---
 
 ## Conferences in Computer Vision
