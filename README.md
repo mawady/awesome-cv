@@ -95,6 +95,7 @@
 | [object-Detection-Metrics](https://github.com/rafaelpadilla/Object-Detection-Metrics) | `[ObjDet]` | Most popular metrics used to evaluate object detection algorithms |
 | [SAHI](https://github.com/obss/sahi) | `[ObjDet]` `[ObjSeg]` | A lightweight vision library for performing large scale object detection/ instance segmentation |
 | [yolov5](https://github.com/ultralytics/yolov5) | `[ObjDet]` | ultralytics |
+| [AlexeyAB/darknet]([https://github.com/ultralytics/yolov5](https://github.com/AlexeyAB/darknet) [pjreddie/darknet]() | `[ObjDet]` | YOLOv4 / Scaled-YOLOv4 / YOLOv3 / YOLOv2 |
 | [U-2-Net](https://github.com/xuebinqin/U-2-Net) | `[ObjDet]` | ultralytics U^2-Net: Going Deeper with Nested U-Structure for Salient Object Detection |
 | [segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch) | `[ObjSeg]` | qubvel, PyTorch segmentation models with pretrained backbones |
 | [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) | `[ObjSeg]` | OpenMMLab, Semantic Segmentation Toolbox and Benchmark |
