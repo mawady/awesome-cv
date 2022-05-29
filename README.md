@@ -3,6 +3,7 @@
 > * **[Online Courses](https://github.com/mawady/Awesome_CV#Online-Courses)**
 > * **[Uni Courses](https://github.com/mawady/Awesome_CV#Uni-Courses)**
 > * **[YouTube Playlists](https://github.com/mawady/Awesome_CV#YouTube-Playlists)**
+> * **[Libaries](https://github.com/mawady/Awesome_CV#Libraries)**
 > * **[Repos](https://github.com/mawady/Awesome_CV#Repos)**
 > * **[Dataset Collections](https://github.com/mawady/Awesome_CV#Dataset-Collections)**
 > * **[Task Management Tools](https://github.com/mawady/Awesome_CV#Task-Management-Tools)**
@@ -74,6 +75,18 @@
 
 ---
 
+## Libaries
+| Library | Description |
+| --------------- | --------------- |
+| [OpenCV](https://github.com/opencv/opencv) | Open Source Computer Vision Library|
+| [Pillow](https://github.com/python-pillow/Pillow)| The friendly PIL fork (Python Imaging Library)|
+| [scikit-image](https://github.com/scikit-image/scikit-image) | Image processing in Python|
+| [mmcv](https://github.com/open-mmlab/mmcv)| OpenMMLab Computer Vision Foundation|
+| [imutils](https://github.com/PyImageSearch/imutils) | A series of convenience functions to make basic image processing operations|
+| [SimpleCV](https://github.com/sightmachine/SimpleCV#raspberry-pi) | The Open Source Framework for Machine Vision (last updated: 2015)|
+
+---
+
 ## Repos
 ### Tags: Object Classification `[ObjCls]`, Object Detection `[ObjDet]`, Object Segmentation `[ObjSeg]`, General Library `[GenLib]`, Text Reading / Object Character Recognition `[OCR]`, Action Recognition `[ActRec]`, Object Tracking `[ObjTrk]`, Data Augmentation `[DatAug]`, Simultaneous Localization and Mapping `[SLAM]`, Outlier/Anomaly/Novelty Detection `[NvlDet]`, Content-based Image Retrieval `[CBIR]`, Image Enhancement `[ImgEnh]`, Aesthetic Assessment `[AesAss]`, Explainable Artificial Intelligence `[XAI]`, Text-to-Image Generation `[TexImg]`, Pose Estimation `[PosEst]`, Video Matting `[VidMat]`
 
@@ -104,6 +117,7 @@
 | [segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch) | `[ObjSeg]` | qubvel, PyTorch segmentation models with pretrained backbones |
 | [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) | `[ObjSeg]` | OpenMMLab, Semantic Segmentation Toolbox and Benchmark |
 | [mmocr](https://github.com/open-mmlab/mmocr) | `[OCR]` | OpenMMLab, Text Detection, Recognition and Understanding Toolbox |
+| [pytesseract](https://github.com/madmaze/pytesseract) | `[OCR]` | A Python wrapper for Google Tesseract |
 | [EasyOCR](https://github.com/JaidedAI/EasyOCR) | `[OCR]` | Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc |
 | [mmtracking](https://github.com/open-mmlab/mmtracking) | `[ObjTrk]` | OpenMMLab, Video Perception Toolbox for object detection and tracking |
 | [mmaction](https://github.com/open-mmlab/mmaction) | `[ActRec]` | OpenMMLab, An open-source toolbox for action understanding based on PyTorch |
