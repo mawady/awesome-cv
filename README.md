@@ -3,7 +3,7 @@
 > * **[Online Courses](https://github.com/mawady/Awesome_CV#Online-Courses)**
 > * **[Uni Courses](https://github.com/mawady/Awesome_CV#Uni-Courses)**
 > * **[YouTube Playlists](https://github.com/mawady/Awesome_CV#YouTube-Playlists)**
-> * **[Libaries](https://github.com/mawady/Awesome_CV#Libraries)**
+> * **[Libraries](https://github.com/mawady/Awesome_CV#Libraries)**
 > * **[Repos](https://github.com/mawady/Awesome_CV#Repos)**
 > * **[Dataset Collections](https://github.com/mawady/Awesome_CV#Dataset-Collections)**
 > * **[Task Management Tools](https://github.com/mawady/Awesome_CV#Task-Management-Tools)**
@@ -75,7 +75,7 @@
 
 ---
 
-## Libaries
+## Libraries
 | Library | Description |
 | --------------- | --------------- |
 | [OpenCV](https://github.com/opencv/opencv) | Open Source Computer Vision Library|
