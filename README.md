@@ -70,6 +70,7 @@
 | [Multiple View Geometry](https://www.youtube.com/playlist?list=PLTBdjV_4f-EJn6udZ34tht9EVIW7lbeo4) | 2013 | Daniel Cremers | Technical University of Munich |
 | [Variational Methods for Computer Vision](https://www.youtube.com/playlist?list=PLTBdjV_4f-EJ7A2iIH5L5ztqqrWYjP2RI) | 2013 | Daniel Cremers | Technical University of Munich |
 | [Computer Vision](https://www.youtube.com/playlist?list=PLd3hlSJsX_ImKP68wfKZJVIPTd8Ie5u-9) | 2012| Mubarak Shah | University of Central Florida |
+| [Image and video processing](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A79y1StvUUqgyL-O0fZh2rs) | - | Guillermo Sapiro | Duke University|
 
 ---
 
