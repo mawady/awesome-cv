@@ -59,14 +59,17 @@
 | --------------- | --------------- | --------------- | --------------- | 
 | [Computer Vision](https://www.youtube.com/playlist?list=PL05umP7R6ij35L2MHGzis8AEHz7mg381_)| 2021 | Andreas Geiger | University of Tübingen |
 | [Computer Vision](https://www.youtube.com/playlist?list=PLd3hlSJsX_IkXSinyREhlMjFvpNfpazfN) | 2021 | Yogesh S Rawat / Mubarak Shah | University of Central Florida |
-| [Computer Vision](https://www.youtube.com/playlist?list=PLd3hlSJsX_ImKP68wfKZJVIPTd8Ie5u-9) | 2012| Mubarak Shah | University of Central Florida |
-| [Convolutional Neural Networks for Visual Recognition](https://www.youtube.com/playlist?list=PLf7L7Kg8_FNxHATtLwDceyh72QQL9pvpQ) | 2017 | Fei-Fei Li | Stanford University  |
+| [Advanced Computer Vision](https://www.youtube.com/playlist?list=PLd3hlSJsX_Ilwca04yxhrjcdzx7BS2vDh) | 2021| Mubarak Shah | University of Central Florida |
 | [Deep Learning for Computer Vision](https://www.youtube.com/playlist?list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r) | 2020 | Justin Johnson | University of Michigan |
 | [Advanced Deep Learning for Computer Vision](https://www.youtube.com/playlist?list=PLog3nOPCjKBnjhuHMIXu4ISE4Z4f2jm39)| 2020 | Laura Leal-Taixé / Matthias Niessner  | Technical University of Munich |
-| [Advanced Computer Vision](https://www.youtube.com/playlist?list=PLd3hlSJsX_Ilwca04yxhrjcdzx7BS2vDh) | 2021| Mubarak Shah | University of Central Florida |
+| [Introduction to Digital Image Processing](https://www.youtube.com/playlist?list=PL2mBI0yFsKk-p73KQ4iPdsi10hQC4Zd-0)| 2020 | Ahmadreza Baghaie | New York Institute of Technology|
+| [Quantitative Imaging](https://www.youtube.com/playlist?list=PLTWuXgjdOrnmXVVQG5DRkVeOIGOcTmCIw) | 2019 | Kevin Mader | ETH Zurich |
+| [Convolutional Neural Networks for Visual Recognition](https://www.youtube.com/playlist?list=PLf7L7Kg8_FNxHATtLwDceyh72QQL9pvpQ) | 2017 | Fei-Fei Li | Stanford University  |
+| [Introduction to Digital Image Processing](https://www.youtube.com/playlist?list=PLuh62Q4Sv7BUf60vkjePfcOQc8sHxmnDX) | 2015|Rich Radke | Rensselaer Polytechnic Institute|
+| [Machine Learning for Robotics and Computer Vision](https://www.youtube.com/playlist?list=PLTBdjV_4f-EIiongKlS9OKrBEp8QR47Wl) | 2014| Rudolph Triebel |  Technical University of Munich |
 | [Multiple View Geometry](https://www.youtube.com/playlist?list=PLTBdjV_4f-EJn6udZ34tht9EVIW7lbeo4) | 2013 | Daniel Cremers | Technical University of Munich |
 | [Variational Methods for Computer Vision](https://www.youtube.com/playlist?list=PLTBdjV_4f-EJ7A2iIH5L5ztqqrWYjP2RI) | 2013 | Daniel Cremers | Technical University of Munich |
-
+| [Computer Vision](https://www.youtube.com/playlist?list=PLd3hlSJsX_ImKP68wfKZJVIPTd8Ie5u-9) | 2012| Mubarak Shah | University of Central Florida |
 
 ---
 
