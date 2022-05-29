@@ -71,7 +71,7 @@
 ---
 
 ## Repos
-### Tags: Object Classification `[ObjCls]`, Object Detection `[ObjDet]`, Object Segmentation `[ObjSeg]`, General Library `[GenLib]`, Text Reading / Object Character Recognition `[OCR]`, Action Recognition `[ActRec]`, Object Tracking `[ObjTrk]`, Data Augmentation `[DatAug]`, Simultaneous Localization and Mapping `[SLAM]`, Outlier/Anomaly/Novelty Detection `[NvlDet]`, Content-based Image Retrieval `[CBIR]`, Image Enhancement `[ImgEnh]`, Aesthetic Assessment `[AesAss]`, Explainable Artificial Intelligence `[XAI]`, Text-to-Image Generation `[TexImg]`, Pose Estimation `PosEst`, Video Matting `VidMat`
+### Tags: Object Classification `[ObjCls]`, Object Detection `[ObjDet]`, Object Segmentation `[ObjSeg]`, General Library `[GenLib]`, Text Reading / Object Character Recognition `[OCR]`, Action Recognition `[ActRec]`, Object Tracking `[ObjTrk]`, Data Augmentation `[DatAug]`, Simultaneous Localization and Mapping `[SLAM]`, Outlier/Anomaly/Novelty Detection `[NvlDet]`, Content-based Image Retrieval `[CBIR]`, Image Enhancement `[ImgEnh]`, Aesthetic Assessment `[AesAss]`, Explainable Artificial Intelligence `[XAI]`, Text-to-Image Generation `[TexImg]`, Pose Estimation `[PosEst]`, Video Matting `[VidMat]`
 
 | Repo | Tags | Description |
 | --------------- | --------------- | --------------- |
@@ -114,8 +114,8 @@
 | [pytorch-cnn-visualizations](https://github.com/utkuozbulak/pytorch-cnn-visualizations) | `[XAI]` | Pytorch implementation of convolutional neural network visualization techniques |
 | [DALLE2-pytorch](https://github.com/lucidrains/DALLE2-pytorch) | `[TexImg]` | Implementation of DALL-E 2, OpenAI's updated text-to-image synthesis neural network, in Pytorch |
 | [imagen-pytorch](https://github.com/lucidrains/imagen-pytorch) | `[TexImg]` | Implementation of Imagen, Google's Text-to-Image Neural Network, in Pytorch |
-| [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)| `PosEst` | OpenPose: Real-time multi-person keypoint detection library for body, face, hands, and foot estimation |
-| [RobustVideoMatting](https://github.com/PeterL1n/RobustVideoMatting) | `VidMat` | Robust Video Matting in PyTorch, TensorFlow, TensorFlow.js, ONNX, CoreML! |
+| [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)| `[PosEst]` | OpenPose: Real-time multi-person keypoint detection library for body, face, hands, and foot estimation |
+| [RobustVideoMatting](https://github.com/PeterL1n/RobustVideoMatting) | `[VidMat]` | Robust Video Matting in PyTorch, TensorFlow, TensorFlow.js, ONNX, CoreML! |
 
 ---
 
