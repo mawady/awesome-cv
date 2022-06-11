@@ -50,7 +50,7 @@
 ## Uni Courses
 | Course | Tags | University |
 | --------------- | --------------- | --------------- |
-| [Introduction to Computer Vision](https://browncsci1430.github.io/) |`Computer Vision` | Brown |
+| [Introduction to Computer Vision](https://browncsci1430.github.io/webpage/) |`Computer Vision` | Brown |
 | [Advances in Computer Vision](http://6.869.csail.mit.edu/sp22/) |`Computer Vision` | MIT |
 | [Deep Learning for Computer Vision](http://cs231n.stanford.edu) |`Computer Vision` `Deep Learning`  | Stanford |
 ---
