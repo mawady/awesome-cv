@@ -32,6 +32,9 @@
 ## Online Courses
 | Course | Tags | Platform |
 | --------------- | --------------- | --------------- |
+| [Version Control with Git](https://learn.udacity.com/courses/ud123) | `Git` | Udacity |
+| [Git Essential Training](https://www.linkedin.com/learning/git-essential-training-19417064/) | `Git` | LinkedIn Learning |
+| [Learning GitHub](https://www.linkedin.com/learning/learning-github-18719601/) | `Git` | LinkedIn Learning |
 | [Introduction to Python Programming](https://www.udacity.com/course/introduction-to-python--ud1110) | `Programming` | Udacity |
 | [Learning Python](https://www.linkedin.com/learning/learning-python) | `Programming` | LinkedIn Learning |
 | [Intro to Data Science](https://www.udacity.com/courses/ud359) | `Data Science` | Udacity |
