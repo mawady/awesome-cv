@@ -3,7 +3,8 @@
 > * **[Online Courses](https://github.com/mawady/awesome-cv#Online-Courses)**
 > * **[Uni Courses](https://github.com/mawady/awesome-cv#Uni-Courses)**
 > * **[YouTube Playlists](https://github.com/mawady/awesome-cv#YouTube-Playlists)**
-> * **[Libraries](https://github.com/mawady/awesome-cv#Libraries)**
+> * **[Python Libraries](https://github.com/mawady/awesome-cv#Python-Libraries)**
+> * **[MATLAB/Octave Libraries](https://github.com/mawady/awesome-cv#MATLAB-Libraries)**
 > * **[Repos](https://github.com/mawady/awesome-cv#Repos)**
 > * **[Dataset Collections](https://github.com/mawady/awesome-cv#Dataset-Collections)**
 > * **[Task Management Tools](https://github.com/mawady/awesome-cv#Task-Management-Tools)**
@@ -79,7 +80,23 @@
 
 ---
 
-## Libraries
+## Python Libraries
+| Library | Description |
+| --------------- | --------------- |
+| [OpenCV](https://github.com/opencv/opencv) | Open Source Computer Vision Library|
+| [Pillow](https://github.com/python-pillow/Pillow)| The friendly PIL fork (Python Imaging Library)|
+| [scikit-image](https://github.com/scikit-image/scikit-image) | collection of algorithms for image processing|
+| [SciPy](https://github.com/scipy/scipy)| open-source software for mathematics, science, and engineering|
+| [mmcv](https://github.com/open-mmlab/mmcv)| OpenMMLab foundational library for computer vision research |
+| [imutils](https://github.com/PyImageSearch/imutils) | A series of convenience functions to make basic image processing operations|
+| [pgmagick](https://github.com/hhatto/pgmagick)| python based wrapper for GraphicsMagick/ImageMagick|
+| [Mahotas](https://github.com/luispedro/mahotas) | library of fast computer vision algorithms (last updated: 2021)|
+| [SimpleCV](https://github.com/sightmachine/SimpleCV#raspberry-pi) | The Open Source Framework for Machine Vision (last updated: 2015)|
+
+
+---
+
+## MATLAB Libraries
 | Library | Description |
 | --------------- | --------------- |
 | [OpenCV](https://github.com/opencv/opencv) | Open Source Computer Vision Library|
