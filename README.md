@@ -99,15 +99,11 @@
 ## MATLAB Libraries
 | Library | Description |
 | --------------- | --------------- |
-| [OpenCV](https://github.com/opencv/opencv) | Open Source Computer Vision Library|
-| [Pillow](https://github.com/python-pillow/Pillow)| The friendly PIL fork (Python Imaging Library)|
-| [scikit-image](https://github.com/scikit-image/scikit-image) | collection of algorithms for image processing|
-| [SciPy](https://github.com/scipy/scipy)| open-source software for mathematics, science, and engineering|
-| [mmcv](https://github.com/open-mmlab/mmcv)| OpenMMLab foundational library for computer vision research |
-| [imutils](https://github.com/PyImageSearch/imutils) | A series of convenience functions to make basic image processing operations|
-| [pgmagick](https://github.com/hhatto/pgmagick)| python based wrapper for GraphicsMagick/ImageMagick|
-| [Mahotas](https://github.com/luispedro/mahotas) | library of fast computer vision algorithms (last updated: 2021)|
-| [SimpleCV](https://github.com/sightmachine/SimpleCV#raspberry-pi) | The Open Source Framework for Machine Vision (last updated: 2015)|
+| [PMT](https://pdollar.github.io/toolbox/) | Piotr's Computer Vision Matlab Toolbox|
+| [matlabfns](https://www.peterkovesi.com/matlabfns/)| MATLAB and Octave Functions 
+for Computer Vision and Image Processing, P. Kovesi, University of Western Australia|
+| [VLFeat](https://www.vlfeat.org/index.html) | open source library implements popular computer vision algorithms, A. Vedaldi and B. Fulkerson|
+| [MLV](https://github.com/bwlabToronto/MLV_toolbox) | Mid-level Vision Toolbox (MLVToolbox), BWLab, University of Toronto|
 
 ---
 
