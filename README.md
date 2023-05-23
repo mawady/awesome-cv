@@ -154,6 +154,7 @@
 | [imagen-pytorch](https://github.com/lucidrains/imagen-pytorch) | `[TexImg]` | Implementation of Imagen, Google's Text-to-Image Neural Network, in Pytorch |
 | [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)| `[PosEst]` | OpenPose: Real-time multi-person keypoint detection library for body, face, hands, and foot estimation |
 | [RobustVideoMatting](https://github.com/PeterL1n/RobustVideoMatting) | `[VidMat]` | Robust Video Matting in PyTorch, TensorFlow, TensorFlow.js, ONNX, CoreML! |
+| [fastudp](https://github.com/visual-layer/fastdup) | `[NvlDet]` `[CBIR]` | An unsupervised and free tool for image and video dataset analysis |
 
 ---
 
