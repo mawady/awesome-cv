@@ -218,11 +218,37 @@
 ---
 
 ## Conferences in Computer Vision
-- CORE Rank A (ICCV, CVPR, ECCV, WACV, ICASSP, MICCAI, IROS, ACMMM)
-- CORE Rank B (ACCV, VCIP, ICIP, CAIP, BMVC, VISAPP, ICPR, ACIVS, EUSIPCO, ICRA)
-- CORE Rank C (ICIAP, ICISP, ICIAR, ICVS)
-- CORE Unranked (MIUA, CVCS, EUVIP, CIC, EI)
-
+- CORE Rank A: 
+  - ICCV: International Conference on Computer Vision (IEEE) 
+  - CVPR: Conference on Computer Vision and Pattern Recognition (IEEE) 
+  - ECCV: European Conference on Computer Vision (Springer) 
+  - WACV: Winter Conference/Workshop on Applications of Computer Vision (IEEE) 
+  - ICASSP: International Conference on Acoustics, Speech, and Signal Processing (IEEE) 
+  - MICCAI: Conference on Medical Image Computing and Computer Assisted Intervention (Springer) 
+  - IROS: International Conference on Intelligent Robots and Systems (IEEE) 
+  - ACMMM: ACM International Conference on Multimedia (ACM) 
+- CORE Rank B 
+  - ACCV: Asian Conference on Computer Vision (Springer) 
+  - VCIP: International Conference on Visual Communications and Image Processing (IEEE) 
+  - ICIP: International Conference on Image Processing (IEEE) 
+  - CAIP: International Conference on Computer Analysis of Images and Patterns (Springer) 
+  - VISAPP: International Conference on Vision Theory and Applications (SCITEPRESS) 
+  - ICPR: International Conference on Pattern Recognition (IEEE) 
+  - ACIVS: Conference on Advanced Concepts for Intelligent Vision Systems (Springer) 
+  - EUSIPCO: European Signal Processing Conference (IEEE) 
+  - ICRA: International Conference on Robotics and Automation (IEEE) 
+  - BMVC: British Machine Vision Conference (organized by BMVA: British Machine Vision Association and Society for Pattern Recognition) 
+- CORE Rank C: 
+  - ICISP: International Conference on Image and Signal Processing (Springer) 
+  - ICIAR: International Conference on Image Analysis and Recognition (Springer) 
+  - ICVS: International Conference on Computer Vision Systems (Springer) 
+- Unranked but popular 
+  - MIUA: Conference on Medical Image Understanding and Analysis (organized by BMVA: British Machine Vision Association and Society for Pattern Recognition)
+  - EUVIP: European Workshop on Visual Information Processing (IEEE, organized by EURASIP: European Association for Signal Processing) 
+  - CIC: Color and Imaging Conference () 
+  - CVCS
+  - CIC
+  - EI
 ---
 
 ## Journals in Computer Vision
