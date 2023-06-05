@@ -245,10 +245,9 @@
 - Unranked but popular 
   - MIUA: Conference on Medical Image Understanding and Analysis (organized by BMVA: British Machine Vision Association and Society for Pattern Recognition)
   - EUVIP: European Workshop on Visual Information Processing (IEEE, organized by EURASIP: European Association for Signal Processing) 
-  - CIC: Color and Imaging Conference () 
-  - CVCS
-  - CIC
-  - EI
+  - CIC: Color and Imaging Conference (organized by IS&T: Society for Imaging Science and Technology) 
+  - CVCS: Colour and Visual Computing Symposium
+  - DSP: International Conference on Digital Signal Processing
 ---
 
 ## Journals in Computer Vision
