@@ -103,6 +103,8 @@
 | [matlabfns](https://www.peterkovesi.com/matlabfns/)| MATLAB and Octave Functions for Computer Vision and Image Processing, P. Kovesi, University of Western Australia|
 | [VLFeat](https://www.vlfeat.org/index.html) | open source library implements popular computer vision algorithms, A. Vedaldi and B. Fulkerson|
 | [MLV](https://github.com/bwlabToronto/MLV_toolbox) | Mid-level Vision Toolbox (MLVToolbox), BWLab, University of Toronto|
+| [ElencoCode](https://www.dropbox.com/s/bguw035yrqz0pwp/ElencoCode.docx?dl=0) | Loris Nanni's CV functions, University of Padova|
+
 
 ---
 
