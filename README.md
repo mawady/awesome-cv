@@ -157,6 +157,9 @@
 | [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)| `[PosEst]` | OpenPose: Real-time multi-person keypoint detection library for body, face, hands, and foot estimation |
 | [RobustVideoMatting](https://github.com/PeterL1n/RobustVideoMatting) | `[VidMat]` | Robust Video Matting in PyTorch, TensorFlow, TensorFlow.js, ONNX, CoreML! |
 | [fastudp](https://github.com/visual-layer/fastdup) | `[NvlDet]` `[CBIR]` | An unsupervised and free tool for image and video dataset analysis |
+| [Random-Erasing](https://github.com/zhunzhong07/Random-Erasing) | `[DatAug]` | Random Erasing Data Augmentation in PyTorch |
+| [CutMix-PyTorch](https://github.com/clovaai/CutMix-PyTorch) | `[DatAug]` | Official Pytorch implementation of CutMix regularizer |
+| [keras-cv](https://github.com/keras-team/keras-cv) | `[GenLib]` | Library of modular computer vision oriented Keras components |
 
 ---
 
