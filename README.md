@@ -14,6 +14,7 @@
 > * **[Conferences in Computer Vision](https://github.com/mawady/awesome-cv#Conferences-in-Computer-Vision)**
 > * **[Journals in Computer Vision](https://github.com/mawady/awesome-cv#Journals-in-Computer-Vision)**
 > * **[Summer Schools in Computer Vision](https://github.com/mawady/awesome-cv#Summer-Schools-in-Computer-Vision)**
+> * **[YouTube Channels](https://github.com/mawady/awesome-cv#YouTube-Channels)**
 ---
 
 ## Reference Books
@@ -269,8 +270,59 @@
 
 ---
 
+## YouTube Channels
+- [@AurelienGeron](https://www.youtube.com/@AurelienGeron) `[Individual]`, Aurélien Géron: former lead of YouTube's video classification team, and author of the O'Reilly book Hands-On Machine Learning with Scikit-Learn and TensorFlow.
+- [@howardjeremyp](https://www.youtube.com/@howardjeremyp) `[Individual]`, Jeremy Howard: former president and chief scientist of Kaggle, and co-founder of fast.ai.
+- [@DeepFindr](https://www.youtube.com/@DeepFindr), `[Individual]` Videos about all kinds of Machine Learning / Data Science topics.
+- [@deeplizard](https://www.youtube.com/@deeplizard) `[Individual]`, Videos about building collective intelligence.
+- [@YannicKilcher](https://www.youtube.com/@YannicKilcher) `[Individual]`, Yannic Kilcher: make videos about machine learning research papers, programming, and issues of the AI community, and the broader impact of AI in society.
+- [@sentdex](https://www.youtube.com/@sentdex) `[Individual]`, sentdex: provides Python programming tutorials in machine learning, finance, data analysis, robotics, web development, game development and more.
+- [@bmvabritishmachinevisionas8529](https://www.youtube.com/@bmvabritishmachinevisionas8529) `[Conferences]`, BMVA: British Machine Vision Association.
+- [@ComputerVisionFoundation](https://www.youtube.com/@ComputerVisionFoundation) `[Conferences]`, Computer Vision Foundation (CVF): co-sponsored conferences on computer vision (e.g. CVPR and ICCV). 
+- [@cvprtum](https://www.youtube.com/@cvprtum) `[University]`, Computer Vision Group at Technical University of Munich.
+- [@computervisiontalks4659](https://www.youtube.com/@computervisiontalks4659) `[Talks]`, Computer Vision Talks.
+- [@freecodecamp](https://www.youtube.com/@freecodecamp) `[Talks]`, Videos to learn how to code.
+- [@LondonMachineLearningMeetup](https://www.youtube.com/@LondonMachineLearningMeetup) `[Talks]`, Largest machine learning community in Europe.
+- [@LesHouches-iu6nv](https://www.youtube.com/@LesHouches-iu6nv) `[Talks]`, Summer school on Statistical Physics of Machine learning held in Les Houches, July 4 - 29, 2022.
+- [@MachineLearningStreetTalk](https://www.youtube.com/@MachineLearningStreetTalk) `[Talks]`, top AI podcast on Spotify.
+- [@WeightsBiases](https://www.youtube.com/@WeightsBiases) `[Talks]`, Weights and Biases team's conversations with industry experts, and researchers.
+- [@TwoMinutePapers](https://www.youtube.com/@TwoMinutePapers) `[Papers]`, Two Minute Papers: Explaining AI papers in few mins.
+- [@TheAIEpiphany](https://www.youtube.com/@TheAIEpiphany) `[Papers]`, Aleksa Gordić: x-Google DeepMind, x-Microsoft engineer explaining AI papers.
+- [@bycloudAI](https://www.youtube.com/@bycloudAI) `[Papers]`, bycloud: covers the latest AI tech/research papers for fun.
+- Unorganized/Unsorted:
+  - https://www.youtube.com/@PreserveKnowledge/
+  - https://www.youtube.com/@PieterAbbeel
+  - https://www.youtube.com/@carnegiemellonuniversityde4339
+  - https://www.youtube.com/@UCFCRCV
+  - https://www.youtube.com/@pascalpoupart3507
+  - https://www.youtube.com/@dynamicvisionandlearninggr1022
+  - https://www.youtube.com/@TubingenML
+  - https://www.youtube.com/@MatthiasNiessner
+  - https://www.youtube.com/@MichaelBronsteinGDL
+  - https://www.youtube.com/@AAmini
+  - https://www.youtube.com/@WhatsAI  
+  - https://www.youtube.com/@mrdbourke
+  - https://www.youtube.com/@marksaroufim
+  - https://www.youtube.com/@NicholasRenotte
+  - https://www.youtube.com/@abhishekkrthakur
+  - https://www.youtube.com/@AladdinPersson
+  - https://www.youtube.com/@CodeEmporium
+  - https://www.youtube.com/@arp_ai
+  - https://www.youtube.com/@CodeThisCodeThat
+  - https://www.youtube.com/@connorshorten6311
+  - https://www.youtube.com/@SmithaKolan
+  - https://www.youtube.com/@AICoffeeBreak
+  - https://www.youtube.com/@independentcode
+  - https://www.youtube.com/@alfcnz
+  - https://www.youtube.com/@KapilSachdeva
+  - https://www.youtube.com/@AICoding
+  - https://www.youtube.com/@mildlyoverfitted
+
+---
+
 ## Thanks
 - [Frida de Sigley](https://github.com/fdsig) 
 - Dan Harvey
 - [CORE Conference Ranking](http://portal.core.edu.au/conf-ranks/?search=4603&by=all&source=CORE2021&sort=arank&page=1)
 - [Scimago Journal Ranking](https://www.scimagojr.com/journalrank.php)
+- [benthecoder/yt-channels-DS-AI-ML-CS](https://github.com/benthecoder/yt-channels-DS-AI-ML-CS)
