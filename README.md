@@ -1,20 +1,20 @@
 # Curated educational list for computer vision
-> * **[Reference Books](https://github.com/mawady/awesome-cv#Reference-Books)**
-> * **[Online Courses](https://github.com/mawady/awesome-cv#Online-Courses)**
-> * **[Uni Courses](https://github.com/mawady/awesome-cv#Uni-Courses)**
-> * **[YouTube Playlists](https://github.com/mawady/awesome-cv#YouTube-Playlists)**
-> * **[Python Libraries](https://github.com/mawady/awesome-cv#Python-Libraries)**
-> * **[MATLAB/Octave Libraries](https://github.com/mawady/awesome-cv#MATLAB-Libraries)**
-> * **[Repos](https://github.com/mawady/awesome-cv#Repos)**
-> * **[Dataset Collections](https://github.com/mawady/awesome-cv#Dataset-Collections)**
-> * **[Task Management Tools](https://github.com/mawady/awesome-cv#Task-Management-Tools)**
-> * **[Annotation Tools](https://github.com/mawady/awesome-cv#Annotation-Tools)**
-> * **[Awesome Lists](https://github.com/mawady/awesome-cv#Awesome-Lists)**
-> * **[Misc](https://github.com/mawady/awesome-cv#Misc)**
-> * **[Conferences in Computer Vision](https://github.com/mawady/awesome-cv#Conferences-in-Computer-Vision)**
-> * **[Journals in Computer Vision](https://github.com/mawady/awesome-cv#Journals-in-Computer-Vision)**
-> * **[Summer Schools in Computer Vision](https://github.com/mawady/awesome-cv#Summer-Schools-in-Computer-Vision)**
-> * **[YouTube Channels](https://github.com/mawady/awesome-cv#YouTube-Channels)**
+> * **[Reference Books](#reference-books)**
+> * **[Online Courses](#online-courses)**
+> * **[Uni Courses](#uni-courses)**
+> * **[YouTube Playlists](#youtube-playlists)**
+> * **[Python Libraries](#python-libraries)**
+> * **[MATLAB/Octave Libraries](#matlab-libraries)**
+> * **[Repos](#repos)**
+> * **[Dataset Collections](#dataset-collections)**
+> * **[Task Management Tools](#task-management-tools)**
+> * **[Annotation Tools](#annotation-tools)**
+> * **[Awesome Lists](#awesome-lists)**
+> * **[Misc](#misc)**
+> * **[Conferences in Computer Vision](#conferences-in-computer-vision)**
+> * **[Journals in Computer Vision](#journals-in-computer-vision)**
+> * **[Summer Schools in Computer Vision](#summer-schools-in-computer-vision)**
+> * **[YouTube Channels](#youtube-channels)**
 ---
 
 ## Reference Books
