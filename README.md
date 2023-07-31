@@ -11,10 +11,11 @@
 > * **[Annotation Tools](#annotation-tools)**
 > * **[Awesome Lists](#awesome-lists)**
 > * **[Misc](#misc)**
-> * **[Conferences in Computer Vision](#conferences-in-computer-vision)**
-> * **[Journals in Computer Vision](#journals-in-computer-vision)**
-> * **[Summer Schools in Computer Vision](#summer-schools-in-computer-vision)**
+> * **[Conferences](#conferences)**
+> * **[Journals](#journals)**
+> * **[Summer Schools](#summer-schools)**
 > * **[YouTube Channels](#youtube-channels)**
+> * **[Mailing Lists](#mailing-lists)**
 ---
 
 ## Reference Books
@@ -223,7 +224,7 @@
 - [jetson-inference](https://github.com/dusty-nv/jetson-inference), guide to deploying deep-learning inference networks and deep vision primitives with TensorRT and NVIDIA Jetson.
 ---
 
-## Conferences in Computer Vision
+## Conferences
 - CORE Rank A: 
   - ICCV: International Conference on Computer Vision (IEEE) 
   - CVPR: Conference on Computer Vision and Pattern Recognition (IEEE) 
@@ -256,14 +257,14 @@
   - DSP: International Conference on Digital Signal Processing
 ---
 
-## Journals in Computer Vision
+## Journals
 - Tier 1 (IEEE TPAMI, IEEE TIP, IEEE TCSVT, Springer IJCV, Elsevier Pattern Recognition, Elsevier CVIU, Elsevier Expert Systems with Applications, Elsevier Neurocomputing, Springer Neural Computing and Applications)
 - Tier 2 (Elsevier Image and Vision Computing, Elsevier Pattern Recognition Letters, Elsevier Journal of Visual Communication and Image Representation, Springer Journal of Mathematical Imaging and Vision, SPIE Journal of Electronic Imaging, IET Image Processing, Springer Pattern Analysis and Applications, Springer Machine Vision and Applications, IET Computer Vision)
 - Open Access (IEEE Access, MDPI Journal of Imaging)
 
 ---
 
-## Summer Schools in Computer Vision
+## Summer Schools
 - International Computer Vision Summer School (IVCSS) [2007-Present], Sicily, Italy [[2022](https://iplab.dmi.unict.it/icvss2022/)]
 - Machine Intelligence and Visual Computing Summer School (VISUM) [2013-Present], Porto, Portugal [[2022](https://visum.inesctec.pt)]
 - BMVA British Computer Vision Summer School (CVSS) [2013-2020], UK [[Website](https://britishmachinevisionassociation.github.io/summer-school)]
@@ -317,6 +318,12 @@
   - https://www.youtube.com/@KapilSachdeva
   - https://www.youtube.com/@AICoding
   - https://www.youtube.com/@mildlyoverfitted
+
+---
+
+## Mailing Lists
+- [Vision Science](http://visionscience.com/mailman/listinfo/visionlist_visionscience.com) `[in English]`
+- [bull-i3](https://listes.irit.fr/sympa/info/bull-i3) `[in French]`
 
 ---
 
