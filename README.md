@@ -265,36 +265,35 @@
 ---
 
 ## Summer Schools
-- International Computer Vision Summer School (IVCSS) [2007-Present], Sicily, Italy [[2022](https://iplab.dmi.unict.it/icvss2022/)]
-- Machine Intelligence and Visual Computing Summer School (VISUM) [2013-Present], Porto, Portugal [[2022](https://visum.inesctec.pt)]
-- BMVA British Computer Vision Summer School (CVSS) [2013-2020], UK [[Website](https://britishmachinevisionassociation.github.io/summer-school)]
+- International Computer Vision Summer School (IVCSS) [2007-Present], Sicily, Italy [[2023](https://iplab.dmi.unict.it/icvss2023/)]
+- Machine Intelligence and Visual Computing Summer School (VISUM) [2013-2022], Porto, Portugal [[2022](https://visum.inesctec.pt)]
+- BMVA British Computer Vision Summer School (CVSS) [2013-2020,2023], UK [[Website](https://britishmachinevisionassociation.github.io/summer-school)]
 
 ---
 
 ## YouTube Channels
 - [@AurelienGeron](https://www.youtube.com/@AurelienGeron) `[Individual]`, Aurélien Géron: former lead of YouTube's video classification team, and author of the O'Reilly book Hands-On Machine Learning with Scikit-Learn and TensorFlow.
 - [@howardjeremyp](https://www.youtube.com/@howardjeremyp) `[Individual]`, Jeremy Howard: former president and chief scientist of Kaggle, and co-founder of fast.ai.
-- [@DeepFindr](https://www.youtube.com/@DeepFindr), `[Individual]` Videos about all kinds of Machine Learning / Data Science topics.
+- [@PieterAbbeel](https://www.youtube.com/@PieterAbbeel) `[Individual]`, Pieter Abbeel: professor of electrical engineering and computer sciences, University of California, Berkeley.
+- [@DeepFindr](https://www.youtube.com/@DeepFindr) `[Individual]`, Videos about all kinds of Machine Learning / Data Science topics.
 - [@deeplizard](https://www.youtube.com/@deeplizard) `[Individual]`, Videos about building collective intelligence.
 - [@YannicKilcher](https://www.youtube.com/@YannicKilcher) `[Individual]`, Yannic Kilcher: make videos about machine learning research papers, programming, and issues of the AI community, and the broader impact of AI in society.
 - [@sentdex](https://www.youtube.com/@sentdex) `[Individual]`, sentdex: provides Python programming tutorials in machine learning, finance, data analysis, robotics, web development, game development and more.
 - [@bmvabritishmachinevisionas8529](https://www.youtube.com/@bmvabritishmachinevisionas8529) `[Conferences]`, BMVA: British Machine Vision Association.
 - [@ComputerVisionFoundation](https://www.youtube.com/@ComputerVisionFoundation) `[Conferences]`, Computer Vision Foundation (CVF): co-sponsored conferences on computer vision (e.g. CVPR and ICCV). 
 - [@cvprtum](https://www.youtube.com/@cvprtum) `[University]`, Computer Vision Group at Technical University of Munich.
+- [@UCFCRCV](https://www.youtube.com/@UCFCRCV) `[University]`, Center for Research in Computer Vision at University of Central Florida.
 - [@computervisiontalks4659](https://www.youtube.com/@computervisiontalks4659) `[Talks]`, Computer Vision Talks.
 - [@freecodecamp](https://www.youtube.com/@freecodecamp) `[Talks]`, Videos to learn how to code.
 - [@LondonMachineLearningMeetup](https://www.youtube.com/@LondonMachineLearningMeetup) `[Talks]`, Largest machine learning community in Europe.
 - [@LesHouches-iu6nv](https://www.youtube.com/@LesHouches-iu6nv) `[Talks]`, Summer school on Statistical Physics of Machine learning held in Les Houches, July 4 - 29, 2022.
 - [@MachineLearningStreetTalk](https://www.youtube.com/@MachineLearningStreetTalk) `[Talks]`, top AI podcast on Spotify.
 - [@WeightsBiases](https://www.youtube.com/@WeightsBiases) `[Talks]`, Weights and Biases team's conversations with industry experts, and researchers.
+- [@PreserveKnowledge](https://www.youtube.com/@PreserveKnowledge/) `[Talks]`, Canada higher education media organization that focuses on advances in mathematics, computer science, and artificial intelligence. 
 - [@TwoMinutePapers](https://www.youtube.com/@TwoMinutePapers) `[Papers]`, Two Minute Papers: Explaining AI papers in few mins.
 - [@TheAIEpiphany](https://www.youtube.com/@TheAIEpiphany) `[Papers]`, Aleksa Gordić: x-Google DeepMind, x-Microsoft engineer explaining AI papers.
 - [@bycloudAI](https://www.youtube.com/@bycloudAI) `[Papers]`, bycloud: covers the latest AI tech/research papers for fun.
 - Unorganized/Unsorted:
-  - https://www.youtube.com/@PreserveKnowledge/
-  - https://www.youtube.com/@PieterAbbeel
-  - https://www.youtube.com/@carnegiemellonuniversityde4339
-  - https://www.youtube.com/@UCFCRCV
   - https://www.youtube.com/@pascalpoupart3507
   - https://www.youtube.com/@dynamicvisionandlearninggr1022
   - https://www.youtube.com/@TubingenML
@@ -322,8 +321,8 @@
 ---
 
 ## Mailing Lists
-- [Vision Science](http://visionscience.com/mailman/listinfo/visionlist_visionscience.com) `[in English]`
-- [bull-i3](https://listes.irit.fr/sympa/info/bull-i3) `[in French]`
+- [Vision Science](http://visionscience.com/mailman/listinfo/visionlist_visionscience.com), announcements about industry/academic jobs in computer vision around the world (in English).
+- [bull-i3](https://listes.irit.fr/sympa/info/bull-i3), posts about job opportunities in computer vision in France (in French).
 
 ---
 
