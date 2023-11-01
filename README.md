@@ -111,7 +111,7 @@
 ---
 
 ## Repos
-### Tags: Object Classification `[ObjCls]`, Object Detection `[ObjDet]`, Object Segmentation `[ObjSeg]`, General Library `[GenLib]`, Text Reading / Object Character Recognition `[OCR]`, Action Recognition `[ActRec]`, Object Tracking `[ObjTrk]`, Data Augmentation `[DatAug]`, Simultaneous Localization and Mapping `[SLAM]`, Outlier/Anomaly/Novelty Detection `[NvlDet]`, Content-based Image Retrieval `[CBIR]`, Image Enhancement `[ImgEnh]`, Aesthetic Assessment `[AesAss]`, Explainable Artificial Intelligence `[XAI]`, Text-to-Image Generation `[TexImg]`, Pose Estimation `[PosEst]`, Video Matting `[VidMat]`
+### Tags: Object Classification `[ObjCls]`, Object Detection `[ObjDet]`, Object Segmentation `[ObjSeg]`, General Library `[GenLib]`, Text Reading / Object Character Recognition `[OCR]`, Action Recognition `[ActRec]`, Object Tracking `[ObjTrk]`, Data Augmentation `[DatAug]`, Simultaneous Localization and Mapping `[SLAM]`, Outlier/Anomaly/Novelty Detection `[NvlDet]`, Content-based Image Retrieval `[CBIR]`, Image Enhancement `[ImgEnh]`, Aesthetic Assessment `[AesAss]`, Explainable Artificial Intelligence `[XAI]`, Text-to-Image Generation `[TexImg]`, Pose Estimation `[PosEst]`, Video Matting `[VidMat]`, Eye Tracking `[EyeTrk]`
 
 | Repo | Tags | Description |
 | --------------- | --------------- | --------------- |
@@ -162,6 +162,7 @@
 | [Random-Erasing](https://github.com/zhunzhong07/Random-Erasing) | `[DatAug]` | Random Erasing Data Augmentation in PyTorch |
 | [CutMix-PyTorch](https://github.com/clovaai/CutMix-PyTorch) | `[DatAug]` | Official Pytorch implementation of CutMix regularizer |
 | [keras-cv](https://github.com/keras-team/keras-cv) | `[GenLib]` | Library of modular computer vision oriented Keras components |
+| [PsychoPy](https://github.com/psychopy/psychopy) | `[EyeTrk]` | Library for running psychology and neuroscience experiments |
 
 ---
 
@@ -258,9 +259,28 @@
 ---
 
 ## Journals
-- Tier 1 (IEEE TPAMI, IEEE TIP, IEEE TCSVT, Springer IJCV, Elsevier Pattern Recognition, Elsevier CVIU, Elsevier Expert Systems with Applications, Elsevier Neurocomputing, Springer Neural Computing and Applications)
-- Tier 2 (Elsevier Image and Vision Computing, Elsevier Pattern Recognition Letters, Elsevier Journal of Visual Communication and Image Representation, Springer Journal of Mathematical Imaging and Vision, SPIE Journal of Electronic Imaging, IET Image Processing, Springer Pattern Analysis and Applications, Springer Machine Vision and Applications, IET Computer Vision)
-- Open Access (IEEE Access, MDPI Journal of Imaging)
+- Tier 1
+  - IEEE Transactions on Pattern Analysis and Machine Intelligence (IEEE TPAMI)
+  - IEEE Transactions on Image Processing (IEEE TIP)
+  - IEEE Transactions on Circuits and Systems for Video Technology (IEEE TCSVT)
+  - Springer International Journal of Computer Vision (Springer IJCV)
+  - Elsevier Pattern Recognition (Elsevier PR)
+  - Elsevier Computer Vision and Image Understanding (Elsevier CVIU)
+  - Elsevier Expert Systems with Applications
+  - Elsevier Neurocomputing, Springer Neural Computing and Applications
+- Tier 2
+  - Elsevier Image and Vision Computing (Elsevier IVC)
+  - Elsevier Pattern Recognition Letters (Elsevier PR Letters)
+  - Elsevier Journal of Visual Communication and Image Representation
+  - Springer Journal of Mathematical Imaging and Vision
+  - SPIE Journal of Electronic Imaging
+  - IET Image Processing
+  - Springer Pattern Analysis and Applications (Springer PAA)
+  - Springer Machine Vision and Applications (Springer MVA)
+  - IET Computer Vision
+- Open Access
+  - IEEE Access
+  - MDPI Journal of Imaging
 
 ---
 
@@ -275,6 +295,9 @@
 - [@AurelienGeron](https://www.youtube.com/@AurelienGeron) `[Individual]`, Aurélien Géron: former lead of YouTube's video classification team, and author of the O'Reilly book Hands-On Machine Learning with Scikit-Learn and TensorFlow.
 - [@howardjeremyp](https://www.youtube.com/@howardjeremyp) `[Individual]`, Jeremy Howard: former president and chief scientist of Kaggle, and co-founder of fast.ai.
 - [@PieterAbbeel](https://www.youtube.com/@PieterAbbeel) `[Individual]`, Pieter Abbeel: professor of electrical engineering and computer sciences, University of California, Berkeley.
+- [@pascalpoupart3507](https://www.youtube.com/@pascalpoupart3507) `[Individual]`, Pascal Poupart: professor in the David R. Cheriton School of Computer Science at the University of Waterloo.
+- [@MatthiasNiessner](https://www.youtube.com/@MatthiasNiessner) `[Individual]`, Matthias Niessner: Professor at the Technical University of Munich and head of the Visual Computing Lab.
+- [@MichaelBronsteinGDL](https://www.youtube.com/@MichaelBronsteinGDL) `[Individual]`, Michael Bronstein: DeepMind Professor of AI, University of Oxford / Head of Graph Learning Research, Twitter.
 - [@DeepFindr](https://www.youtube.com/@DeepFindr) `[Individual]`, Videos about all kinds of Machine Learning / Data Science topics.
 - [@deeplizard](https://www.youtube.com/@deeplizard) `[Individual]`, Videos about building collective intelligence.
 - [@YannicKilcher](https://www.youtube.com/@YannicKilcher) `[Individual]`, Yannic Kilcher: make videos about machine learning research papers, programming, and issues of the AI community, and the broader impact of AI in society.
@@ -283,6 +306,8 @@
 - [@ComputerVisionFoundation](https://www.youtube.com/@ComputerVisionFoundation) `[Conferences]`, Computer Vision Foundation (CVF): co-sponsored conferences on computer vision (e.g. CVPR and ICCV). 
 - [@cvprtum](https://www.youtube.com/@cvprtum) `[University]`, Computer Vision Group at Technical University of Munich.
 - [@UCFCRCV](https://www.youtube.com/@UCFCRCV) `[University]`, Center for Research in Computer Vision at University of Central Florida.
+- [@dynamicvisionandlearninggr1022](https://www.youtube.com/@dynamicvisionandlearninggr1022) `[University]`, Dynamic Vision and Learning research group channel! Technical University of Munich.
+- [@TubingenML](https://www.youtube.com/@TubingenML) `[University]`, Machine Learning groups at the University of Tübingen.
 - [@computervisiontalks4659](https://www.youtube.com/@computervisiontalks4659) `[Talks]`, Computer Vision Talks.
 - [@freecodecamp](https://www.youtube.com/@freecodecamp) `[Talks]`, Videos to learn how to code.
 - [@LondonMachineLearningMeetup](https://www.youtube.com/@LondonMachineLearningMeetup) `[Talks]`, Largest machine learning community in Europe.
@@ -293,12 +318,8 @@
 - [@TwoMinutePapers](https://www.youtube.com/@TwoMinutePapers) `[Papers]`, Two Minute Papers: Explaining AI papers in few mins.
 - [@TheAIEpiphany](https://www.youtube.com/@TheAIEpiphany) `[Papers]`, Aleksa Gordić: x-Google DeepMind, x-Microsoft engineer explaining AI papers.
 - [@bycloudAI](https://www.youtube.com/@bycloudAI) `[Papers]`, bycloud: covers the latest AI tech/research papers for fun.
+
 - Unorganized/Unsorted:
-  - https://www.youtube.com/@pascalpoupart3507
-  - https://www.youtube.com/@dynamicvisionandlearninggr1022
-  - https://www.youtube.com/@TubingenML
-  - https://www.youtube.com/@MatthiasNiessner
-  - https://www.youtube.com/@MichaelBronsteinGDL
   - https://www.youtube.com/@AAmini
   - https://www.youtube.com/@WhatsAI  
   - https://www.youtube.com/@mrdbourke
