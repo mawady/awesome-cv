@@ -143,6 +143,7 @@
 | [pytesseract](https://github.com/madmaze/pytesseract) | `[OCR]` | A Python wrapper for Google Tesseract |
 | [EasyOCR](https://github.com/JaidedAI/EasyOCR) | `[OCR]` | Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc |
 | [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | `[OCR]` | Practical ultra lightweight OCR system, support 80+ languages recognition, provide data annotation and synthesis tools, support training and deployment among server, mobile, embedded and IoT devices|
+| [PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg) | `[ObjSeg]` | Easy-to-use image segmentation library with awesome pre-trained model zoo, supporting wide-range of practical tasks in Semantic Segmentation, Interactive Segmentation, Panoptic Segmentation, Image Matting, 3D Segmentation, etc|
 | [mmtracking](https://github.com/open-mmlab/mmtracking) | `[ObjTrk]` | OpenMMLab, Video Perception Toolbox for object detection and tracking |
 | [mmaction](https://github.com/open-mmlab/mmaction) | `[ActRec]` | OpenMMLab, An open-source toolbox for action understanding based on PyTorch |
 | [albumentations](https://github.com/albumentations-team/albumentations) | `[DatAug]` | Fast image augmentation library and an easy-to-use wrapper around other libraries |
