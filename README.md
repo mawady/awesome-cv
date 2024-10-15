@@ -21,14 +21,16 @@
 ## Reference Books
 | Book | Links |
 | --------------- | --------------- |
-| Nixon, Mark, and Alberto Aguado. “Feature extraction and image processing for computer vision.” Academic press, (2019). | [goodreads](https://www.goodreads.com/book/show/14788673-feature-extraction-and-image-processing-for-computer-vision) |
-| González, Rafael Corsino and Richard E. Woods. “Digital image processing, 4th Edition.” (2018). | [goodreads](https://www.goodreads.com/book/show/42937189-digital-image-processing) |
-| Prince, Simon. “Computer Vision: Models, Learning, and Inference.” (2012). | [goodreads](https://www.goodreads.com/book/show/15792261-computer-vision) |
-| Forsyth, David Alexander and Jean Ponce. “Computer Vision - A Modern Approach, Second Edition.” (2011). |[goodreads](https://www.goodreads.com/book/show/14857613-computer-vision) |
-| Szeliski, Richard. “Computer Vision - Algorithms and Applications.” Texts in Computer Science (2010). | [goodreads](https://www.goodreads.com/book/show/9494221-computer-vision) | 
-| Bishop, Charles M.. “Pattern recognition and machine learning, 5th Edition.” Information science and statistics (2007). | [goodreads](https://www.goodreads.com/book/show/37572203-pattern-recognition-and-machine-learning) |
-| Harltey, Andrew and Andrew Zisserman. “Multiple view geometry in computer vision (2. ed.).” (2003). | [goodreads](https://www.goodreads.com/book/show/89897.Multiple_View_Geometry_in_Computer_Vision) |
-| Stockman, George C. and Linda G. Shapiro. “Computer Vision.” (2001). | [goodreads](https://www.goodreads.com/book/show/19371156-computer-vision) |
+| Antonio Torralba, Phillip Isola, William T. Freeman. “Foundations of Computer Vision” MIT Press, (2024). | [goodreads](https://www.goodreads.com/book/show/157976035-foundations-of-computer-vision?from_search=true&from_srp=true&qid=y0fzNP4eVX&rank=2) |
+| Nixon, Mark, and Alberto Aguado. “Feature extraction and image processing for computer vision” Academic press, (2019). | [goodreads](https://www.goodreads.com/book/show/14788673-feature-extraction-and-image-processing-for-computer-vision) |
+| González, Rafael Corsino and Richard E. Woods. “Digital image processing, 4th Edition” (2018). | [goodreads](https://www.goodreads.com/book/show/42937189-digital-image-processing) |
+| E.R. Davies. “Computer Vision: Principles, Algorithms, Applications, Learning” Academic press, (2017). | [goodreads](https://www.goodreads.com/book/show/36987287-computer-vision) |
+| Prince, Simon. “Computer Vision: Models, Learning, and Inference” (2012). | [goodreads](https://www.goodreads.com/book/show/15792261-computer-vision) |
+| Forsyth, David Alexander and Jean Ponce. “Computer Vision - A Modern Approach, Second Edition” (2011). |[goodreads](https://www.goodreads.com/book/show/14857613-computer-vision) |
+| Szeliski, Richard. “Computer Vision - Algorithms and Applications” Texts in Computer Science (2010). | [goodreads](https://www.goodreads.com/book/show/9494221-computer-vision) | 
+| Bishop, Charles M.. “Pattern recognition and machine learning, 5th Edition” Information science and statistics (2007). | [goodreads](https://www.goodreads.com/book/show/37572203-pattern-recognition-and-machine-learning) |
+| Harltey, Andrew and Andrew Zisserman. “Multiple view geometry in computer vision (2. ed.)” (2003). | [goodreads](https://www.goodreads.com/book/show/89897.Multiple_View_Geometry_in_Computer_Vision) |
+| Stockman, George C. and Linda G. Shapiro. “Computer Vision” (2001). | [goodreads](https://www.goodreads.com/book/show/19371156-computer-vision) |
 
 ---
 
