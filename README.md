@@ -15,6 +15,7 @@
 > * **[Conferences](#conferences)**
 > * **[Journals](#journals)**
 > * **[Summer Schools](#summer-schools)**
+> * **[Popular Articles](#popular-articles)**
 > * **[YouTube Channels](#youtube-channels)**
 > * **[Mailing Lists](#mailing-lists)**
 >
@@ -309,6 +310,69 @@
 
 * Machine Intelligence and Visual Computing Summer School (VISUM) [2013-2022], Porto, Portugal [[2022](https://visum.inesctec.pt)]
 * BMVA British Computer Vision Summer School (CVSS) [2013-2020,2023], UK [[Website](https://britishmachinevisionassociation.github.io/summer-school)]
+
+---
+
+## Popular Articles
+
+* Explainable AI (XAI)
+* Object Classification
+  * [LeNet-5, 1998] LeCun, Yann, et al. "Gradient-based learning applied to document recognition." Proceedings of the IEEE 86.11 (1998): 2278-2324.
+  * [AlexNet, 2012] Krizhevsky, Alex, Ilya Sutskever, and Geoffrey E. Hinton. "Imagenet classification with deep convolutional neural networks." Advances in neural information processing systems 25 (2012).
+  * [ZFNet, 2014] Zeiler, Matthew D., and Rob Fergus. "Visualizing and understanding convolutional networks." Computer Vision–ECCV 2014: 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part I 13. Springer International Publishing, 2014.
+  * [VGG, 2014] Simonyan, Karen and Andrew Zisserman. “Very Deep Convolutional Networks for Large-Scale Image Recognition.” CoRR abs/1409.1556 (2014): n. Pag.
+  * [GoogLeNet, 2015] Szegedy, Christian, et al. "Going deeper with convolutions." Proceedings of the IEEE conference on computer vision and pattern recognition. 2015.
+  * [ResNet, 2016] He, Kaiming, et al. "Deep residual learning for image recognition." Proceedings of the IEEE conference on computer vision and pattern recognition. 2016.
+  * [InceptionV3, 2016] Szegedy, Christian, et al. "Rethinking the inception architecture for computer vision." Proceedings of the IEEE conference on computer vision and pattern recognition. 2016.
+  * [Xception, 2017] Chollet, François. "Xception: Deep learning with depthwise separable convolutions." Proceedings of the IEEE conference on computer vision and pattern recognition. 2017.
+  * [EfficientNet, 2019] Tan, Mingxing, and Quoc Le. "Efficientnet: Rethinking model scaling for convolutional neural networks." International conference on machine learning. PMLR, 2019.
+  * [ViT, 2020] Dosovitskiy, Alexey, et al. "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale." International Conference on Learning Representations. 2020.
+  * [ConvNeXt, 2022] Liu, Zhuang et al. “A ConvNet for the 2020s.” 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2022): 11966-11976.
+* Object Classification - Lightweight
+  * [SqueezeNet, 2016] Iandola, Forrest N., et al. "SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and< 0.5 MB model size." arXiv preprint arXiv:1602.07360 (2016).
+  * [MobileNetV2, 2018] Sandler, Mark, et al. "Mobilenetv2: Inverted residuals and linear bottlenecks." Proceedings of the IEEE conference on computer vision and pattern recognition. 2018.  
+  * [ShuffleNetV2, 2018] Ma, Ningning, et al. "Shufflenet v2: Practical guidelines for efficient cnn architecture design." Proceedings of the European conference on computer vision (ECCV). 2018.
+  * [MobileNetV3, 2019] Howard, Andrew, et al. "Searching for mobilenetv3." Proceedings of the IEEE/CVF international conference on computer vision. 2019.
+  * [GhostNetV1, 2020] Han, Kai, et al. "Ghostnet: More features from cheap operations." Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2020.
+  * [MobileViT, 2021] Mehta, Sachin, and Mohammad Rastegari. "Mobilevit: light-weight, general-purpose, and mobile-friendly vision transformer." arXiv preprint arXiv:2110.02178 (2021).
+  * [GhostNetV2, 2022] Tang, Yehui, et al. "GhostNetv2: enhance cheap operation with long-range attention." Advances in Neural Information Processing Systems 35 (2022): 9969-9982.
+  * [ConvNeXt-Tiny, 2022] Liu, Zhuang et al. “A ConvNet for the 2020s.” 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2022): 11966-11976.
+  * [MaxViT-Tiny, 2022] Tu, Zhengzhong, et al. "Maxvit: Multi-axis vision transformer." European conference on computer vision. Cham: Springer Nature Switzerland, 2022.
+  * [MobileFormer, 2022] Chen, Yinpeng, et al. "Mobile-former: Bridging mobilenet and transformer." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2022.
+  * [ConvNeXtV2-Tiny, 2023] Woo, Sanghyun, et al. "Convnext v2: Co-designing and scaling convnets with masked autoencoders." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023.
+* Object Detection
+  * [Faster R-CNN, 2015] Ren, Shaoqing, et al. "Faster r-cnn: Towards real-time object detection with region proposal networks." Advances in neural information processing systems 28 (2015).
+  * [SSD, 2016] Liu, Wei, et al. "Ssd: Single shot multibox detector." Computer Vision–ECCV 2016: 14th European Conference, Amsterdam, The Netherlands, October 11–14, 2016, Proceedings, Part I 14. Springer International Publishing, 2016.
+  * [RetinaNet, 2017] Lin, Tsung-Yi, et al. "Focal loss for dense object detection." Proceedings of the IEEE international conference on computer vision. 2017.
+  * [YOLOV3, 2018] Redmon, Joseph, and Ali Farhadi. "Yolov3: An incremental improvement." arXiv preprint arXiv:1804.02767 (2018).
+  * [YOLOX, 2021] Ge, Zheng, et al. "Yolox: Exceeding yolo series in 2021." arXiv preprint arXiv:2107.08430 (2021).
+  * [YOLOR, 2021] Wang, Chien-Yao, I-Hau Yeh, and Hong-Yuan Mark Liao. "You only learn one representation: Unified network for multiple tasks." arXiv preprint arXiv:2105.04206 (2021).
+  * [YOLOV7, 2023] Wang, Chien-Yao, Alexey Bochkovskiy, and Hong-Yuan Mark Liao. "YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023.
+* Object Segmentation - Semantic / Instance / Panoptic
+  * Classical: Graph Cut / Normalized Cut, Fuzzy Clustering, Mean-shift / Quick-shift, SLIC, Active Contours (Snakes), Region Growing, K-means Clustering, Watershed, Level Set Methods, Markov Random Fields (MRF), Edge (1st / 2nd derivatives) + filling
+  * [U-Net, 2015] Ronneberger, Olaf, Philipp Fischer, and Thomas Brox. "U-net: Convolutional networks for biomedical image segmentation." Medical Image Computing and Computer-Assisted Intervention–MICCAI 2015: 18th International Conference, Munich, Germany, October 5-9, 2015, Proceedings, Part III 18. Springer International Publishing, 2015.
+  * [DeepLabV3, 2017] Chen, Liang-Chieh, et al. "Rethinking atrous convolution for semantic image segmentation." arXiv preprint arXiv:1706.05587 (2017).
+  * [PSPNet, 2017] Zhao, Hengshuang, et al. "Pyramid scene parsing network." Proceedings of the IEEE conference on computer vision and pattern recognition. 2017.
+  * [Mask R-CNN, 2017] He, Kaiming, et al. "Mask r-cnn." Proceedings of the IEEE international conference on computer vision. 2017.
+  * [U-Net++, 2018] Zhou, Zongwei et al. “UNet++: A Nested U-Net Architecture for Medical Image Segmentation.” Deep Learning in Medical Image Analysis and Multimodal Learning for Clinical Decision Support : 4th International Workshop, DLMIA 2018, and 8th International Workshop, ML-CDS 2018, held in conjunction with MICCAI 2018, Granada, Spain, S... 11045 (2018): 3-11.
+  * [DeepLabV3+, 2018] Chen, Liang-Chieh et al. “Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation.” European Conference on Computer Vision (2018).
+  * [MaskFormer, 2021] Cheng, Bowen, Alex Schwing, and Alexander Kirillov. "Per-pixel classification is not all you need for semantic segmentation." Advances in Neural Information Processing Systems 34 (2021): 17864-17875.
+* Feature Matching
+  * {Local Features} [Superpoint, 2018] DeTone, Daniel, Tomasz Malisiewicz, and Andrew Rabinovich. "Superpoint: Self-supervised interest point detection and description." Proceedings of the IEEE conference on computer vision and pattern recognition workshops. 2018.
+  * {Local Features} [D2-Net, 2019] Dusmanu, Mihai, et al. "D2-net: A trainable cnn for joint detection and description of local features." arXiv preprint arXiv:1905.03561 (2019).
+  * [R2D2, 2019] Revaud, Jerome, et al. "R2D2: repeatable and reliable detector and descriptor." arXiv preprint arXiv:1906.06195 (2019).
+  * {Detector-Based Matcher} [SuperGlue, 2020] Sarlin, Paul-Edouard, et al. "Superglue: Learning feature matching with graph neural networks." Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2020.
+  * {Detector-Free Matcher} [DRC-Net, 2020] Li, Xinghui, et al. "Dual-resolution correspondence networks." Advances in Neural Information Processing Systems 33 (2020): 17346-17357.
+  * {Local Features} [DISK, 2020] Tyszkiewicz, Michał, Pascal Fua, and Eduard Trulls. "DISK: Learning local features with policy gradient." Advances in Neural Information Processing Systems 33 (2020): 14254-14265.
+  * {Detector-Free Matcher} [LoFTR, 2021] Sun, Jiaming, et al. "LoFTR: Detector-free local feature matching with transformers." Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2021.
+  * {Detector-Free Matcher} [MatchFormer, 2022] Wang, Qing, et al. "Matchformer: Interleaving attention in transformers for feature matching." Proceedings of the Asian Conference on Computer Vision. 2022.
+  * {Detector-Based Matcher} [LightGlue, 2023] Lindenberger, Philipp, Paul-Edouard Sarlin, and Marc Pollefeys. "LightGlue: Local Feature Matching at Light Speed." arXiv preprint arXiv:2306.13643 (2023).
+  * {Detector-Based Matcher} [GlueStick, 2023] Pautrat, Rémi, et al. "Gluestick: Robust image matching by sticking points and lines together." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2023.
+  * {Detector-Free Matcher} [OAMatcher, 2023] Dai, Kun, et al. "OAMatcher: An Overlapping Areas-based Network for Accurate Local Feature Matching." arXiv preprint arXiv:2302.05846 (2023).
+  * Edstedt, Johan, et al. "RoMa: Revisiting Robust Losses for Dense Feature Matching." arXiv preprint arXiv:2305.15404 (2023).
+  * Shen, Xuelun, et al. "GIM: Learning Generalizable Image Matcher From Internet Videos." The Twelfth International Conference on Learning Representations. 2023.
+  * {Detector-Free Matcher} [DeepMatcher, 2024] Xie, Tao, et al. "Deepmatcher: a deep transformer-based network for robust and accurate local feature matching." Expert Systems with Applications 237 (2024): 121361.
+  * {Detector-Free Matcher} [XFeat, 2024] Potje, Guilherme, et al. "XFeat: Accelerated Features for Lightweight Image Matching." IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2024.
 
 ---
 
