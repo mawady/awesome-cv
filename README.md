@@ -262,7 +262,6 @@
   * EUSIPCO: European Signal Processing Conference (IEEE)
   * ICRA: International Conference on Robotics and Automation (IEEE)
   * BMVC: British Machine Vision Conference (organized by BMVA: British Machine Vision Association and Society for Pattern Recognition)
-
 * CORE Rank C:
   * ICISP: International Conference on Image and Signal Processing (Springer)
   * ICIAR: International Conference on Image Analysis and Recognition (Springer)
@@ -287,7 +286,6 @@
   * Elsevier Computer Vision and Image Understanding (Elsevier CVIU)
   * Elsevier Expert Systems with Applications
   * Elsevier Neurocomputing, Springer Neural Computing and Applications
-
 * Tier 2
   * Elsevier Image and Vision Computing (Elsevier IVC)
   * Elsevier Pattern Recognition Letters (Elsevier PR Letters)
@@ -306,16 +304,14 @@
 
 ## Summer Schools
 
-* International Computer Vision Summer School (IVCSS) [2007-Present], Sicily, Italy [[2023](https://iplab.dmi.unict.it/icvss2023/)]
-
-* Machine Intelligence and Visual Computing Summer School (VISUM) [2013-2022], Porto, Portugal [[2022](https://visum.inesctec.pt)]
-* BMVA British Computer Vision Summer School (CVSS) [2013-2020,2023], UK [[Website](https://britishmachinevisionassociation.github.io/summer-school)]
+* International Computer Vision Summer School (IVCSS) [2007-Present], Sicily, Italy [[Website](https://iplab.dmi.unict.it/icvss2023/)]
+* Machine Intelligence and Visual Computing Summer School (VISUM) [2013-2022], Porto, Portugal [[Website](https://visum.inesctec.pt)]
+* BMVA British Computer Vision Summer School (CVSS) [2013-2020,2023-Present], UK [[Website](https://britishmachinevisionassociation.github.io/summer-school)]
 
 ---
 
 ## Popular Articles
 
-* Explainable AI (XAI)
 * Object Classification
   * [LeNet-5, 1998] LeCun, Yann, et al. "Gradient-based learning applied to document recognition." Proceedings of the IEEE 86.11 (1998): 2278-2324.
   * [AlexNet, 2012] Krizhevsky, Alex, Ilya Sutskever, and Geoffrey E. Hinton. "Imagenet classification with deep convolutional neural networks." Advances in neural information processing systems 25 (2012).
@@ -373,13 +369,59 @@
   * Shen, Xuelun, et al. "GIM: Learning Generalizable Image Matcher From Internet Videos." The Twelfth International Conference on Learning Representations. 2023.
   * {Detector-Free Matcher} [DeepMatcher, 2024] Xie, Tao, et al. "Deepmatcher: a deep transformer-based network for robust and accurate local feature matching." Expert Systems with Applications 237 (2024): 121361.
   * {Detector-Free Matcher} [XFeat, 2024] Potje, Guilherme, et al. "XFeat: Accelerated Features for Lightweight Image Matching." IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2024.
+* Object Tracking
+  * [SORT, 2017] Wojke, Nicolai, Alex Bewley, and Dietrich Paulus. "Simple online and realtime tracking with a deep association metric." 2017 IEEE international conference on image processing (ICIP). IEEE, 2017.
+  * [Tracktor, 2019] Bergmann, Philipp, Tim Meinhardt, and Laura Leal-Taixe. "Tracking without bells and whistles." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2019.
+  * [FairMOT, 2021] Zhang, Yifu, et al. "Fairmot: On the fairness of detection and re-identification in multiple object tracking." International Journal of Computer Vision 129 (2021): 3069-3087.
+  * [STARK, 2021] Yan, Bin, et al. "Learning spatio-temporal transformer for visual tracking." Proceedings of the IEEE/CVF international conference on computer vision. 2021.
+  * [MixFormer, 2022] Cui, Yutao, et al. "Mixformer: End-to-end tracking with iterative mixed attention." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2022.
+  * [ByteTrack, 2022] Zhang, Yifu, et al. "Bytetrack: Multi-object tracking by associating every detection box." European Conference on Computer Vision. Cham: Springer Nature Switzerland, 2022.
+* Image Generation
+  * [DCGAN, 2015] Radford, Alec, Luke Metz, and Soumith Chintala. "Unsupervised representation learning with deep convolutional generative adversarial networks." arXiv preprint arXiv:1511.06434 (2015).
+  * [BigGAN, 2018] Brock, Andrew, Jeff Donahue, and Karen Simonyan. "Large scale GAN training for high fidelity natural image synthesis." arXiv preprint arXiv:1809.11096 (2018).
+  * [StyleGANv3, 2021] Karras, Tero, et al. "Alias-free generative adversarial networks." Advances in Neural Information Processing Systems 34 (2021): 852-863.
+  * [DALL-E, 2021] Ramesh, Aditya, et al. "Zero-shot text-to-image generation." International conference on machine learning. Pmlr, 2021.
+  * [LAFITE, 2021] Zhou, Y., et al. "Lafite: Towards language-free training for text-to-image generation. arxiv 2021." arXiv preprint arXiv:2111.13792 2 (2021).
+  * [CLIP, 2021] Radford, Alec, et al. "Learning transferable visual models from natural language supervision." International conference on machine learning. PMLR, 2021.
+  * [Imagen, 2022] Saharia, Chitwan, et al. "Photorealistic text-to-image diffusion models with deep language understanding." Advances in neural information processing systems 35 (2022): 36479-36494.
+  * [GLIDE, 2022] Nichol, Alexander Quinn, et al. "GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models." International Conference on Machine Learning. PMLR, 2022.
+  * [unCLIP, 2022] Ramesh, Aditya, et al. "Hierarchical Text-Conditional Image Generation with CLIP Latents." arXiv preprint arXiv:2204.06125 (2022).
+  * [LDM / Stable Diffusion (SD), 2022] Rombach, Robin, et al. "High-resolution image synthesis with latent diffusion models." Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2022.
+  * [DALL-E 2, 2022] Ramesh, Aditya, et al. "Hierarchical text-conditional image generation with clip latents." arXiv preprint arXiv:2204.06125 1.2 (2022).
+  * [DALL-E 3, 2023] Betker, James, et al. "Improving image generation with better captions." Computer Science. <https://cdn.openai.com/papers/dall-e-3.pdf> 2.3 (2023): 8.
+  * [SDXL, 2023] Podell, Dustin, et al. "SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis." The Twelfth International Conference on Learning Representations. 2023.
+* Image Retrieval
+  * [LSMH, 2016] Lu, Xiaoqiang, Xiangtao Zheng, and Xuelong Li. "Latent semantic minimal hashing for image retrieval." IEEE Transactions on Image Processing 26.1 (2016): 355-368.
+  * [R–GeM, 2018] Radenović, Filip, Giorgos Tolias, and Ondřej Chum. "Fine-tuning CNN image retrieval with no human annotation." IEEE transactions on pattern analysis and machine intelligence 41.7 (2018): 1655-1668.
+  * [HOW, 2020] Tolias, Giorgos, Tomas Jenicek, and Ondřej Chum. "Learning and aggregating deep local descriptors for instance-level recognition." Computer Vision–ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020, Proceedings, Part I 16. Springer International Publishing, 2020.
+  * [FIRe, 2021] Weinzaepfel, Philippe, et al. "Learning Super-Features for Image Retrieval." International Conference on Learning Representations. 2021.
+  * [Token, 2022] Wu, Hui, et al. "Learning token-based representation for image retrieval." Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 36. No. 3. 2022.
+* WIP:
+  * Explainable AI (XAI)
+  * Video Summarization and Captioning
+  * Text Recognition
+  * Data Compression
+  * Affective Computing
+  * Image Colorization
+  * Virtual reality (VR)
+  * Augmented reality (AR)
+  * Visual Question Answering (VQA)
+  * Vision-Language Models (VLMs)
+  * DeepFake Detection
+  * 3D Reconstruction
+  * Image Captioning
+  * Image Super-Resolution / Image Restoration
+  * Pose Estimation
+  * Biometric Analysis
+  * Depth Estimation
+  * Meta Learning
+  * Semi-Supervised Learning - Zero/One/Few shot
 
 ---
 
 ## YouTube Channels
 
 * [@AurelienGeron](https://www.youtube.com/@AurelienGeron) `[Individual]`, Aurélien Géron: former lead of YouTube's video classification team, and author of the O'Reilly book Hands-On Machine Learning with Scikit-Learn and TensorFlow.
-
 * [@howardjeremyp](https://www.youtube.com/@howardjeremyp) `[Individual]`, Jeremy Howard: former president and chief scientist of Kaggle, and co-founder of fast.ai.
 * [@PieterAbbeel](https://www.youtube.com/@PieterAbbeel) `[Individual]`, Pieter Abbeel: professor of electrical engineering and computer sciences, University of California, Berkeley.
 * [@pascalpoupart3507](https://www.youtube.com/@pascalpoupart3507) `[Individual]`, Pascal Poupart: professor in the David R. Cheriton School of Computer Science at the University of Waterloo.
@@ -405,8 +447,7 @@
 * [@TwoMinutePapers](https://www.youtube.com/@TwoMinutePapers) `[Papers]`, Two Minute Papers: Explaining AI papers in few mins.
 * [@TheAIEpiphany](https://www.youtube.com/@TheAIEpiphany) `[Papers]`, Aleksa Gordić: x-Google DeepMind, x-Microsoft engineer explaining AI papers.
 * [@bycloudAI](https://www.youtube.com/@bycloudAI) `[Papers]`, bycloud: covers the latest AI tech/research papers for fun.
-
-* Unorganized/Unsorted:
+* WIP:
   * <https://www.youtube.com/@AAmini>
   * <https://www.youtube.com/@WhatsAI>  
   * <https://www.youtube.com/@mrdbourke>
@@ -431,7 +472,6 @@
 ## Mailing Lists
 
 * [Vision Science](http://visionscience.com/mailman/listinfo/visionlist_visionscience.com), announcements about industry/academic jobs in computer vision around the world (in English).
-
 * [bull-i3](https://listes.irit.fr/sympa/info/bull-i3), posts about job opportunities in computer vision in France (in French).
 
 ---
@@ -439,7 +479,6 @@
 ## Thanks
 
 * [Frida de Sigley](https://github.com/fdsig)
-
 * Dan Harvey
 * [CORE Conference Ranking](http://portal.core.edu.au/conf-ranks/?search=4603&by=all&source=CORE2021&sort=arank&page=1)
 * [Scimago Journal Ranking](https://www.scimagojr.com/journalrank.php)
