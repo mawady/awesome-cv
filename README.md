@@ -122,7 +122,7 @@
 
 ## Repos
 
-### Tags: Object Classification `[ObjCls]`, Object Detection `[ObjDet]`, Object Segmentation `[ObjSeg]`, General Library `[GenLib]`, Text Reading / Object Character Recognition `[OCR]`, Action Recognition `[ActRec]`, Object Tracking `[ObjTrk]`, Data Augmentation `[DatAug]`, Simultaneous Localization and Mapping `[SLAM]`, Outlier/Anomaly/Novelty Detection `[NvlDet]`, Content-based Image Retrieval `[CBIR]`, Image Enhancement `[ImgEnh]`, Aesthetic Assessment `[AesAss]`, Explainable Artificial Intelligence `[XAI]`, Text-to-Image Generation `[TexImg]`, Pose Estimation `[PosEst]`, Video Matting `[VidMat]`, Eye Tracking `[EyeTrk]`
+* Tags: Object Classification `[ObjCls]`, Object Detection `[ObjDet]`, Object Segmentation `[ObjSeg]`, General Library `[GenLib]`, Text Reading / Object Character Recognition `[OCR]`, Action Recognition `[ActRec]`, Object Tracking `[ObjTrk]`, Data Augmentation `[DatAug]`, Simultaneous Localization and Mapping `[SLAM]`, Outlier/Anomaly/Novelty Detection `[NvlDet]`, Content-based Image Retrieval `[CBIR]`, Image Enhancement `[ImgEnh]`, Aesthetic Assessment `[AesAss]`, Explainable Artificial Intelligence `[XAI]`, Text-to-Image Generation `[TexImg]`, Pose Estimation `[PosEst]`, Video Matting `[VidMat]`, Eye Tracking `[EyeTrk]`
 
 | Repo | Tags | Description |
 | --------------- | --------------- | --------------- |
@@ -203,11 +203,13 @@
 
 ## Annotation Tools
 
-* [VoTT](https://github.com/microsoft/VoTT), Microsoft, Visual Object Tagging Tool: An electron app for building end to end Object Detection Models from Images and Videos
-* [labelme](https://github.com/wkentaro/labelme), Image Polygonal Annotation with Python (polygon, rectangle, circle, line, point and image-level flag annotation)
-* [labelImg](https://github.com/tzutalin/labelImg), Graphical image annotation tool and label object bounding boxes in images
-* [VIA](https://www.robots.ox.ac.uk/~vgg/software/via/), VGG Oxford, HTML-based standalone manual annotation software for image, audio and video
-* [FiftyOne](https://github.com/voxel51/fiftyone), open-source tool for building high-quality datasets and computer vision models
+* [CVAT](https://github.com/cvat-ai/cvat), an interactive video and image annotation tool for computer vision.
+* [VoTT](https://github.com/microsoft/VoTT), Microsoft, Visual Object Tagging Tool: An electron app for building end to end Object Detection Models from Images and Videos.
+* [labelme](https://github.com/wkentaro/labelme), Image Polygonal Annotation with Python (polygon, rectangle, circle, line, point and image-level flag annotation).
+* [labelImg](https://github.com/tzutalin/labelImg), Graphical image annotation tool and label object bounding boxes in images.
+* [VIA](https://www.robots.ox.ac.uk/~vgg/software/via/), VGG Oxford, HTML-based standalone manual annotation software for image, audio and video.
+* [FiftyOne](https://github.com/voxel51/fiftyone), open-source tool for building high-quality datasets and computer vision models.
+* [makesense.ai](https://github.com/SkalskiP/make-sense), a free-to-use online tool for labeling photos.
 
 ---
 
@@ -345,7 +347,7 @@
   * [YOLOR, 2021] Wang, Chien-Yao, I-Hau Yeh, and Hong-Yuan Mark Liao. "You only learn one representation: Unified network for multiple tasks." arXiv preprint arXiv:2105.04206 (2021).
   * [YOLOV7, 2023] Wang, Chien-Yao, Alexey Bochkovskiy, and Hong-Yuan Mark Liao. "YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023.
 * Object Segmentation - Semantic / Instance / Panoptic
-  * Classical: Graph Cut / Normalized Cut, Fuzzy Clustering, Mean-shift / Quick-shift, SLIC, Active Contours (Snakes), Region Growing, K-means Clustering, Watershed, Level Set Methods, Markov Random Fields (MRF), Edge (1st / 2nd derivatives) + filling
+  * Classical: Graph Cut / Normalized Cut, Fuzzy Clustering, Mean-shift / Quick-shift, SLIC, Active Contours (Snakes), Region Growing, K-means Clustering, Watershed, Level Set Methods, Markov Random Fields (MRF), Edge (1st / 2nd derivatives) + filling.
   * [U-Net, 2015] Ronneberger, Olaf, Philipp Fischer, and Thomas Brox. "U-net: Convolutional networks for biomedical image segmentation." Medical Image Computing and Computer-Assisted Intervention–MICCAI 2015: 18th International Conference, Munich, Germany, October 5-9, 2015, Proceedings, Part III 18. Springer International Publishing, 2015.
   * [DeepLabV3, 2017] Chen, Liang-Chieh, et al. "Rethinking atrous convolution for semantic image segmentation." arXiv preprint arXiv:1706.05587 (2017).
   * [PSPNet, 2017] Zhao, Hengshuang, et al. "Pyramid scene parsing network." Proceedings of the IEEE conference on computer vision and pattern recognition. 2017.
@@ -353,6 +355,9 @@
   * [U-Net++, 2018] Zhou, Zongwei et al. “UNet++: A Nested U-Net Architecture for Medical Image Segmentation.” Deep Learning in Medical Image Analysis and Multimodal Learning for Clinical Decision Support : 4th International Workshop, DLMIA 2018, and 8th International Workshop, ML-CDS 2018, held in conjunction with MICCAI 2018, Granada, Spain, S... 11045 (2018): 3-11.
   * [DeepLabV3+, 2018] Chen, Liang-Chieh et al. “Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation.” European Conference on Computer Vision (2018).
   * [MaskFormer, 2021] Cheng, Bowen, Alex Schwing, and Alexander Kirillov. "Per-pixel classification is not all you need for semantic segmentation." Advances in Neural Information Processing Systems 34 (2021): 17864-17875.
+  * [SegFormer, 2021] E. Xie, W. Wang, Z. Yu, A. Anandkumar, J. M. Alvarez, and P. Luo, “Segformer: Simple and efficient design for semantic segmentation with transformers,” Advances in neural information processing systems, vol. 34, pp. 12 077–12 090, 2021.
+  * [SAM, 2023] A. Kirillov, E. Mintun, N. Ravi, et al., “Segment anything,” in Proceedings of the IEEE/CVF International Conference on Computer Vision, 2023, pp. 4015–4026.
+  * [SEEM, 2023] Zou, Xueyan, et al. "Segment everything everywhere all at once." Advances in neural information processing systems 36 (2023): 19769-19782.
 * Feature Matching
   * {Local Features} [Superpoint, 2018] DeTone, Daniel, Tomasz Malisiewicz, and Andrew Rabinovich. "Superpoint: Self-supervised interest point detection and description." Proceedings of the IEEE conference on computer vision and pattern recognition workshops. 2018.
   * {Local Features} [D2-Net, 2019] Dusmanu, Mihai, et al. "D2-net: A trainable cnn for joint detection and description of local features." arXiv preprint arXiv:1905.03561 (2019).
