@@ -358,6 +358,9 @@
 | [CutMix-PyTorch](https://github.com/clovaai/CutMix-PyTorch) | `[DatAug]` | Official Pytorch implementation of CutMix regularizer |
 | [keras-cv](https://github.com/keras-team/keras-cv) | `[GenLib]` | Library of modular computer vision oriented Keras components |
 | [PsychoPy](https://github.com/psychopy/psychopy) | `[EyeTrk]` | Library for running psychology and neuroscience experiments |
+| [alibi-detect](https://github.com/SeldonIO/alibi-detect) | `[NvlDet]` | Algorithms for outlier, adversarial and drift detection |
+| [Captum](https://github.com/pytorch/captum) | `[XAI]` | built by PyTorch team, Model interpretability and understanding for PyTorch |
+| [Alibi](https://github.com/SeldonIO/alibi) | `[XAI]` | Algorithms for explaining machine learning models |
 
 ---
 
@@ -366,7 +369,6 @@
 * [PyTorch - CV Datasets](https://pytorch.org/vision/stable/datasets.html), Meta
 * [Tensorflow - CV Datasets](https://www.tensorflow.org/datasets/catalog/overview#image), Google
 * [CVonline: Image Databases](https://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm), Edinburgh University, Thanks to Robert Fisher!
-* [Yet Another Computer Vision Index To Datasets (YACVID)](http://yacvid.hayko.at), Thanks to Hayko Riemenschneider!
 * [Kaggle](https://www.kaggle.com/datasets?tags=13207-Computer+Vision)
 * [PaperWithCode](https://paperswithcode.com/area/computer-vision), Meta
 * [RoboFlow](https://public.roboflow.com)
