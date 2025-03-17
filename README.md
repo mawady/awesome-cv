@@ -2,6 +2,7 @@
 >
 > * **[Python Libraries](#python-libraries)**
 > * **[MATLAB/Octave Libraries](#matlab-libraries)**
+> * **[Evaluation Metrics](#evaluation-metrics)**
 > * **[Conferences](#conferences)**
 > * **[Journals](#journals)**
 > * **[Summer Schools](#summer-schools)**
@@ -47,6 +48,62 @@
 | [VLFeat](https://www.vlfeat.org/index.html) | open source library implements popular computer vision algorithms, A. Vedaldi and B. Fulkerson|
 | [MLV](https://github.com/bwlabToronto/MLV_toolbox) | Mid-level Vision Toolbox (MLVToolbox), BWLab, University of Toronto|
 | [ElencoCode](https://www.dropbox.com/s/bguw035yrqz0pwp/ElencoCode.docx?dl=0) | Loris Nanni's CV functions, University of Padova|
+
+---
+
+## Evaluation Metrics
+
+* Performance - Classficiation
+  * Confusion Matrix: TP, FP, TN, and FN for each class
+  * For class balanced datasets:
+    * Accuracy : (TP+TN)/(TP+FP+TN+FN)
+    * ROC curve: TPR vs FPR
+  * For class imbalanced datasets:
+    * Precision (PR): TP/(TP+FP)
+    * Recall (RC): TP/(TP+FN)
+    * F1-Score: 2*PR*RC/(PR+RC)
+    * Balanced accuracy: (TPR+TNR)/2
+    * Weighted-Averaged Precision, Recall, and F1-Score
+    * PR curve: PR vs RC
+* Performance - Detection
+  * Intersection over Union (IoU)
+  * mAP: Average AP over all classes
+  * mAP@0.5: Uses IoU threshold 0.5 (PASCAL VOC)
+  * mAP@0.5:0.95: Averages AP over multiple IoU thresholds (COCO metric)
+  * False Positives Per Image (FPPI)
+  * Precision, Recall, and F1-Score
+* Performance - Segementation
+  * Intersection over Union (IoU) / Jaccard Index
+  * Dice Coefficient / F1-Score
+  * Mean Pixel Accuracy (mPA)
+  * Boundary IoU (BIoU)
+  * Hausdorff Distance
+  * Precision, Recall, and F1-Score
+* Performance - Tracking
+  * Multiple Object Tracking Accuracy (MOTA)
+  * Multiple Object Tracking Precision (MOTP)
+  * ID F1-Score (IDF1)
+  * Identity Switches (IDSW)
+  * Track Completeness (TC)
+  * Mostly Tracked (MT) / Mostly Lost (ML)
+* Performance - Perceptual Quality (Super-resolution, Denoising, Contrast Enhancement)
+  * Peak Signal-to-Noise Ratio (PSNR)
+  * Mean Squared Error (MSE)
+  * Structural Similarity Index (SSIM)
+  * Multi-Scale SSIM (MS-SSIM)
+  * Learned Perceptual Image Patch Similarity (LPIPS)
+  * Visual Information Fidelity (VIF)
+  * Kernel Inception Distance (KID)
+  * Gradient Magnitude Similarity Deviation (GMSD)
+  * Edge Preservation Index (EPI)
+  * Natural Image Quality Evaluator (NIQE)
+* Performance - Generation (GANs, Diffusion Models)
+  * Inception Score (IS)
+  * Fréchet Inception Distance (FID)
+  * Perceptual Path Length (PPL)
+* Computation
+  * Inference Time - Frames Per Second (FPS)
+  * Model Size
 
 ---
 
@@ -361,6 +418,13 @@
 | [alibi-detect](https://github.com/SeldonIO/alibi-detect) | `[NvlDet]` | Algorithms for outlier, adversarial and drift detection |
 | [Captum](https://github.com/pytorch/captum) | `[XAI]` | built by PyTorch team, Model interpretability and understanding for PyTorch |
 | [Alibi](https://github.com/SeldonIO/alibi) | `[XAI]` | Algorithms for explaining machine learning models |
+| [iNNvestigate](https://github.com/albermax/innvestigate) | `[XAI]` | for TF, A toolbox to iNNvestigate neural networks' predictions |
+| [keras-vis](https://github.com/raghakot/keras-vis) | `[XAI]` | for Keras, Neural network visualization toolkit |
+| [Keract](https://github.com/philipperemy/keract) | `[XAI]` | for Keras, Layers Outputs and Gradients |
+| [pytorch-grad-cam](https://github.com/jacobgil/pytorch-grad-cam) | `[XAI]` | for PyTorch, Advanced AI Explainability for computer vision |
+| [SHAP](https://github.com/shap/shap) | `[XAI]` | A game theoretic approach to explain the output of any machine learning model |
+| [TensorWatch](https://github.com/microsoft/tensorwatch) | `[XAI]` | built by Microsoft, Debugging, monitoring and visualization for Python Machine Learning and Data Science |
+| [WeightWatcher](https://github.com/CalculatedContent/WeightWatcher) | `[XAI]` | an open-source, diagnostic tool for analyzing Deep Neural Networks (DNN), without needing access to training or even test data |
 
 ---
 
