@@ -106,62 +106,63 @@
 ## Conferences
 
 * CORE Rank A:
-  * ICCV: International Conference on Computer Vision (IEEE)
-  * CVPR: Conference on Computer Vision and Pattern Recognition (IEEE)
-  * ECCV: European Conference on Computer Vision (Springer)
-  * WACV: Winter Conference/Workshop on Applications of Computer Vision (IEEE)
-  * ICASSP: International Conference on Acoustics, Speech, and Signal Processing (IEEE)
-  * MICCAI: Conference on Medical Image Computing and Computer Assisted Intervention (Springer)
-  * IROS: International Conference on Intelligent Robots and Systems (IEEE)
-  * ACMMM: ACM International Conference on Multimedia (ACM)
+  * ICCV: International Conference on Computer Vision (IEEE) [[dblp](https://dblp.org/streams/conf/iccv)]
+  * CVPR: Conference on Computer Vision and Pattern Recognition (IEEE) [[dblp](https://dblp.org/streams/conf/cvpr)]
+  * ECCV: European Conference on Computer Vision (Springer) [[dblp](https://dblp.org/streams/conf/eccv)]
+  * WACV: Winter Conference/Workshop on Applications of Computer Vision (IEEE) [[dblp](https://dblp.org/streams/conf/wacv)]
+  * ICASSP: International Conference on Acoustics, Speech, and Signal Processing (IEEE) [[dblp](https://dblp.org/streams/conf/icassp)]
+  * MICCAI: Conference on Medical Image Computing and Computer Assisted Intervention (Springer) [[dblp](https://dblp.org/streams/conf/miccai)]
+  * IROS: International Conference on Intelligent Robots and Systems (IEEE) [[dblp](https://dblp.org/streams/conf/iros)]
+  * ACMMM: ACM International Conference on Multimedia (ACM) [[dblp](https://dblp.org/streams/conf/mm)]
 * CORE Rank B
-  * ACCV: Asian Conference on Computer Vision (Springer)
-  * VCIP: International Conference on Visual Communications and Image Processing (IEEE)
-  * ICIP: International Conference on Image Processing (IEEE)
-  * CAIP: International Conference on Computer Analysis of Images and Patterns (Springer)
-  * VISAPP: International Conference on Vision Theory and Applications (SCITEPRESS)
-  * ICPR: International Conference on Pattern Recognition (IEEE)
-  * ACIVS: Conference on Advanced Concepts for Intelligent Vision Systems (Springer)
-  * EUSIPCO: European Signal Processing Conference (IEEE)
-  * ICRA: International Conference on Robotics and Automation (IEEE)
-  * BMVC: British Machine Vision Conference (organized by BMVA: British Machine Vision Association and Society for Pattern Recognition)
+  * ACCV: Asian Conference on Computer Vision (Springer) [[dblp](https://dblp.org/streams/conf/accv)]
+  * VCIP: International Conference on Visual Communications and Image Processing (IEEE) [[dblp](https://dblp.org/streams/conf/vcip)]
+  * ICIP: International Conference on Image Processing (IEEE) [[dblp](https://dblp.org/streams/conf/icip)]
+  * CAIP: International Conference on Computer Analysis of Images and Patterns (Springer) [[dblp](https://dblp.org/streams/conf/caip)]
+  * VISAPP: International Conference on Vision Theory and Applications (SCITEPRESS) [[dblp](https://dblp.org/streams/conf/visapp)]
+  * ICPR: International Conference on Pattern Recognition (IEEE) [[dblp](https://dblp.org/streams/conf/icpr)]
+  * ACIVS: Conference on Advanced Concepts for Intelligent Vision Systems (Springer) [[dblp](https://dblp.org/streams/conf/acivs)]
+  * EUSIPCO: European Signal Processing Conference (IEEE) [[dblp](https://dblp.org/streams/conf/eusipco)]
+  * ICRA: International Conference on Robotics and Automation (IEEE) [[dblp](https://dblp.org/streams/conf/icra)]
+  * BMVC: British Machine Vision Conference (organized by BMVA: British Machine Vision Association and Society for Pattern Recognition) [[dblp](https://dblp.org/streams/conf/bmvc)]
 * CORE Rank C:
-  * ICISP: International Conference on Image and Signal Processing (Springer)
-  * ICIAR: International Conference on Image Analysis and Recognition (Springer)
-  * ICVS: International Conference on Computer Vision Systems (Springer)
+  * ICISP: International Conference on Image and Signal Processing (Springer) [[dblp](https://dblp.org/streams/conf/icisp)]
+  * ICIAR: International Conference on Image Analysis and Recognition (Springer) [[dblp](https://dblp.org/streams/conf/iciar)]
+  * ICVS: International Conference on Computer Vision Systems (Springer) [[dblp](https://dblp.org/streams/conf/icvs)]
 * Unranked but popular
-  * MIUA: Conference on Medical Image Understanding and Analysis (organized by BMVA: British Machine Vision Association and Society for Pattern Recognition)
-  * EUVIP: European Workshop on Visual Information Processing (IEEE, organized by EURASIP: European Association for Signal Processing)
-  * CIC: Color and Imaging Conference (organized by IS&T: Society for Imaging Science and Technology)
-  * CVCS: Colour and Visual Computing Symposium
-  * DSP: International Conference on Digital Signal Processing
+  * MIUA: Conference on Medical Image Understanding and Analysis (organized by BMVA: British Machine Vision Association and Society for Pattern Recognition) [[dblp](https://dblp.org/streams/conf/miua)]
+  * EUVIP: European Workshop on Visual Information Processing (IEEE, organized by EURASIP: European Association for Signal Processing) [[dblp](https://dblp.org/streams/conf/euvip)]
+  * CIC: Color and Imaging Conference (organized by IS&T: Society for Imaging Science and Technology) [[dblp](https://dblp.org/streams/conf/imaging)]
+  * CVCS: Colour and Visual Computing Symposium [[dblp](https://dblp.org/streams/conf/cvcs)]
+  * DSP: International Conference on Digital Signal Processing [[dblp](https://dblp.org/streams/conf/icdsp)]
 
 ---
 
 ## Journals
 
 * Tier 1
-  * IEEE Transactions on Pattern Analysis and Machine Intelligence (IEEE TPAMI)
-  * IEEE Transactions on Image Processing (IEEE TIP)
-  * IEEE Transactions on Circuits and Systems for Video Technology (IEEE TCSVT)
-  * Springer International Journal of Computer Vision (Springer IJCV)
-  * Elsevier Pattern Recognition (Elsevier PR)
-  * Elsevier Computer Vision and Image Understanding (Elsevier CVIU)
-  * Elsevier Expert Systems with Applications
-  * Elsevier Neurocomputing, Springer Neural Computing and Applications
+  * IEEE Transactions on Pattern Analysis and Machine Intelligence (IEEE TPAMI) [[dblp](https://dblp.org/streams/journals/pami)]
+  * IEEE Transactions on Image Processing (IEEE TIP) [[dblp](https://dblp.org/streams/journals/tip)]
+  * IEEE Transactions on Circuits and Systems for Video Technology (IEEE TCSVT) [[dblp](https://dblp.org/streams/journals/tcsv)]
+  * Springer International Journal of Computer Vision (Springer IJCV) [[dblp](https://dblp.org/streams/journals/ijcv)]
+  * Elsevier Pattern Recognition (Elsevier PR) [[dblp](https://dblp.org/streams/journals/pr)]
+  * Elsevier Computer Vision and Image Understanding (Elsevier CVIU) [[dblp](https://dblp.org/streams/journals/cviu)]
+  * Elsevier Expert Systems with Applications [[dblp](https://dblp.org/streams/journals/eswa)]
+  * Elsevier Neurocomputing [[dblp](https://dblp.org/streams/journals/ijon)]
+  * Springer Neural Computing and Applications [[dblp](https://dblp.org/streams/journals/nca)]
 * Tier 2
-  * Elsevier Image and Vision Computing (Elsevier IVC)
-  * Elsevier Pattern Recognition Letters (Elsevier PR Letters)
-  * Elsevier Journal of Visual Communication and Image Representation
-  * Springer Journal of Mathematical Imaging and Vision
-  * SPIE Journal of Electronic Imaging
-  * IET Image Processing
-  * Springer Pattern Analysis and Applications (Springer PAA)
-  * Springer Machine Vision and Applications (Springer MVA)
-  * IET Computer Vision
+  * Elsevier Image and Vision Computing (Elsevier IVC) [[dblp](https://dblp.org/streams/journals/ivc)]
+  * Elsevier Pattern Recognition Letters (Elsevier PR Letters) [[dblp](https://dblp.org/streams/journals/prl)]
+  * Elsevier Journal of Visual Communication and Image Representation [[dblp](https://dblp.org/streams/journals/jvcir)]
+  * Springer Journal of Mathematical Imaging and Vision [[dblp](https://dblp.org/streams/journals/jmiv)]
+  * SPIE Journal of Electronic Imaging [[dblp](https://dblp.org/streams/journals/jei)]
+  * IET Image Processing [[dblp](https://dblp.org/streams/journals/iet-ipr)]
+  * Springer Pattern Analysis and Applications (Springer PAA) [[dblp](https://dblp.org/streams/journals/paa)]
+  * Springer Machine Vision and Applications (Springer MVA) [[dblp](https://dblp.org/streams/journals/mva)]
+  * IET Computer Vision [[dblp](https://dblp.org/streams/journals/iet-cvi)]
 * Open Access
-  * IEEE Access
-  * MDPI Journal of Imaging
+  * IEEE Access [[dblp](https://dblp.org/streams/journals/access)]
+  * MDPI Journal of Imaging [[dblp](https://dblp.org/streams/journals/jimaging)]
 
 ---
 
