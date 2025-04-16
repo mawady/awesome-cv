@@ -74,7 +74,8 @@
   * Mean Pixel Accuracy (mPA)
   * Boundary IoU (BIoU)
   * Hausdorff Distance
-  * Precision, Recall, and F1-Score
+  * Precision
+  * Recall / Sensitivity / True Positive Rate
 * Performance - Tracking
   * Multiple Object Tracking Accuracy (MOTA)
   * Multiple Object Tracking Precision (MOTP)
