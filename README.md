@@ -2,6 +2,10 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/mawady/awesome-academic)
 
+---
+
+## Contents
+
 >
 > * **[Python Libraries](#python-libraries)**
 > * **[MATLAB/Octave Libraries](#matlab-libraries)**
