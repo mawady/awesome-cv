@@ -120,6 +120,7 @@
   * WACV: Winter Conference/Workshop on Applications of Computer Vision (IEEE) [[dblp](https://dblp.org/streams/conf/wacv)]
   * ICASSP: International Conference on Acoustics, Speech, and Signal Processing (IEEE) [[dblp](https://dblp.org/streams/conf/icassp)]
   * MICCAI: Conference on Medical Image Computing and Computer Assisted Intervention (Springer) [[dblp](https://dblp.org/streams/conf/miccai)]
+  * ISBI: IEEE International Symposium on Biomedical Imaging (IEEE) [[dblp](https://dblp.org/streams/conf/isbi)]
   * IROS: International Conference on Intelligent Robots and Systems (IEEE) [[dblp](https://dblp.org/streams/conf/iros)]
   * ACMMM: ACM International Conference on Multimedia (ACM) [[dblp](https://dblp.org/streams/conf/mm)]
 * CORE Rank B
@@ -150,14 +151,19 @@
 
 * Tier 1
   * IEEE Transactions on Pattern Analysis and Machine Intelligence (IEEE TPAMI) [[dblp](https://dblp.org/streams/journals/pami)]
+  * Springer International Journal of Computer Vision (Springer IJCV) [[dblp](https://dblp.org/streams/journals/ijcv)]
   * IEEE Transactions on Image Processing (IEEE TIP) [[dblp](https://dblp.org/streams/journals/tip)]
   * IEEE Transactions on Circuits and Systems for Video Technology (IEEE TCSVT) [[dblp](https://dblp.org/streams/journals/tcsv)]
-  * Springer International Journal of Computer Vision (Springer IJCV) [[dblp](https://dblp.org/streams/journals/ijcv)]
   * Elsevier Pattern Recognition (Elsevier PR) [[dblp](https://dblp.org/streams/journals/pr)]
   * Elsevier Computer Vision and Image Understanding (Elsevier CVIU) [[dblp](https://dblp.org/streams/journals/cviu)]
   * Elsevier Expert Systems with Applications [[dblp](https://dblp.org/streams/journals/eswa)]
   * Elsevier Neurocomputing [[dblp](https://dblp.org/streams/journals/ijon)]
   * Springer Neural Computing and Applications [[dblp](https://dblp.org/streams/journals/nca)]
+  * IEEE Transactions on Medical Imaging (IEEE TMI) [[dblp](https://dblp.org/streams/journals/tmi)]
+  * Elsevier Medical Image Analysis [[dblp](https://dblp.org/streams/journals/mia)]
+  * Elsevier Computerized Medical Imaging and Graphics [[dblp](https://dblp.org/streams/journals/cmig)]
+  * Elsevier Computer Methods and Programs in Biomedicine [[dblp](https://dblp.org/streams/journals/cmpb)]
+  * Elsevier Computers in Biology and Medicine [[dblp](https://dblp.org/streams/journals/cbm)]
 * Tier 2
   * Elsevier Image and Vision Computing (Elsevier IVC) [[dblp](https://dblp.org/streams/journals/ivc)]
   * Elsevier Pattern Recognition Letters (Elsevier PR Letters) [[dblp](https://dblp.org/streams/journals/prl)]
