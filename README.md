@@ -1,6 +1,6 @@
 # Curated educational list for computer vision
 
-[![Awesome](https://awesome.re/badge.svg)](https://github.com/mawady/awesome-academic)
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/mawady/awesome-cv)
 
 ---
 
