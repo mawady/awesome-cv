@@ -275,8 +275,17 @@
   * [LSMH, 2016] Lu, Xiaoqiang, Xiangtao Zheng, and Xuelong Li. "Latent semantic minimal hashing for image retrieval." IEEE Transactions on Image Processing 26.1 (2016): 355-368.
   * [R–GeM, 2018] Radenović, Filip, Giorgos Tolias, and Ondřej Chum. "Fine-tuning CNN image retrieval with no human annotation." IEEE transactions on pattern analysis and machine intelligence 41.7 (2018): 1655-1668.
   * [HOW, 2020] Tolias, Giorgos, Tomas Jenicek, and Ondřej Chum. "Learning and aggregating deep local descriptors for instance-level recognition." Computer Vision–ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020, Proceedings, Part I 16. Springer International Publishing, 2020.
+  * [DELG, 2020] Cao, Bingyi, Andre Araujo, and Jack Sim. "Unifying deep local and global features for image search." Computer Vision–ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020, Proceedings, Part XX 16. Springer International Publishing, 2020.
+  * [SOLAR, 2020] Ng, Tony, et al. "SOLAR: second-order loss and attention for image retrieval." Computer Vision–ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020, Proceedings, Part XXV 16. Springer International Publishing, 2020.
   * [FIRe, 2021] Weinzaepfel, Philippe, et al. "Learning Super-Features for Image Retrieval." International Conference on Learning Representations. 2021.
+  * [DOLG, 2021] Yang, Min, et al. "Dolg: Single-stage image retrieval with deep orthogonal fusion of local and global features." Proceedings of the IEEE/CVF International conference on Computer Vision. 2021.
   * [Token, 2022] Wu, Hui, et al. "Learning token-based representation for image retrieval." Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 36. No. 3. 2022.
+  * [CVNet, 2022] Lee, Seongwon, et al. "Correlation verification for image retrieval." Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2022.
+  * [GLAM, 2022] Song, Chull Hwan, Hye Joo Han, and Yannis Avrithis. "All the attention you need: Global-local, spatial-channel attention for image retrieval." Proceedings of the IEEE/CVF winter conference on applications of computer vision. 2022.
+  * [SuperGlobal, 2023] Shao, Shihao, et al. "Global features are all you need for image retrieval and reranking." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2023.
+  * [CFCD, 2023] Zhu, Yunquan, et al. "Coarse-to-fine: Learning compact discriminative representation for single-stage image retrieval." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2023.
+  * [SENet, 2023] Lee, Seongwon, et al. "Revisiting self-similarity: Structural embedding for image retrieval." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023.
+  * [CiDeR, 2024] Song, Chull Hwan, et al. "On train-test class overlap and detection for image retrieval." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2024.
 * WIP:
   * Explainable AI (XAI)
   * Video Summarization and Captioning
