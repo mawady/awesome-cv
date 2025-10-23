@@ -365,6 +365,9 @@
 | [pytorch_geometric](https://github.com/pyg-team/pytorch_geometric) | `[GenLib]` | Graph Neural Network Library for PyTorch |
 | [kornia](https://github.com/kornia/kornia) | `[GenLib]` | Open Source Differentiable Computer Vision Library |
 | [ncnn](https://github.com/Tencent/ncnn) | `[GenLib]` | Tencent, High-performance neural network inference framework optimized for the mobile platform |
+| [ITK](https://github.com/InsightSoftwareConsortium/ITK) | `[GenLib]` | open-source, cross-platform toolkit for N-dimensional scientific image processing, segmentation, and registration |
+| [VTK](https://github.com/Kitware/VTK) | `[GenLib]` | open-source software system for image processing, 3D graphics, volume rendering and visualization |
+| [MONAI](https://github.com/Project-MONAI/MONAI) | `[GenLib]` | PyTorch-based, open-source framework for deep learning in healthcare imaging |
 | [MediaPipe](https://github.com/google/mediapipe) | `[ObjDet]` `[ObjSeg]` `[ObjTrk]` `[GenLib]` | Google, iOS - Andriod - C++ - Python - Coral, Face Detection - Face Mesh - Iris - Hands - Pose - Holistic - Hair Segmentation - Object Detection - Box Tracking - Instant Motion Tracking - Objectron - KNIFT (Similar to SIFT) |
 | [PyTorch image models](https://github.com/rwightman/pytorch-image-models) | `[ObjCls]` | rwightman, PyTorch image classification models, scripts, pretrained weights |
 | [mmclassification](https://github.com/open-mmlab/mmclassification) | `[ObjCls]` | OpenMMLab, Image Classification Toolbox and Benchmark |
