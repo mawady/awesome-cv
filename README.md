@@ -287,23 +287,25 @@
   * [SENet, 2023] Lee, Seongwon, et al. "Revisiting self-similarity: Structural embedding for image retrieval." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023.
   * [CiDeR, 2024] Song, Chull Hwan, et al. "On train-test class overlap and detection for image retrieval." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2024.
 * WIP:
-  * Explainable AI (XAI)
+  * Image Super-Resolution / Image Restoration
+  * Depth Estimation
+  * Saliency Detection
+  * Vanishing Point Detection
+  * Image Colorization
+  * Image Captioning
   * Video Summarization and Captioning
+  * Explainable AI (XAI)
+  * Pose Estimation
   * Text Recognition
   * Data Compression
   * Affective Computing
-  * Image Colorization
   * Virtual reality (VR)
   * Augmented reality (AR)
   * Visual Question Answering (VQA)
   * Vision-Language Models (VLMs)
   * DeepFake Detection
   * 3D Reconstruction
-  * Image Captioning
-  * Image Super-Resolution / Image Restoration
-  * Pose Estimation
   * Biometric Analysis
-  * Depth Estimation
   * Meta Learning
   * Semi-Supervised Learning - Zero/One/Few shot
 
