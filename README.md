@@ -214,6 +214,9 @@
   * [MaxViT-Tiny, 2022] Tu, Zhengzhong, et al. "Maxvit: Multi-axis vision transformer." European conference on computer vision. Cham: Springer Nature Switzerland, 2022.
   * [MobileFormer, 2022] Chen, Yinpeng, et al. "Mobile-former: Bridging mobilenet and transformer." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2022.
   * [ConvNeXtV2-Tiny, 2023] Woo, Sanghyun, et al. "Convnext v2: Co-designing and scaling convnets with masked autoencoders." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023.
+  * [Mobileone, 2023] Vasu, Pavan Kumar Anasosalu, et al. "Mobileone: An improved one millisecond mobile backbone." Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2023.
+  * [TinyViM, 2025] Ma, Xiaowen, Zhenliang Ni, and Xinghao Chen. "Tinyvim: Frequency decoupling for tiny hybrid vision mamba." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2025.
+  * [SeaFormer++, 2025] Wan, Qiang, et al. "SeaFormer++: Squeeze-enhanced axial transformer for mobile visual recognition." International Journal of Computer Vision 133.6 (2025): 3645-3666.
 * Object Detection
   * [Faster R-CNN, 2015] Ren, Shaoqing, et al. "Faster r-cnn: Towards real-time object detection with region proposal networks." Advances in neural information processing systems 28 (2015).
   * [SSD, 2016] Liu, Wei, et al. "Ssd: Single shot multibox detector." Computer Vision–ECCV 2016: 14th European Conference, Amsterdam, The Netherlands, October 11–14, 2016, Proceedings, Part I 14. Springer International Publishing, 2016.
