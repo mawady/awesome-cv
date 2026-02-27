@@ -8,6 +8,7 @@
 
 >
 > * **[Python Libraries](#python-libraries)**
+> * **[Rust Libraries](#rust-libraries)**
 > * **[MATLAB/Octave Libraries](#matlab-libraries)**
 > * **[Evaluation Metrics](#evaluation-metrics)**
 > * **[Conferences](#conferences)**
@@ -21,7 +22,6 @@
 > * **[Annotation Tools](#annotation-tools)**
 > * **[YouTube Channels](#youtube-channels)**
 > * **[Mailing Lists](#mailing-lists)**
-> * **[Misc](#misc)**
 >
 
 ---
@@ -39,6 +39,15 @@
 | [pgmagick](https://github.com/hhatto/pgmagick)| python based wrapper for GraphicsMagick/ImageMagick|
 | [Mahotas](https://github.com/luispedro/mahotas) | library of fast computer vision algorithms (last updated: 2021)|
 | [SimpleCV](https://github.com/sightmachine/SimpleCV#raspberry-pi) | The Open Source Framework for Machine Vision (last updated: 2015)|
+
+---
+## Rust Libraries
+| Library | Description |
+| --------------- | --------------- |
+| [OpenCV-Rust](https://github.com/twistedfall/opencv-rust) | Rust bindings for OpenCV |
+| [Photon](https://github.com/silvia-odwyer/photon) | Rust/WebAssembly image processing library |
+| [Image](https://github.com/image-rs/image) | Encoding and decoding images |
+| [ImageProce](https://github.com/image-rs/imageproc) | Image processing operations |
 
 ---
 
@@ -464,8 +473,11 @@
 * [@MichaelBronsteinGDL](https://www.youtube.com/@MichaelBronsteinGDL) `[Individual]`, Michael Bronstein: DeepMind Professor of AI, University of Oxford / Head of Graph Learning Research, Twitter.
 * [@DeepFindr](https://www.youtube.com/@DeepFindr) `[Individual]`, Videos about all kinds of Machine Learning / Data Science topics.
 * [@deeplizard](https://www.youtube.com/@deeplizard) `[Individual]`, Videos about building collective intelligence.
-* [@YannicKilcher](https://www.youtube.com/@YannicKilcher) `[Individual]`, Yannic Kilcher: make videos about machine learning research papers, programming, and issues of the AI community, and the broader impact of AI in society.
+* [@YannicKilcher](https://www.youtube.com/@YannicKilcher) `[Individual]`, Yannic Kilcher: videos about machine learning research papers, programming, and issues of the AI community, and the broader impact of AI in society.
 * [@sentdex](https://www.youtube.com/@sentdex) `[Individual]`, sentdex: provides Python programming tutorials in machine learning, finance, data analysis, robotics, web development, game development and more.
+* [@AAmini](https://www.youtube.com/@AAmini) `[Individual]`, Alexander Amini: Research Affilliate at MIT, videos about deep learning and data science.
+* [@WhatsAI](https://www.youtube.com/@WhatsAI) `[Individual]`, Louis-François Bouchard: PhD in MILA, videos about AI.
+* [mrdbourke](https://www.youtube.com/@mrdbourke) `[Individual]`, Daniel Bourke: ML engineer in healthcare, videos about AI.
 * [@bmvabritishmachinevisionas8529](https://www.youtube.com/@bmvabritishmachinevisionas8529) `[Conferences]`, BMVA: British Machine Vision Association.
 * [@ComputerVisionFoundation](https://www.youtube.com/@ComputerVisionFoundation) `[Conferences]`, Computer Vision Foundation (CVF): co-sponsored conferences on computer vision (e.g. CVPR and ICCV).
 * [@cvprtum](https://www.youtube.com/@cvprtum) `[University]`, Computer Vision Group at Technical University of Munich.
@@ -483,9 +495,6 @@
 * [@TheAIEpiphany](https://www.youtube.com/@TheAIEpiphany) `[Papers]`, Aleksa Gordić: x-Google DeepMind, x-Microsoft engineer explaining AI papers.
 * [@bycloudAI](https://www.youtube.com/@bycloudAI) `[Papers]`, bycloud: covers the latest AI tech/research papers for fun.
 * WIP:
-  * <https://www.youtube.com/@AAmini>
-  * <https://www.youtube.com/@WhatsAI>  
-  * <https://www.youtube.com/@mrdbourke>
   * <https://www.youtube.com/@marksaroufim>
   * <https://www.youtube.com/@NicholasRenotte>
   * <https://www.youtube.com/@abhishekkrthakur>
@@ -508,26 +517,6 @@
 
 * [Vision Science](http://visionscience.com/mailman/listinfo/visionlist_visionscience.com), announcements about industry/academic jobs in computer vision around the world (in English).
 * [bull-i3](https://listes.irit.fr/sympa/info/bull-i3), posts about job opportunities in computer vision in France (in French).
-
----
-
-## Misc
-
-* How to build a good poster - [[Link1](https://urc.ucdavis.edu/sites/g/files/dgvnsk3561/files/local_resources/documents/pdf_documents/How_To_Make_an_Effective_Poster2.pdf)] [[Link2](https://www.animateyour.science/post/How-to-design-an-award-winning-conference-poster)] [[Link3](https://www.jamiebgall.co.uk/post/powerful-posters)]
-* How to report a good report - [[Link1](https://cs.swan.ac.uk/~csbob/teaching/cs354-projectSpec/laramee10projectGuideline.pdf)] [[link2](https://www.cst.cam.ac.uk/teaching/part-ii/projects/dissertation)]
-* [The "Python Machine Learning (3rd edition)" book code repository](https://github.com/rasbt/python-machine-learning-book-3rd-edition)
-* [Multithreading with OpenCV-Python to improve video processing performance](https://nrsyed.com/2018/07/05/multithreading-with-opencv-python-to-improve-video-processing-performance/)
-* [Computer Vision Zone](https://www.computervision.zone/) - Videos and implementations for computer vision projects
-* [MadeWithML](https://github.com/GokuMohandas/MadeWithML), Learn how to responsibly deliver value with ML
-* [d2l-en](https://github.com/d2l-ai/d2l-en), Interactive deep learning book with multi-framework code, math, and discussions. Adopted at 200 universities
-* [Writing Pet Peeves](https://www.cs.ubc.ca/~tmm/writing.htmt), writing guide for correctness, references, and style
-* [Hitchhiker's Guide to Python](https://docs.python-guide.org), Python best practices guidebook, written for humans
-* [python-fire](https://github.com/google/python-fire), Google, a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
-* [shotcut](https://shotcut.org), a free, open source, cross-platform video editor.
-* [PyTorch Computer Vision Cookbook](https://github.com/PacktPublishing/PyTorch-Computer-Vision-Cookbook), PyTorch Computer Vision Cookbook, Published by Packt.
-* [Machine Learning Mastery - Blogs](https://machinelearningmastery.com/blog/), Blogs written by [Jason Brownlee](https://scholar.google.com/citations?hl=en&user=hVaJhRYAAAAJ) about machine learning.
-* [PyImageSearch - Blogs](https://pyimagesearch.com/blog/), Blogs written by [Adrian Rosebrock](https://scholar.google.com/citations?user=bLEhONMAAAAJ&hl) about computer vision.
-* [jetson-inference](https://github.com/dusty-nv/jetson-inference), guide to deploying deep-learning inference networks and deep vision primitives with TensorRT and NVIDIA Jetson.
 
 ---
 
