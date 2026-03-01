@@ -41,6 +41,7 @@
 | [SimpleCV](https://github.com/sightmachine/SimpleCV#raspberry-pi) | The Open Source Framework for Machine Vision (last updated: 2015)|
 
 ---
+
 ## Rust Libraries
 | Library | Description |
 | --------------- | --------------- |
@@ -191,7 +192,7 @@
 
 ## Summer Schools
 
-* International Computer Vision Summer School (IVCSS) [2007-Present], Sicily, Italy [[Website](https://iplab.dmi.unict.it/icvss2023/)]
+* International Computer Vision Summer School (IVCSS) [2007-Present], Sicily, Italy [[Website](www.dmi.unict.it/icvss)]
 * Machine Intelligence and Visual Computing Summer School (VISUM) [2013-2022], Porto, Portugal [[Website](https://visum.inesctec.pt)]
 * BMVA British Computer Vision Summer School (CVSS) [2013-2020,2023-Present], UK [[Website](https://britishmachinevisionassociation.github.io/summer-school)]
 
@@ -344,8 +345,8 @@
 
 | Course | Year | Instructor | Source |
 | --------------- | --------------- | --------------- | --------------- |
-| [Introduction to Computer Vision](https://browncsci1430.github.io/webpage/) | 2025 | James Tompkin | Brown |
-| [Deep Learning for Computer Vision](http://cs231n.stanford.edu) | 2024 | Fei-Fei Li | Stanford |
+| [Introduction to Computer Vision](https://browncsci1430.github.io) | 2026 | James Tompkin | Brown |
+| [Deep Learning for Computer Vision](http://cs231n.stanford.edu) | 2025 | Fei-Fei Li | Stanford |
 | [Advances in Computer Vision](http://6.8300.csail.mit.edu/sp23/) | 2023 | William T. Freeman | MIT |
 | [OpenCV for Python Developers](https://www.linkedin.com/learning/opencv-for-python-developers) | 2023 | Patrick Crawford | LinkedIn Learning |
 | [Computer Vision](https://www.youtube.com/playlist?list=PL05umP7R6ij35L2MHGzis8AEHz7mg381_)| 2021 | Andreas Geiger | University of Tübingen |
@@ -465,6 +466,8 @@
 
 ## YouTube Channels
 
+* Tags: Popular individuals `[Individual]`, Conference and event `[Conferences]`, University research groups `[University]`, Interactive talks and podscasts `[Talks]`, Research articles' explanation `[Papers]`.
+
 * [@AurelienGeron](https://www.youtube.com/@AurelienGeron) `[Individual]`, Aurélien Géron: former lead of YouTube's video classification team, and author of the O'Reilly book Hands-On Machine Learning with Scikit-Learn and TensorFlow.
 * [@howardjeremyp](https://www.youtube.com/@howardjeremyp) `[Individual]`, Jeremy Howard: former president and chief scientist of Kaggle, and co-founder of fast.ai.
 * [@PieterAbbeel](https://www.youtube.com/@PieterAbbeel) `[Individual]`, Pieter Abbeel: professor of electrical engineering and computer sciences, University of California, Berkeley.
@@ -478,6 +481,9 @@
 * [@AAmini](https://www.youtube.com/@AAmini) `[Individual]`, Alexander Amini: Research Affilliate at MIT, videos about deep learning and data science.
 * [@WhatsAI](https://www.youtube.com/@WhatsAI) `[Individual]`, Louis-François Bouchard: PhD in MILA, videos about AI.
 * [mrdbourke](https://www.youtube.com/@mrdbourke) `[Individual]`, Daniel Bourke: ML engineer in healthcare, videos about AI.
+* [marksaroufim](https://www.youtube.com/@marksaroufim) `[Individual]`, Mark Saroufim: PyTorch engineer at Meta (Facebook), videos about AI.
+* [NicholasRenotte](https://www.youtube.com/@NicholasRenotte) `[Individual]`, Nicholas Renotte: videos about computer vision, natural language processign and reinforcement learning applications.
+* [abhishekkrthakur](https://www.youtube.com/@abhishekkrthakur) `[Individual]`, Abhishek Thakur: world's first Quadruple Grand Master on Kaggle, videos about applied machine learning, deep learning, and data science.
 * [@bmvabritishmachinevisionas8529](https://www.youtube.com/@bmvabritishmachinevisionas8529) `[Conferences]`, BMVA: British Machine Vision Association.
 * [@ComputerVisionFoundation](https://www.youtube.com/@ComputerVisionFoundation) `[Conferences]`, Computer Vision Foundation (CVF): co-sponsored conferences on computer vision (e.g. CVPR and ICCV).
 * [@cvprtum](https://www.youtube.com/@cvprtum) `[University]`, Computer Vision Group at Technical University of Munich.
@@ -495,9 +501,6 @@
 * [@TheAIEpiphany](https://www.youtube.com/@TheAIEpiphany) `[Papers]`, Aleksa Gordić: x-Google DeepMind, x-Microsoft engineer explaining AI papers.
 * [@bycloudAI](https://www.youtube.com/@bycloudAI) `[Papers]`, bycloud: covers the latest AI tech/research papers for fun.
 * WIP:
-  * <https://www.youtube.com/@marksaroufim>
-  * <https://www.youtube.com/@NicholasRenotte>
-  * <https://www.youtube.com/@abhishekkrthakur>
   * <https://www.youtube.com/@AladdinPersson>
   * <https://www.youtube.com/@CodeEmporium>
   * <https://www.youtube.com/@arp_ai>
