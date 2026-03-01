@@ -1,6 +1,46 @@
-# Curated educational list for computer vision
+# Computer Vision — From Foundations to Research
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/mawady/awesome-cv)
+![GitHub last commit](https://img.shields.io/github/last-commit/mawady/awesome-cv)
+![GitHub stars](https://img.shields.io/github/stars/mawady/awesome-cv?style=social)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+---
+
+## Why this list exists
+
+There are dozens of "awesome computer vision" repositories on GitHub. Most are
+encyclopedic with thousands of links arranged by topic, with no guidance on where
+to start, what order to read things in, or why one resource matters more than
+another. They are useful as archives. They are less useful as learning tools.
+
+This list is built around a different idea: **curation over comprehensiveness**.
+
+Every entry is here because it genuinely helps someone understand computer
+vision more deeply — not simply because it exists. Resources are organised to
+reflect how the field is actually learned: from image fundamentals and classical
+methods, through deep learning, to the transformer-era models that define current
+research.
+
+### What makes this different
+
+| | This list | Most other CV lists |
+|---|---|---|
+| **Paper context** | ✅ Why each paper matters, in sequence | ❌ Flat citation lists |
+| **Evaluation metrics** | ✅ Full breakdown per task | ❌ Rarely covered |
+| **Actively maintained** | ✅ Updated with recent work | ⚠️ Many are abandoned |
+| **Conference & journal tiers** | ✅ CORE-ranked, explained | ❌ Usually just a list |
+| **Multi-language libraries** | ✅ Python, Rust, MATLAB | ❌ Python only |
+
+### Who this is for
+
+- **Students** starting a CV module or thesis who want a clear first step
+- **Engineers** moving into CV who need to fill gaps systematically  
+- **Researchers** wanting a compact reference for venues, metrics, and landmark papers
+- **Educators** looking for a syllabus scaffold they can point students to
+
+> 💡 **New to the field?** Start at [Courses](#courses) or [Reference Books](#reference-books).  
+> 🔬 **Already in research?** Jump to [Popular Articles](#popular-articles) or [Repos](#repos).
 
 ---
 
@@ -520,6 +560,22 @@
 
 * [Vision Science](http://visionscience.com/mailman/listinfo/visionlist_visionscience.com), announcements about industry/academic jobs in computer vision around the world (in English).
 * [bull-i3](https://listes.irit.fr/sympa/info/bull-i3), posts about job opportunities in computer vision in France (in French).
+
+---
+
+## Curation Philosophy
+
+Entries in this list are included because they are:
+
+- **Genuinely educational** — they help you understand something, not just use it
+- **Well-maintained** (or historically significant if archived)
+- **Accessible** — free or widely available where possible
+
+Entries marked `(last updated: YEAR)` in the libraries section are included for
+historical or educational value despite no longer being actively developed.
+
+This list is maintained by a computer vision researcher and university academic.
+Suggestions and pull requests are welcome. Please check [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
