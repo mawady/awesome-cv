@@ -306,16 +306,16 @@ research.
 * Foundational Must-Reads
   > Ten papers every computer vision researcher should know. These defined the field's trajectory and are cited in virtually every modern CV paper.
 
-  + [Backprop, 1986] Rumelhart, David E., Geoffrey E. Hinton, and Ronald J. Williams. "Learning representations by back-propagating errors." Nature 323 (1986): 533-536. [[paper](https://www.nature.com/articles/323533a0)]
-  + [LeNet-5, 1998] LeCun, Yann, et al. "Gradient-based learning applied to document recognition." Proceedings of the IEEE 86.11 (1998). [[paper](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf)] — established CNNs as the standard for visual recognition
-  + [SIFT, 2004] Lowe, David G. "Distinctive image features from scale-invariant keypoints." IJCV 60.2 (2004): 91-110. [[paper](https://link.springer.com/article/10.1023/B:VISI.0000029664.99615.94)] — the dominant feature descriptor for a decade
-  + [HOG, 2005] Dalal, Navneet, and Bill Triggs. "Histograms of oriented gradients for human detection." CVPR (2005). [[paper](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf)] — foundation of pedestrian and object detection
-  + [AlexNet, 2012] Krizhevsky, Alex, Ilya Sutskever, and Geoffrey E. Hinton. "ImageNet classification with deep convolutional neural networks." NeurIPS (2012). [[paper](https://arxiv.org/abs/1404.5997)] — the paper that started the deep learning era in CV
-  + [ResNet, 2016] He, Kaiming, et al. "Deep residual learning for image recognition." CVPR (2016). [[paper](https://arxiv.org/abs/1512.03385)] — residual connections solved the vanishing gradient problem; still the most-used backbone
-  + [GAN, 2014] Goodfellow, Ian, et al. "Generative adversarial nets." NeurIPS (2014). [[paper](https://arxiv.org/abs/1406.2661)] — introduced the GAN framework that underpins generative CV
-  + [U-Net, 2015] Ronneberger, Olaf, Philipp Fischer, and Thomas Brox. "U-Net: Convolutional networks for biomedical image segmentation." MICCAI (2015). [[paper](https://arxiv.org/abs/1505.04597)] — the default architecture for segmentation tasks
-  + [Attention, 2017] Vaswani, Ashish, et al. "Attention is all you need." NeurIPS (2017). [[paper](https://arxiv.org/abs/1706.03762)] — the transformer architecture that ViT and every modern foundation model is built on
-  + [ViT, 2020] Dosovitskiy, Alexey, et al. "An image is worth 16x16 words." ICLR (2021). [[paper](https://arxiv.org/abs/2010.11929)] — brought transformers to vision and reshaped every sub-field
+  * [Backprop, 1986] Rumelhart, David E., Geoffrey E. Hinton, and Ronald J. Williams. "Learning representations by back-propagating errors." Nature 323 (1986): 533-536. [[paper](https://www.nature.com/articles/323533a0)]
+  * [LeNet-5, 1998] LeCun, Yann, et al. "Gradient-based learning applied to document recognition." Proceedings of the IEEE 86.11 (1998). [[paper](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf)] — established CNNs as the standard for visual recognition
+  * [SIFT, 2004] Lowe, David G. "Distinctive image features from scale-invariant keypoints." IJCV 60.2 (2004): 91-110. [[paper](https://link.springer.com/article/10.1023/B:VISI.0000029664.99615.94)] — the dominant feature descriptor for a decade
+  * [HOG, 2005] Dalal, Navneet, and Bill Triggs. "Histograms of oriented gradients for human detection." CVPR (2005). [[paper](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf)] — foundation of pedestrian and object detection
+  * [AlexNet, 2012] Krizhevsky, Alex, Ilya Sutskever, and Geoffrey E. Hinton. "ImageNet classification with deep convolutional neural networks." NeurIPS (2012). [[paper](https://arxiv.org/abs/1404.5997)] — the paper that started the deep learning era in CV
+  * [ResNet, 2016] He, Kaiming, et al. "Deep residual learning for image recognition." CVPR (2016). [[paper](https://arxiv.org/abs/1512.03385)] — residual connections solved the vanishing gradient problem; still the most-used backbone
+  * [GAN, 2014] Goodfellow, Ian, et al. "Generative adversarial nets." NeurIPS (2014). [[paper](https://arxiv.org/abs/1406.2661)] — introduced the GAN framework that underpins generative CV
+  * [U-Net, 2015] Ronneberger, Olaf, Philipp Fischer, and Thomas Brox. "U-Net: Convolutional networks for biomedical image segmentation." MICCAI (2015). [[paper](https://arxiv.org/abs/1505.04597)] — the default architecture for segmentation tasks
+  * [Attention, 2017] Vaswani, Ashish, et al. "Attention is all you need." NeurIPS (2017). [[paper](https://arxiv.org/abs/1706.03762)] — the transformer architecture that ViT and every modern foundation model is built on
+  * [ViT, 2020] Dosovitskiy, Alexey, et al. "An image is worth 16x16 words." ICLR (2021). [[paper](https://arxiv.org/abs/2010.11929)] — brought transformers to vision and reshaped every sub-field
 * Object Classification
   * [LeNet-5, 1998] LeCun, Yann, et al. "Gradient-based learning applied to document recognition." Proceedings of the IEEE 86.11 (1998): 2278-2324.
   * [AlexNet, 2012] Krizhevsky, Alex, Ilya Sutskever, and Geoffrey E. Hinton. "Imagenet classification with deep convolutional neural networks." Advances in neural information processing systems 25 (2012).
@@ -387,27 +387,28 @@ research.
   * [MixFormer, 2022] Cui, Yutao, et al. "Mixformer: End-to-end tracking with iterative mixed attention." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2022.
   * [ByteTrack, 2022] Zhang, Yifu, et al. "Bytetrack: Multi-object tracking by associating every detection box." European Conference on Computer Vision. Cham: Springer Nature Switzerland, 2022.
 * Pose Estimation
-  + Classical: Active Shape Models (ASM), Active Appearance Models (AAM), Pictorial Structures, Deformable Part Models (DPM).
-  + [DeepPose, 2014] Toshev, Alexander, and Christian Szegedy. "DeepPose: Human pose estimation via deep neural networks." CVPR (2014).
-  + [Stacked Hourglass, 2016] Newell, Alejandro, Kaiyu Yang, and Jia Deng. "Stacked hourglass networks for human pose estimation." ECCV (2016).
-  + [OpenPose, 2019] Cao, Zhe, et al. "OpenPose: Realtime multi-person 2D pose estimation using part affinity fields." IEEE TPAMI (2019).
-  + [HRNet, 2019] Wang, Jingdong, et al. "Deep high-resolution representation learning for visual recognition." IEEE TPAMI (2019).
-  + [ViTPose, 2022] Xu, Yufei, et al. "ViTPose: Simple vision transformer baselines for human pose estimation." NeurIPS (2022).
-  + [DWPose, 2023] Yang, Tianhao, et al. "Effective whole-body pose estimation with two-stages distillation." ICCV Workshop (2023).
-  + [RTMPose, 2023] Jiang, Tao, et al. "RTMPose: Real-time multi-person pose estimation based on RTMDet." arXiv (2023).
-  + [UniPose, 2024] Yang, Junjie, et al. "UniPose: Detecting any keypoints." CVPR (2024).
+  * Classical: Active Shape Models (ASM), Active Appearance Models (AAM), Pictorial Structures, Deformable Part Models (DPM).
+  * [DeepPose, 2014] Toshev, Alexander, and Christian Szegedy. "DeepPose: Human pose estimation via deep neural networks." CVPR (2014).
+  * [Stacked Hourglass, 2016] Newell, Alejandro, Kaiyu Yang, and Jia Deng. "Stacked hourglass networks for human pose estimation." ECCV (2016).
+  * [OpenPose, 2019] Cao, Zhe, et al. "OpenPose: Realtime multi-person 2D pose estimation using part affinity fields." IEEE TPAMI (2019).
+  * [HRNet, 2019] Wang, Jingdong, et al. "Deep high-resolution representation learning for visual recognition." IEEE TPAMI (2019).
+  * [ViTPose, 2022] Xu, Yufei, et al. "ViTPose: Simple vision transformer baselines for human pose estimation." NeurIPS (2022).
+  * [DWPose, 2023] Yang, Tianhao, et al. "Effective whole-body pose estimation with two-stages distillation." ICCV Workshop (2023).
+  * [RTMPose, 2023] Jiang, Tao, et al. "RTMPose: Real-time multi-person pose estimation based on RTMDet." arXiv (2023).
+  * [UniPose, 2024] Yang, Junjie, et al. "UniPose: Detecting any keypoints." CVPR (2024).
 * Depth Estimation
-  + Classical: stereo matching, structured light, time-of-flight (ToF), SfM (Structure from Motion).
-  + [Make3D, 2009] Saxena, Ashutosh, Min Sun, and Andrew Y. Ng. "Make3D: Learning 3D scene structure from a single still image." IEEE TPAMI (2009).
-  + [Eigen et al., 2014] Eigen, David, Christian Puhrsch, and Rob Fergus. "Depth map prediction from a single image using a multi-scale deep network." NeurIPS (2014).
-  + [DenseDepth, 2018] Alhashim, Ibraheem, and Peter Wonka. "High quality monocular depth estimation via transfer learning." arXiv (2018).
-  + [MiDaS, 2020] Ranftl, René, et al. "Towards robust monocular depth estimation: Mixing datasets for zero-shot cross-dataset transfer." IEEE TPAMI (2020).
-  + [AdaBins, 2021] Bhat, Shariq Farooq, et al. "AdaBins: Depth estimation using adaptive bins." CVPR (2021).
-  + [DPT, 2021] Ranftl, René, et al. "Vision transformers for dense prediction." ICCV (2021).
-  + [ZoeDepth, 2023] Bhat, Shariq Farooq, et al. "ZoeDepth: Zero-shot transfer by combining relative and metric depth." arXiv (2023).
-  + [Depth Anything, 2024] Yang, Lihe, et al. "Depth anything: Unleashing the power of large-scale unlabeled data." CVPR (2024).
-  + [Depth Anything V2, 2024] Yang, Lihe, et al. "Depth Anything V2." NeurIPS (2024).
-  + [Marigold, 2024] Ke, Bingxin, et al. "Repurposing diffusion-based image generators for monocular depth estimation." CVPR (2024).
+  * Classical: stereo matching, structured light, time-of-flight (ToF), SfM (Structure from Motion).
+  * [Make3D, 2009] Saxena, Ashutosh, Min Sun, and Andrew Y. Ng. "Make3D: Learning 3D scene structure from a single still image." IEEE TPAMI (2009).
+  * [Eigen et al., 2014] Eigen, David, Christian Puhrsch, and Rob Fergus. "Depth map prediction from a single image using a multi-scale deep network." NeurIPS (2014).
+  * [DenseDepth, 2018] Alhashim, Ibraheem, and Peter Wonka. "High quality monocular depth estimation via transfer learning." arXiv (2018).
+  * [MiDaS, 2020] Ranftl, René, et al. "Towards robust monocular depth estimation: Mixing datasets for zero-shot cross-dataset transfer." IEEE TPAMI (2020).
+  * [AdaBins, 2021] Bhat, Shariq Farooq, et al. "AdaBins: Depth estimation using adaptive bins." CVPR (2021).
+  * [DPT, 2021] Ranftl, René, et al. "Vision transformers for dense prediction." ICCV (2021).
+  * [ZoeDepth, 2023] Bhat, Shariq Farooq, et al. "ZoeDepth: Zero-shot transfer by combining relative and metric depth." arXiv (2023).
+  * [Depth Anything, 2024] Yang, Lihe, et al. "Depth anything: Unleashing the power of large-scale unlabeled data." CVPR (2024).
+  * [Depth Anything V2, 2024] Yang, Lihe, et al. "Depth Anything V2." NeurIPS (2024).
+  * [Marigold, 2024] Ke, Bingxin, et al. "Repurposing diffusion-based image generators for monocular depth estimation." CVPR (2024).
+* Media Generation
   * [DCGAN, 2015] Radford, Alec, Luke Metz, and Soumith Chintala. "Unsupervised representation learning with deep convolutional generative adversarial networks." arXiv preprint arXiv:1511.06434 (2015).
   * [BigGAN, 2018] Brock, Andrew, Jeff Donahue, and Karen Simonyan. "Large scale GAN training for high fidelity natural image synthesis." arXiv preprint arXiv:1809.11096 (2018).
   * [StyleGANv3, 2021] Karras, Tero, et al. "Alias-free generative adversarial networks." Advances in Neural Information Processing Systems 34 (2021): 852-863.
@@ -422,16 +423,16 @@ research.
   * [DALL-E 3, 2023] Betker, James, et al. "Improving image generation with better captions." Computer Science. <https://cdn.openai.com/papers/dall-e-3.pdf> 2.3 (2023): 8.
   * [SDXL, 2023] Podell, Dustin, et al. "SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis." The Twelfth International Conference on Learning Representations. 2023.
 * Vision-Language Models (VLMs)
-  + [CLIP, 2021] Radford, Alec, et al. "Learning transferable visual models from natural language supervision." ICML (2021). [[paper](https://arxiv.org/abs/2103.00020)]
-  + [ALIGN, 2021] Jia, Chao, et al. "Scaling up visual and vision-language representation learning with noisy text supervision." ICML (2021).
-  + [BLIP, 2022] Li, Junnan, et al. "BLIP: Bootstrapping language-image pre-training for unified vision-language understanding and generation." ICML (2022).
-  + [Flamingo, 2022] Alayrac, Jean-Baptiste, et al. "Flamingo: a visual language model for few-shot learning." NeurIPS (2022).
-  + [BLIP-2, 2023] Li, Junnan, et al. "BLIP-2: Bootstrapping language-image pre-training with frozen image encoders and large language models." ICML (2023).
-  + [LLaVA, 2023] Liu, Haotian, et al. "Visual instruction tuning." NeurIPS (2023).
-  + [InstructBLIP, 2023] Dai, Wenliang, et al. "InstructBLIP: Towards general-purpose vision-language models with instruction tuning." NeurIPS (2023).
-  + [GPT-4V, 2023] OpenAI. "GPT-4 technical report." arXiv (2023).
-  + [LLaVA-1.5, 2023] Liu, Haotian, et al. "Improved baselines with visual instruction tuning." CVPR (2024).
-  + [Qwen-VL, 2023] Bai, Jinze, et al. "Qwen-VL: A versatile vision-language model for understanding, localization, text reading, and beyond." arXiv (2023).
+  * [CLIP, 2021] Radford, Alec, et al. "Learning transferable visual models from natural language supervision." ICML (2021). [[paper](https://arxiv.org/abs/2103.00020)]
+  * [ALIGN, 2021] Jia, Chao, et al. "Scaling up visual and vision-language representation learning with noisy text supervision." ICML (2021).
+  * [BLIP, 2022] Li, Junnan, et al. "BLIP: Bootstrapping language-image pre-training for unified vision-language understanding and generation." ICML (2022).
+  * [Flamingo, 2022] Alayrac, Jean-Baptiste, et al. "Flamingo: a visual language model for few-shot learning." NeurIPS (2022).
+  * [BLIP-2, 2023] Li, Junnan, et al. "BLIP-2: Bootstrapping language-image pre-training with frozen image encoders and large language models." ICML (2023).
+  * [LLaVA, 2023] Liu, Haotian, et al. "Visual instruction tuning." NeurIPS (2023).
+  * [InstructBLIP, 2023] Dai, Wenliang, et al. "InstructBLIP: Towards general-purpose vision-language models with instruction tuning." NeurIPS (2023).
+  * [GPT-4V, 2023] OpenAI. "GPT-4 technical report." arXiv (2023).
+  * [LLaVA-1.5, 2023] Liu, Haotian, et al. "Improved baselines with visual instruction tuning." CVPR (2024).
+  * [Qwen-VL, 2023] Bai, Jinze, et al. "Qwen-VL: A versatile vision-language model for understanding, localization, text reading, and beyond." arXiv (2023).
 * Image Retrieval
   * [LSMH, 2016] Lu, Xiaoqiang, Xiangtao Zheng, and Xuelong Li. "Latent semantic minimal hashing for image retrieval." IEEE Transactions on Image Processing 26.1 (2016): 355-368.
   * [R–GeM, 2018] Radenović, Filip, Giorgos Tolias, and Ondřej Chum. "Fine-tuning CNN image retrieval with no human annotation." IEEE transactions on pattern analysis and machine intelligence 41.7 (2018): 1655-1668.
