@@ -306,16 +306,18 @@ research.
 * Foundational Must-Reads
   > Ten papers every computer vision researcher should know. These defined the field's trajectory and are cited in virtually every modern CV paper.
 
-  * [Backprop, 1986] Rumelhart, David E., Geoffrey E. Hinton, and Ronald J. Williams. "Learning representations by back-propagating errors." Nature 323 (1986): 533-536. [[paper](https://www.nature.com/articles/323533a0)]
-  * [LeNet-5, 1998] LeCun, Yann, et al. "Gradient-based learning applied to document recognition." Proceedings of the IEEE 86.11 (1998). [[paper](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf)] — established CNNs as the standard for visual recognition
-  * [SIFT, 2004] Lowe, David G. "Distinctive image features from scale-invariant keypoints." IJCV 60.2 (2004): 91-110. [[paper](https://link.springer.com/article/10.1023/B:VISI.0000029664.99615.94)] — the dominant feature descriptor for a decade
-  * [HOG, 2005] Dalal, Navneet, and Bill Triggs. "Histograms of oriented gradients for human detection." CVPR (2005). [[paper](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf)] — foundation of pedestrian and object detection
-  * [AlexNet, 2012] Krizhevsky, Alex, Ilya Sutskever, and Geoffrey E. Hinton. "ImageNet classification with deep convolutional neural networks." NeurIPS (2012). [[paper](https://arxiv.org/abs/1404.5997)] — the paper that started the deep learning era in CV
-  * [ResNet, 2016] He, Kaiming, et al. "Deep residual learning for image recognition." CVPR (2016). [[paper](https://arxiv.org/abs/1512.03385)] — residual connections solved the vanishing gradient problem; still the most-used backbone
-  * [GAN, 2014] Goodfellow, Ian, et al. "Generative adversarial nets." NeurIPS (2014). [[paper](https://arxiv.org/abs/1406.2661)] — introduced the GAN framework that underpins generative CV
-  * [U-Net, 2015] Ronneberger, Olaf, Philipp Fischer, and Thomas Brox. "U-Net: Convolutional networks for biomedical image segmentation." MICCAI (2015). [[paper](https://arxiv.org/abs/1505.04597)] — the default architecture for segmentation tasks
-  * [Attention, 2017] Vaswani, Ashish, et al. "Attention is all you need." NeurIPS (2017). [[paper](https://arxiv.org/abs/1706.03762)] — the transformer architecture that ViT and every modern foundation model is built on
-  * [ViT, 2020] Dosovitskiy, Alexey, et al. "An image is worth 16x16 words." ICLR (2021). [[paper](https://arxiv.org/abs/2010.11929)] — brought transformers to vision and reshaped every sub-field
+  * [Backprop, 1986] Rumelhart, David E., Geoffrey E. Hinton, and Ronald J. Williams. "Learning representations by back-propagating errors." Nature 323 (1986): 533-536. [[paper](https://doi.org/10.1038/323533a0)]
+  * [LeNet-5, 1998] LeCun, Yann, et al. "Gradient-based learning applied to document recognition." Proceedings of the IEEE 86.11 (1998). [[paper](https://doi.org/10.1109/5.726791)] — established CNNs as the standard for visual recognition
+  * [SIFT, 2004] Lowe, David G. "Distinctive image features from scale-invariant keypoints." IJCV 60.2 (2004): 91-110. [[paper](https://doi.org/10.1023/B:VISI.0000029664.99615.94)] — the dominant feature descriptor for a decade
+  * [BoVW, 2003/2004] Sivic, and Zisserman. "Video Google: A text retrieval approach to object matching in videos." Proceedings ninth IEEE international conference on computer vision. IEEE, 2003. Csurka, Gabriella, et al. "Visual categorization with bags of keypoints." Workshop on statistical learning in computer vision, ECCV. Vol. 1. No. 1-22. 2004. [[paper](https://doi.org/10.1109/ICCV.2003.1238663)] — introduced the bag-of-visual-words framework using visual vocabularies for image classification
+  * [HOG, 2005] Dalal, Navneet, and Bill Triggs. "Histograms of oriented gradients for human detection." CVPR (2005). [[paper](https://doi.org/10.1109/CVPR.2005.177)] — foundation of pedestrian and object detection
+  * [ImageNet, 2009] Deng, Jia, et al. "ImageNet: A large-scale hierarchical image database." CVPR (2009). [[paper](https://doi.org/10.1109/CVPR.2009.5206848)] — the benchmark that enabled the deep learning era
+  * [AlexNet, 2012] Krizhevsky, Alex, Ilya Sutskever, and Geoffrey E. Hinton. "ImageNet classification with deep convolutional neural networks." NeurIPS (2012). [[paper](https://doi.org/10.1145/3065386)] — the paper that started the deep learning era in CV
+  * [GAN, 2014] Goodfellow, Ian, et al. "Generative adversarial nets." NeurIPS (2014). [[paper](https://doi.org/10.1145/3422622)] — introduced the GAN framework that underpins generative CV
+  * [U-Net, 2015] Ronneberger, Olaf, Philipp Fischer, and Thomas Brox. "U-Net: Convolutional networks for biomedical image segmentation." MICCAI (2015). [[paper](https://doi.org/10.1007/978-3-319-24574-4_28)] — the default architecture for segmentation tasks
+  * [ResNet, 2016] He, Kaiming, et al. "Deep residual learning for image recognition." CVPR (2016). [[paper](https://doi.org/10.1109/IEEESTD.2001.92771)] — residual connections solved the vanishing gradient problem; still the most-used backbone
+  * [Attention, 2017] Vaswani, Ashish, et al. "Attention is all you need." NeurIPS (2017). [[paper](https://dl.acm.org/doi/10.5555/3295222.3295349)] — the transformer architecture that ViT and every modern foundation model is built on
+  * [ViT, 2020] Dosovitskiy, Alexey, et al. "An image is worth 16x16 words." ICLR (2021). [[paper](https://doi.org/10.48550/arXiv.2010.11929)] — brought transformers to vision and reshaped every sub-field
 * Object Classification
   * [LeNet-5, 1998] LeCun, Yann, et al. "Gradient-based learning applied to document recognition." Proceedings of the IEEE 86.11 (1998): 2278-2324.
   * [AlexNet, 2012] Krizhevsky, Alex, Ilya Sutskever, and Geoffrey E. Hinton. "Imagenet classification with deep convolutional neural networks." Advances in neural information processing systems 25 (2012).
@@ -423,7 +425,7 @@ research.
   * [DALL-E 3, 2023] Betker, James, et al. "Improving image generation with better captions." Computer Science. <https://cdn.openai.com/papers/dall-e-3.pdf> 2.3 (2023): 8.
   * [SDXL, 2023] Podell, Dustin, et al. "SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis." The Twelfth International Conference on Learning Representations. 2023.
 * Vision-Language Models (VLMs)
-  * [CLIP, 2021] Radford, Alec, et al. "Learning transferable visual models from natural language supervision." ICML (2021). [[paper](https://arxiv.org/abs/2103.00020)]
+  * [CLIP, 2021] Radford, Alec, et al. "Learning transferable visual models from natural language supervision." ICML (2021).
   * [ALIGN, 2021] Jia, Chao, et al. "Scaling up visual and vision-language representation learning with noisy text supervision." ICML (2021).
   * [BLIP, 2022] Li, Junnan, et al. "BLIP: Bootstrapping language-image pre-training for unified vision-language understanding and generation." ICML (2022).
   * [Flamingo, 2022] Alayrac, Jean-Baptiste, et al. "Flamingo: a visual language model for few-shot learning." NeurIPS (2022).
