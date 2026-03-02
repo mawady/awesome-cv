@@ -1,4 +1,4 @@
-# Computer Vision — From Foundations to Research
+# Awesome Computer Vision: From Foundations to Research
 *A structured learning reference: image fundamentals → classical methods → deep learning → generative artificial intelligence in CV.*
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/mawady/awesome-cv)
