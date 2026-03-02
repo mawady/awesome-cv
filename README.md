@@ -68,178 +68,254 @@ research.
 
 ## Python Libraries
 
-| Library | Description |
-| --------------- | --------------- |
-| [OpenCV](https://github.com/opencv/opencv) | Open Source Computer Vision Library|
-| [Pillow](https://github.com/python-pillow/Pillow)| The friendly PIL fork (Python Imaging Library)|
-| [scikit-image](https://github.com/scikit-image/scikit-image) | collection of algorithms for image processing|
-| [SciPy](https://github.com/scipy/scipy)| open-source software for mathematics, science, and engineering|
-| [mmcv](https://github.com/open-mmlab/mmcv)| OpenMMLab foundational library for computer vision research |
-| [imutils](https://github.com/PyImageSearch/imutils) | A series of convenience functions to make basic image processing operations|
-| [pgmagick](https://github.com/hhatto/pgmagick)| python based wrapper for GraphicsMagick/ImageMagick|
-| [Mahotas](https://github.com/luispedro/mahotas) | library of fast computer vision algorithms (last updated: 2021)|
-| [SimpleCV](https://github.com/sightmachine/SimpleCV#raspberry-pi) | The Open Source Framework for Machine Vision (last updated: 2015)|
+> Status: ✅ active (updated within 2 years) · ⚠️ legacy (unmaintained but historically useful) · 🗄️ archived (officially abandoned)
+
+| Library | Description | Status |
+| --- | --- | --- |
+| [OpenCV](https://github.com/opencv/opencv) | Open Source Computer Vision Library | ✅ active |
+| [Pillow](https://github.com/python-pillow/Pillow) | The friendly PIL fork (Python Imaging Library) | ✅ active |
+| [scikit-image](https://github.com/scikit-image/scikit-image) | Collection of algorithms for image processing | ✅ active |
+| [SciPy](https://github.com/scipy/scipy) | Open-source software for mathematics, science, and engineering | ✅ active |
+| [mmcv](https://github.com/open-mmlab/mmcv) | OpenMMLab foundational library for computer vision research | ✅ active |
+| [imutils](https://github.com/PyImageSearch/imutils) | Convenience functions for basic image processing operations | ✅ active |
+| [kornia](https://github.com/kornia/kornia) | Open source differentiable computer vision library for PyTorch | ✅ active |
+| [pgmagick](https://github.com/hhatto/pgmagick) | Python wrapper for GraphicsMagick/ImageMagick | ⚠️ legacy |
+| [Mahotas](https://github.com/luispedro/mahotas) | Fast computer vision algorithms in Python | ⚠️ legacy |
+| [SimpleCV](https://github.com/sightmachine/SimpleCV) | Open Source Framework for Machine Vision | 🗄️ archived |
 
 ---
 
 ## Rust Libraries
-| Library | Description |
-| --------------- | --------------- |
-| [OpenCV-Rust](https://github.com/twistedfall/opencv-rust) | Rust bindings for OpenCV |
-| [Photon](https://github.com/silvia-odwyer/photon) | Rust/WebAssembly image processing library |
-| [Image](https://github.com/image-rs/image) | Encoding and decoding images |
-| [ImageProce](https://github.com/image-rs/imageproc) | Image processing operations |
+
+> Status: ✅ active (updated within 2 years) · ⚠️ legacy (unmaintained but historically useful) · 🗄️ archived (officially abandoned)
+
+| Library | Description | Status |
+| --- | --- | --- |
+| [OpenCV-Rust](https://github.com/twistedfall/opencv-rust) | Rust bindings for OpenCV 3.4, 4.x, and 5.x | ✅ active |
+| [Image](https://github.com/image-rs/image) | Encoding and decoding images in Rust | ✅ active |
+| [ImageProc](https://github.com/image-rs/imageproc) | Image processing operations built on the image crate | ✅ active |
+| [Photon](https://github.com/silvia-odwyer/photon) | Rust/WebAssembly image processing library | ⚠️ legacy |
 
 ---
 
 ## MATLAB Libraries
 
-| Library | Description |
-| --------------- | --------------- |
-| [PMT](https://pdollar.github.io/toolbox/) | Piotr's Computer Vision Matlab Toolbox|
-| [matlabfns](https://www.peterkovesi.com/matlabfns/)| MATLAB and Octave Functions for Computer Vision and Image Processing, P. Kovesi, University of Western Australia|
-| [VLFeat](https://www.vlfeat.org/index.html) | open source library implements popular computer vision algorithms, A. Vedaldi and B. Fulkerson|
-| [MLV](https://github.com/bwlabToronto/MLV_toolbox) | Mid-level Vision Toolbox (MLVToolbox), BWLab, University of Toronto|
-| [ElencoCode](https://www.dropbox.com/s/bguw035yrqz0pwp/ElencoCode.docx?dl=0) | Loris Nanni's CV functions, University of Padova|
+> Status: ✅ active (updated within 2 years) · ⚠️ legacy (unmaintained but historically useful) · 🗄️ archived (officially abandoned)
+
+| Library | Description | Status |
+| --- | --- | --- |
+| [MLV](https://github.com/bwlabToronto/MLV_toolbox) | Mid-level Vision Toolbox, BWLab, University of Toronto | ✅ active |
+| [PMT](https://pdollar.github.io/toolbox/) | Piotr's Computer Vision MATLAB Toolbox, P. Dollar | ⚠️ legacy |
+| [matlabfns](https://www.peterkovesi.com/matlabfns/) | MATLAB and Octave functions for computer vision and image processing, P. Kovesi, University of Western Australia | ⚠️ legacy |
+| [VLFeat](https://www.vlfeat.org/index.html) | Open source library of popular CV algorithms (SIFT, VLAD, Fisher Vectors, SLIC), A. Vedaldi and B. Fulkerson | ⚠️ legacy |
+| [ElencoCode](https://www.dropbox.com/s/bguw035yrqz0pwp/ElencoCode.docx?dl=0) | Loris Nanni's CV functions, University of Padova | ⚠️ legacy |
 
 ---
 
 ## Evaluation Metrics
 
-* Performance - Classficiation
+* Performance - Classification
   * Confusion Matrix: TP, FP, TN, and FN for each class
-  * For class balanced datasets:
-    * Accuracy : (TP+TN)/(TP+FP+TN+FN)
-    * ROC curve: TPR vs FPR
-  * For class imbalanced datasets:
-    * Precision (PR): TP/(TP+FP)
-    * Recall (RC): TP/(TP+FN)
-    * F1-Score: 2*PR*RC/(PR+RC)
-    * Balanced accuracy: (TPR+TNR)/2
+  * For class-balanced datasets:
+    * Accuracy: (TP+TN) / (TP+FP+TN+FN)
+    * ROC curve: TPR vs FPR · summarised by AUROC (higher is better)
+  * For class-imbalanced datasets:
+    * Precision (P): TP / (TP+FP)
+    * Recall (R): TP / (TP+FN)
+    * F1-Score: 2·P·R / (P+R)
+    * Balanced Accuracy: (TPR+TNR) / 2
     * Weighted-Averaged Precision, Recall, and F1-Score
-    * PR curve: PR vs RC
+    * PR curve: Precision vs Recall · summarised by AUPRC (higher is better, more informative than AUROC on imbalanced data)
+  * For multi-label classification:
+    * Macro / Micro / Weighted averaging of above metrics
+    * Hamming Loss: fraction of labels incorrectly predicted
+
 * Performance - Detection
-  * Intersection over Union (IoU)
-  * mAP: Average AP over all classes
-  * mAP@0.5: Uses IoU threshold 0.5 (PASCAL VOC)
-  * mAP@0.5:0.95: Averages AP over multiple IoU thresholds (COCO metric)
-  * False Positives Per Image (FPPI)
-  * Precision, Recall, and F1-Score
-* Performance - Segementation
-  * Intersection over Union (IoU) / Jaccard Index
-  * Dice Coefficient / F1-Score
-  * Mean Pixel Accuracy (mPA)
-  * Boundary IoU (BIoU)
-  * Hausdorff Distance
-  * Precision
-  * Recall / Sensitivity / True Positive Rate
+  * Intersection over Union (IoU): area of overlap / area of union between predicted and ground-truth box
+  * Average Precision (AP): area under the Precision-Recall curve for a single class
+  * mAP: mean AP averaged over all classes
+  * mAP@0.5: IoU threshold of 0.5 (PASCAL VOC standard)
+  * mAP@0.5:0.95: mean over IoU thresholds 0.5 to 0.95 in steps of 0.05 (COCO standard, harder and preferred)
+  * AR@k: Average Recall at k proposals per image
+  * False Positives Per Image (FPPI): used in pedestrian detection benchmarks (e.g. Caltech)
+  * Log-Average Miss Rate (LAMR): standard metric for pedestrian detection, computed on FPPI vs Miss Rate curve
+
+* Performance - Segmentation
+  * Intersection over Union (IoU) / Jaccard Index: TP / (TP+FP+FN) per class
+  * mean IoU (mIoU): IoU averaged over all classes · primary metric for semantic segmentation benchmarks (Cityscapes, ADE20K)
+  * Dice Coefficient / F1-Score: 2·TP / (2·TP+FP+FN) · standard for medical image segmentation
+  * Mean Pixel Accuracy (mPA): fraction of pixels correctly classified per class, then averaged
+  * Panoptic Quality (PQ): PQ = SQ · RQ · unified metric for panoptic segmentation (COCO Panoptic)
+  * Boundary IoU (BIoU): IoU computed only near object boundaries · penalises coarse masks
+  * Hausdorff Distance (HD): maximum surface distance between predicted and ground-truth masks · common in medical imaging
+  * HD95: 95th-percentile Hausdorff Distance · more robust to outliers than HD
+
 * Performance - Tracking
-  * Multiple Object Tracking Accuracy (MOTA)
-  * Multiple Object Tracking Precision (MOTP)
-  * ID F1-Score (IDF1)
-  * Identity Switches (IDSW)
-  * Track Completeness (TC)
-  * Mostly Tracked (MT) / Mostly Lost (ML)
-* Performance - Perceptual Quality (Super-resolution, Denoising, Contrast Enhancement)
-  * Peak Signal-to-Noise Ratio (PSNR)
-  * Mean Squared Error (MSE)
-  * Structural Similarity Index (SSIM)
-  * Multi-Scale SSIM (MS-SSIM)
-  * Learned Perceptual Image Patch Similarity (LPIPS)
-  * Visual Information Fidelity (VIF)
-  * Kernel Inception Distance (KID)
-  * Gradient Magnitude Similarity Deviation (GMSD)
-  * Edge Preservation Index (EPI)
-  * Natural Image Quality Evaluator (NIQE)
+  * Multiple Object Tracking Accuracy (MOTA): combines false positives, false negatives, and identity switches
+  * Multiple Object Tracking Precision (MOTP): average localisation precision of matched detections
+  * ID F1-Score (IDF1): ratio of correctly identified detections over average of ground-truth and computed detections · better reflects long-term identity consistency than MOTA
+  * HOTA (Higher Order Tracking Accuracy): geometric mean of detection and association accuracy · increasingly preferred over MOTA/MOTP as a single summary metric
+  * Identity Switches (IDSW): number of times a tracked object changes its assigned ID
+  * Mostly Tracked (MT) / Mostly Lost (ML): fraction of ground-truth trajectories tracked for more than 80% / less than 20% of their lifespan
+
+* Performance - Perceptual Quality (Super-resolution, Denoising, Enhancement)
+  * Reference-based (require a clean ground-truth image):
+    * Peak Signal-to-Noise Ratio (PSNR): 10·log10(MAX² / MSE) · in dB, higher is better · fast to compute but weakly correlated with human perception
+    * Structural Similarity Index (SSIM): measures luminance, contrast, and structure jointly · range [0,1], higher is better
+    * Multi-Scale SSIM (MS-SSIM): SSIM computed at multiple resolutions · more robust to viewing distance
+    * Learned Perceptual Image Patch Similarity (LPIPS): deep feature distance · strongly correlated with human judgement · lower is better
+    * Visual Information Fidelity (VIF): mutual information between reference and distorted image features
+  * No-reference (blind, no ground-truth required):
+    * Natural Image Quality Evaluator (NIQE): lower is better · measures deviation from natural scene statistics
+    * BRISQUE: lower is better · spatial natural scene statistics
+    * Gradient Magnitude Similarity Deviation (GMSD): fast, gradient-based · lower is better
+
 * Performance - Generation (GANs, Diffusion Models)
-  * Inception Score (IS)
-  * Fréchet Inception Distance (FID)
-  * Perceptual Path Length (PPL)
+  * Fréchet Inception Distance (FID): distance between Inception feature distributions of real and generated images · lower is better · primary benchmark metric
+  * Inception Score (IS): measures quality and diversity jointly using classifier confidence and entropy · higher is better · less reliable than FID on its own
+  * Kernel Inception Distance (KID): like FID but uses MMD instead of Gaussian assumption · unbiased with small sample sizes · lower is better
+  * Perceptual Path Length (PPL): smoothness of the latent space · used for GANs · lower is better
+  * CLIP Score: cosine similarity between CLIP embeddings of generated image and text prompt · used for text-to-image evaluation · higher is better
+  * Human Evaluation: side-by-side preference studies remain the gold standard for generative quality
+
+* Performance - Depth Estimation
+  * Absolute Relative Error (AbsRel): mean( |d - d*| / d* ) · lower is better
+  * Squared Relative Error (SqRel): mean( |d - d*|² / d* )
+  * Root Mean Squared Error (RMSE) and RMSE log
+  * Threshold Accuracy (δ < 1.25, 1.25², 1.25³): fraction of pixels where max(d/d*, d*/d) < threshold · higher is better
+
+* Performance - Pose Estimation
+  * Percentage of Correct Keypoints (PCK): keypoint within α · torso diameter of ground truth · PCK@0.2 is standard
+  * Object Keypoint Similarity (OKS): analogous to IoU for keypoints · accounts for keypoint visibility and scale · used by COCO
+  * Mean Per Joint Position Error (MPJPE): average Euclidean distance between predicted and ground-truth 3D joints · in mm
+
 * Computation
-  * Inference Time - Frames Per Second (FPS)
-  * Model Size
+  * Latency: end-to-end inference time per image (ms) · report hardware, batch size, and input resolution
+  * Throughput: Frames Per Second (FPS) · report the same context as latency
+  * Parameters (M): total trainable parameter count · proxy for memory footprint
+  * FLOPs / MACs: floating-point operations or multiply-accumulate operations per forward pass · hardware-independent complexity measure
+  * Model Size (MB): weight file size on disk
+  * GPU Memory (VRAM, GB): peak memory during inference · critical for deployment constraints
 
 ---
 
 ## Conferences
 
-* CORE Rank A:
-  * ICCV: International Conference on Computer Vision (IEEE) [[dblp](https://dblp.org/streams/conf/iccv)]
-  * CVPR: Conference on Computer Vision and Pattern Recognition (IEEE) [[dblp](https://dblp.org/streams/conf/cvpr)]
-  * ECCV: European Conference on Computer Vision (Springer) [[dblp](https://dblp.org/streams/conf/eccv)]
-  * WACV: Winter Conference/Workshop on Applications of Computer Vision (IEEE) [[dblp](https://dblp.org/streams/conf/wacv)]
-  * ICASSP: International Conference on Acoustics, Speech, and Signal Processing (IEEE) [[dblp](https://dblp.org/streams/conf/icassp)]
-  * MICCAI: Conference on Medical Image Computing and Computer Assisted Intervention (Springer) [[dblp](https://dblp.org/streams/conf/miccai)]
-  * ISBI: IEEE International Symposium on Biomedical Imaging (IEEE) [[dblp](https://dblp.org/streams/conf/isbi)]
-  * IROS: International Conference on Intelligent Robots and Systems (IEEE) [[dblp](https://dblp.org/streams/conf/iros)]
-  * ACMMM: ACM International Conference on Multimedia (ACM) [[dblp](https://dblp.org/streams/conf/mm)]
+> Ranks follow [CORE Conference Ranking](http://portal.core.edu.au/conf-ranks/). Acceptance rates are approximate, based on recent editions. Note: in CV and ML, conference prestige often exceeds journal prestige, unlike in most other fields.
+
+* CORE Rank A\*
+  * [CVPR](https://cvpr.thecvf.com): Conference on Computer Vision and Pattern Recognition (IEEE) · ~22% acceptance · the highest-volume top-tier CV venue [[dblp](https://dblp.org/streams/conf/cvpr)]
+  * [ICCV](https://iccv.thecvf.com): International Conference on Computer Vision (IEEE) · ~26% acceptance · held in odd years only [[dblp](https://dblp.org/streams/conf/iccv)]
+  * [NeurIPS](https://neurips.cc): Conference on Neural Information Processing Systems · ~26% acceptance · primary venue for ML theory and deep learning [[dblp](https://dblp.org/streams/conf/nips)]
+  * [ICML](https://icml.cc): International Conference on Machine Learning · ~28% acceptance · top ML venue with growing CV presence [[dblp](https://dblp.org/streams/conf/icml)]
+  * [ICLR](https://iclr.cc): International Conference on Learning Representations · ~32% acceptance · open-review format; major venue for deep learning and VLMs [[dblp](https://dblp.org/streams/conf/iclr)]
+  * [ECCV](https://eccv.ecva.net): European Conference on Computer Vision (Springer) · ~28% acceptance · held in even years only [[dblp](https://dblp.org/streams/conf/eccv)]
+  * [AAAI](https://aaai.org/conference/aaai): AAAI Conference on Artificial Intelligence · ~20% acceptance · broad AI scope with strong CV track [[dblp](https://dblp.org/streams/conf/aaai)]
+  * [ACMMM](https://acmmm.org): ACM International Conference on Multimedia (ACM) [[dblp](https://dblp.org/streams/conf/mm)]
+  * [ICRA](https://ieee-icra.org): International Conference on Robotics and Automation (IEEE) [[dblp](https://dblp.org/streams/conf/icra)]
+
+* CORE Rank A
+  * [MICCAI](https://miccai.org): Conference on Medical Image Computing and Computer Assisted Intervention (Springer) · ~30% acceptance · premier venue for medical imaging [[dblp](https://dblp.org/streams/conf/miccai)]
+  * [WACV](https://wacv.thecvf.com): Winter Conference on Applications of Computer Vision (IEEE) · ~29% acceptance · practical and applied CV; growing rapidly [[dblp](https://dblp.org/streams/conf/wacv)]
+  * [IROS](https://ieee-iros.org): International Conference on Intelligent Robots and Systems (IEEE) · covers CV for robotics and perception [[dblp](https://dblp.org/streams/conf/iros)]
+  * [ISBI](https://biomedicalimaging.org): IEEE International Symposium on Biomedical Imaging (IEEE) [[dblp](https://dblp.org/streams/conf/isbi)]
+  * [BMVC](https://www.bmva.org/bmvc): British Machine Vision Conference (BMVA) [[dblp](https://dblp.org/streams/conf/bmvc)]
+
 * CORE Rank B
-  * ACCV: Asian Conference on Computer Vision (Springer) [[dblp](https://dblp.org/streams/conf/accv)]
-  * VCIP: International Conference on Visual Communications and Image Processing (IEEE) [[dblp](https://dblp.org/streams/conf/vcip)]
-  * ICIP: International Conference on Image Processing (IEEE) [[dblp](https://dblp.org/streams/conf/icip)]
-  * CAIP: International Conference on Computer Analysis of Images and Patterns (Springer) [[dblp](https://dblp.org/streams/conf/caip)]
-  * VISAPP: International Conference on Vision Theory and Applications (SCITEPRESS) [[dblp](https://dblp.org/streams/conf/visapp)]
-  * ICPR: International Conference on Pattern Recognition (IEEE) [[dblp](https://dblp.org/streams/conf/icpr)]
-  * ACIVS: Conference on Advanced Concepts for Intelligent Vision Systems (Springer) [[dblp](https://dblp.org/streams/conf/acivs)]
-  * EUSIPCO: European Signal Processing Conference (IEEE) [[dblp](https://dblp.org/streams/conf/eusipco)]
-  * ICRA: International Conference on Robotics and Automation (IEEE) [[dblp](https://dblp.org/streams/conf/icra)]
-  * BMVC: British Machine Vision Conference (organized by BMVA: British Machine Vision Association and Society for Pattern Recognition) [[dblp](https://dblp.org/streams/conf/bmvc)]
-* CORE Rank C:
-  * ICISP: International Conference on Image and Signal Processing (Springer) [[dblp](https://dblp.org/streams/conf/icisp)]
-  * ICIAR: International Conference on Image Analysis and Recognition (Springer) [[dblp](https://dblp.org/streams/conf/iciar)]
-  * ICVS: International Conference on Computer Vision Systems (Springer) [[dblp](https://dblp.org/streams/conf/icvs)]
-* Unranked but popular
-  * MIUA: Conference on Medical Image Understanding and Analysis (organized by BMVA: British Machine Vision Association and Society for Pattern Recognition) [[dblp](https://dblp.org/streams/conf/miua)]
-  * EUVIP: European Workshop on Visual Information Processing (IEEE, organized by EURASIP: European Association for Signal Processing) [[dblp](https://dblp.org/streams/conf/euvip)]
-  * CIC: Color and Imaging Conference (organized by IS&T: Society for Imaging Science and Technology) [[dblp](https://dblp.org/streams/conf/imaging)]
-  * CVCS: Colour and Visual Computing Symposium [[dblp](https://dblp.org/streams/conf/cvcs)]
-  * DSP: International Conference on Digital Signal Processing [[dblp](https://dblp.org/streams/conf/icdsp)]
+  * [ICPR](http://www.wikicfp.com/cfp/program?id=1448): International Conference on Pattern Recognition (IEEE) [[dblp](https://dblp.org/streams/conf/icpr)]
+  * [ACCV](http://www.wikicfp.com/cfp/program?id=22): Asian Conference on Computer Vision (Springer) [[dblp](https://dblp.org/streams/conf/accv)]
+  * [ICASSP](https://ieeeicassp.org): International Conference on Acoustics, Speech, and Signal Processing (IEEE) [[dblp](https://dblp.org/streams/conf/icassp)]
+  * [ICIP](http://www.wikicfp.com/cfp/program?id=1390): International Conference on Image Processing (IEEE) [[dblp](https://dblp.org/streams/conf/icip)]
+  * [VISAPP](https://visapp.scitevents.org): International Conference on Vision Theory and Applications (SCITEPRESS) [[dblp](https://dblp.org/streams/conf/visapp)]
+  * [ACIVS](http://www.wikicfp.com/cfp/program?id=34): Conference on Advanced Concepts for Intelligent Vision Systems (Springer) [[dblp](https://dblp.org/streams/conf/acivs)]
+  * [EUSIPCO](https://eurasip.org/eusipco-conferences/): European Signal Processing Conference (EURASIP/IEEE) [[dblp](https://dblp.org/streams/conf/eusipco)]
+
+* CORE Rank C
+  * [VCIP](http://www.wikicfp.com/cfp/program?id=2926): International Conference on Visual Communications and Image Processing (IEEE) [[dblp](https://dblp.org/streams/conf/vcip)]
+  * [CAIP](http://www.wikicfp.com/cfp/program?id=346): International Conference on Computer Analysis of Images and Patterns (Springer) [[dblp](https://dblp.org/streams/conf/caip)]
+  * [ICISP](http://www.wikicfp.com/cfp/program?id=1399): International Conference on Image and Signal Processing (Springer) [[dblp](https://dblp.org/streams/conf/icisp)]
+  * [ICIAR](http://www.wikicfp.com/cfp/program? id=1381): International Conference on Image Analysis and Recognition (Springer) [[dblp](https://dblp.org/streams/conf/iciar)]
+  * [ICVS](http://www.wikicfp.com/cfp/program?id=1501): International Conference on Computer Vision Systems (Springer) [[dblp](https://dblp.org/streams/conf/icvs)]
+
+* Unranked but notable
+  * [MIUA](https://www.bmva.org/miua): Medical Image Understanding and Analysis (BMVA) · UK-focused medical imaging [[dblp](https://dblp.org/streams/conf/miua)]
+  * [EUVIP](https://eurasip.org/workshops/): European Workshop on Visual Information Processing (IEEE/EURASIP) [[dblp](https://dblp.org/streams/conf/euvip)]
+  * [CIC](https://www.imaging.org/site/IST/Conferences/Color_and_Imaging): Color and Imaging Conference (IS&T) [[dblp](https://dblp.org/streams/conf/imaging)]
+  * [CVCS](https://www.cvcs.no): Colour and Visual Computing Symposium [[dblp](https://dblp.org/streams/conf/cvcs)]
+  * DSP: International Conference on Digital Signal Processing (IEEE) [[dblp](https://dblp.org/streams/conf/icdsp)]
 
 ---
 
 ## Journals
 
-* Tier 1
-  * IEEE Transactions on Pattern Analysis and Machine Intelligence (IEEE TPAMI) [[dblp](https://dblp.org/streams/journals/pami)]
-  * Springer International Journal of Computer Vision (Springer IJCV) [[dblp](https://dblp.org/streams/journals/ijcv)]
-  * IEEE Transactions on Image Processing (IEEE TIP) [[dblp](https://dblp.org/streams/journals/tip)]
-  * IEEE Transactions on Circuits and Systems for Video Technology (IEEE TCSVT) [[dblp](https://dblp.org/streams/journals/tcsv)]
-  * Elsevier Pattern Recognition (Elsevier PR) [[dblp](https://dblp.org/streams/journals/pr)]
-  * Elsevier Computer Vision and Image Understanding (Elsevier CVIU) [[dblp](https://dblp.org/streams/journals/cviu)]
-  * Elsevier Expert Systems with Applications [[dblp](https://dblp.org/streams/journals/eswa)]
-  * Elsevier Neurocomputing [[dblp](https://dblp.org/streams/journals/ijon)]
-  * Springer Neural Computing and Applications [[dblp](https://dblp.org/streams/journals/nca)]
-  * IEEE Transactions on Medical Imaging (IEEE TMI) [[dblp](https://dblp.org/streams/journals/tmi)]
-  * Elsevier Medical Image Analysis [[dblp](https://dblp.org/streams/journals/mia)]
-  * Elsevier Computerized Medical Imaging and Graphics [[dblp](https://dblp.org/streams/journals/cmig)]
-  * Elsevier Computer Methods and Programs in Biomedicine [[dblp](https://dblp.org/streams/journals/cmpb)]
-  * Elsevier Computers in Biology and Medicine [[dblp](https://dblp.org/streams/journals/cbm)]
-* Tier 2
-  * Elsevier Image and Vision Computing (Elsevier IVC) [[dblp](https://dblp.org/streams/journals/ivc)]
-  * Elsevier Pattern Recognition Letters (Elsevier PR Letters) [[dblp](https://dblp.org/streams/journals/prl)]
-  * Elsevier Journal of Visual Communication and Image Representation [[dblp](https://dblp.org/streams/journals/jvcir)]
-  * Springer Journal of Mathematical Imaging and Vision [[dblp](https://dblp.org/streams/journals/jmiv)]
-  * SPIE Journal of Electronic Imaging [[dblp](https://dblp.org/streams/journals/jei)]
-  * IET Image Processing [[dblp](https://dblp.org/streams/journals/iet-ipr)]
-  * Springer Pattern Analysis and Applications (Springer PAA) [[dblp](https://dblp.org/streams/journals/paa)]
-  * Springer Machine Vision and Applications (Springer MVA) [[dblp](https://dblp.org/streams/journals/mva)]
-  * IET Computer Vision [[dblp](https://dblp.org/streams/journals/iet-cvi)]
+> Rankings use the [SCImago Journal Rank (SJR)](https://www.scimagojr.com/journalrank.php) indicator. SJR is a size-independent prestige metric: it weights citations by the influence of the citing journal, not just their count. Quartiles (Q1 to Q4) place each journal within its subject category; Q1 is the top 25%. In computer vision and machine learning, top conferences (CVPR, ICCV, ECCV) often carry more prestige than journals; many researchers publish conference papers first and submit extended versions to journals later.
+
+* Core CV and ML Journals
+  * [IEEE TPAMI](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34): Transactions on Pattern Analysis and Machine Intelligence · Q1 · the highest-prestige journal in CV/ML; publishes foundational and survey work [[dblp](https://dblp.org/streams/journals/pami)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=24254&tip=sid)]
+  * [Elsevier MedIA](https://www.journals.elsevier.com/medical-image-analysis): Medical Image Analysis · Q1 · leading venue in medical imaging [[dblp](https://dblp.org/streams/journals/mia)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=17271&tip=sid)]
+  * [IEEE TIP](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83): Transactions on Image Processing · Q1 · image processing, analysis, and low-level vision [[dblp](https://dblp.org/streams/journals/tip)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=25534&tip=sid)]
+  * [IEEE TMI](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42): Transactions on Medical Imaging · Q1 · premier journal for medical image analysis [[dblp](https://dblp.org/streams/journals/tmi)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=16733&tip=sid)]
+  * [Elsevier PR](https://www.journals.elsevier.com/pattern-recognition): Pattern Recognition · Q1 · broad scope; high volume [[dblp](https://dblp.org/streams/journals/pr)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=24823&tip=sid)]
+  * [IJCV](https://www.springer.com/journal/11263): International Journal of Computer Vision (Springer) · Q1 · primary venue for long-form CV research [[dblp](https://dblp.org/streams/journals/ijcv)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=72242&tip=sid)]
+  * [IEEE TCSVT](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76): Transactions on Circuits and Systems for Video Technology · Q1 · video understanding, compression, and streaming [[dblp](https://dblp.org/streams/journals/tcsv)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=26027&tip=sid)]
+  * [IEEE TVCG](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945): Transactions on Visualization and Computer Graphics · Q1 · covers rendering, visual analytics, and 3D vision [[dblp](https://dblp.org/streams/journals/tvcg)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=25535&tip=sid)]
+  * [Elsevier CVIU](https://www.journals.elsevier.com/computer-vision-and-image-understanding): Computer Vision and Image Understanding · Q1 [[dblp](https://dblp.org/streams/journals/cviu)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=24161&tip=sid)]
+
+* Robotics and Automation
+  * [IEEE RAL](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369): Robotics and Automation Letters · Q1 · fast-track letters; papers often presented at ICRA or IROS [[dblp](https://dblp.org/streams/journals/ral)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=21100900379&tip=sid)]
+
+* Applied and Interdisciplinary
+  * [Elsevier ESWA](https://www.journals.elsevier.com/expert-systems-with-applications): Expert Systems with Applications · Q1 · broad applied scope; high volume [[dblp](https://dblp.org/streams/journals/eswa)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=24201&tip=sid)]
+  * [Elsevier Neurocomputing](https://www.journals.elsevier.com/neurocomputing) · Q1 [[dblp](https://dblp.org/streams/journals/ijon)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=24807&tip=sid)]
+  * [Springer NCA](https://www.springer.com/journal/521): Neural Computing and Applications · Q1 [[dblp](https://dblp.org/streams/journals/nca)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=24800&tip=sid)]
+  * [Elsevier CMIG](https://www.journals.elsevier.com/computerized-medical-imaging-and-graphics): Computerized Medical Imaging and Graphics · Q1 [[dblp](https://dblp.org/streams/journals/cmig)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=23607&tip=sid)]
+  * [Elsevier CMPB](https://www.journals.elsevier.com/computer-methods-and-programs-in-biomedicine): Computer Methods and Programs in Biomedicine · Q1 [[dblp](https://dblp.org/streams/journals/cmpb)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=23604&tip=sid)]
+  * [Elsevier CBM](https://www.journals.elsevier.com/computers-in-biology-and-medicine): Computers in Biology and Medicine · Q1 [[dblp](https://dblp.org/streams/journals/cbm)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=17957&tip=sid)]
+
+* Specialist and Lower-Tier
+  * [Elsevier PRL](https://www.journals.elsevier.com/pattern-recognition-letters): Pattern Recognition Letters · Q1 · shorter-format work [[dblp](https://dblp.org/streams/journals/prl)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=24825&tip=sid)]
+  * [Elsevier IVC](https://www.journals.elsevier.com/image-and-vision-computing): Image and Vision Computing · Q1 [[dblp](https://dblp.org/streams/journals/ivc)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=25549&tip=sid)]
+  * [Elsevier JVCIR](https://www.journals.elsevier.com/journal-of-visual-communication-and-image-representation): Journal of Visual Communication and Image Representation · Q2 [[dblp](https://dblp.org/streams/journals/jvcir)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=25592&tip=sid)]
+  * [Springer JMIV](https://www.springer.com/journal/10851): Journal of Mathematical Imaging and Vision · Q2 · mathematical foundations of imaging [[dblp](https://dblp.org/streams/journals/jmiv)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=28501&tip=sid)]
+  * [SPIE JEI](https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging): Journal of Electronic Imaging · Q3 [[dblp](https://dblp.org/streams/journals/jei)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=25978&tip=sid)]
+  * [IET Image Processing](https://ietresearch.onlinelibrary.wiley.com/journal/17519667) · Q2 [[dblp](https://dblp.org/streams/journals/iet-ipr)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=5400152646&tip=sid)]
+  * [Springer PAA](https://www.springer.com/journal/10044): Pattern Analysis and Applications · Q2 [[dblp](https://dblp.org/streams/journals/paa)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=24822&tip=sid)]
+  * [Springer MVA](https://www.springer.com/journal/138): Machine Vision and Applications · Q2 [[dblp](https://dblp.org/streams/journals/mva)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=12984&tip=sid)]
+  * [IET Computer Vision](https://ietresearch.onlinelibrary.wiley.com/journal/17519640) · Q2 [[dblp](https://dblp.org/streams/journals/iet-cvi)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=7000153231&tip=sid)]
+
 * Open Access
-  * IEEE Access [[dblp](https://dblp.org/streams/journals/access)]
-  * MDPI Journal of Imaging [[dblp](https://dblp.org/streams/journals/jimaging)]
+  * [IEEE Access](https://ieeeaccess.ieee.org) · Q1 · broad scope; fast publication; lower selectivity than the IEEE transactions [[dblp](https://dblp.org/streams/journals/access)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=21100374601&tip=sid)]
+  * [MDPI Journal of Imaging](https://www.mdpi.com/journal/jimaging) · Q2 · fully open access; no subscription required [[dblp](https://dblp.org/streams/journals/jimaging)] [[scimago](https://www.scimagojr.com/journalsearch.php?q=21100900151&tip=sid)]
 
 ---
 
 ## Summer Schools
 
-* International Computer Vision Summer School (IVCSS) [2007-Present], Sicily, Italy [[Website](www.dmi.unict.it/icvss)]
-* Machine Intelligence and Visual Computing Summer School (VISUM) [2013-2022], Porto, Portugal [[Website](https://visum.inesctec.pt)]
-* BMVA British Computer Vision Summer School (CVSS) [2013-2020,2023-Present], UK [[Website](https://britishmachinevisionassociation.github.io/summer-school)]
+> Summer schools are one of the best ways to get intensive, structured exposure to current CV research. Most run annually and accept applications from MSc students, PhD students, postdocs, and industry researchers. 
+
+> Status: ✅ active (running regularly) · 🗄️ concluded (no longer running)
+
+* [ICVSS](https://iplab.dmi.unict.it/icvss/): International Computer Vision Summer School [2007-Present], Sicily, Italy · competitive application · winner of the IEEE PAMI Mark Everingham Prize (2017) · ✅ active
+* [BMVA CVSS](https://cvss.bmva.org/): British Computer Vision Summer School [2013-Present], UK · Organized by BMVA · ✅ active
+* [VISUM](https://visum.inesctec.pt): Machine Intelligence and Visual Computing Summer School [2013-2020], Porto, Portugal · 🗄️ concluded
 
 ---
 
 ## Popular Articles
 
+* Foundational Must-Reads
+  > Ten papers every computer vision researcher should know. These defined the field's trajectory and are cited in virtually every modern CV paper.
+
+  + [Backprop, 1986] Rumelhart, David E., Geoffrey E. Hinton, and Ronald J. Williams. "Learning representations by back-propagating errors." Nature 323 (1986): 533-536. [[paper](https://www.nature.com/articles/323533a0)]
+  + [LeNet-5, 1998] LeCun, Yann, et al. "Gradient-based learning applied to document recognition." Proceedings of the IEEE 86.11 (1998). [[paper](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf)] — established CNNs as the standard for visual recognition
+  + [SIFT, 2004] Lowe, David G. "Distinctive image features from scale-invariant keypoints." IJCV 60.2 (2004): 91-110. [[paper](https://link.springer.com/article/10.1023/B:VISI.0000029664.99615.94)] — the dominant feature descriptor for a decade
+  + [HOG, 2005] Dalal, Navneet, and Bill Triggs. "Histograms of oriented gradients for human detection." CVPR (2005). [[paper](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf)] — foundation of pedestrian and object detection
+  + [AlexNet, 2012] Krizhevsky, Alex, Ilya Sutskever, and Geoffrey E. Hinton. "ImageNet classification with deep convolutional neural networks." NeurIPS (2012). [[paper](https://arxiv.org/abs/1404.5997)] — the paper that started the deep learning era in CV
+  + [ResNet, 2016] He, Kaiming, et al. "Deep residual learning for image recognition." CVPR (2016). [[paper](https://arxiv.org/abs/1512.03385)] — residual connections solved the vanishing gradient problem; still the most-used backbone
+  + [GAN, 2014] Goodfellow, Ian, et al. "Generative adversarial nets." NeurIPS (2014). [[paper](https://arxiv.org/abs/1406.2661)] — introduced the GAN framework that underpins generative CV
+  + [U-Net, 2015] Ronneberger, Olaf, Philipp Fischer, and Thomas Brox. "U-Net: Convolutional networks for biomedical image segmentation." MICCAI (2015). [[paper](https://arxiv.org/abs/1505.04597)] — the default architecture for segmentation tasks
+  + [Attention, 2017] Vaswani, Ashish, et al. "Attention is all you need." NeurIPS (2017). [[paper](https://arxiv.org/abs/1706.03762)] — the transformer architecture that ViT and every modern foundation model is built on
+  + [ViT, 2020] Dosovitskiy, Alexey, et al. "An image is worth 16x16 words." ICLR (2021). [[paper](https://arxiv.org/abs/2010.11929)] — brought transformers to vision and reshaped every sub-field
 * Object Classification
   * [LeNet-5, 1998] LeCun, Yann, et al. "Gradient-based learning applied to document recognition." Proceedings of the IEEE 86.11 (1998): 2278-2324.
   * [AlexNet, 2012] Krizhevsky, Alex, Ilya Sutskever, and Geoffrey E. Hinton. "Imagenet classification with deep convolutional neural networks." Advances in neural information processing systems 25 (2012).
@@ -310,7 +386,28 @@ research.
   * [STARK, 2021] Yan, Bin, et al. "Learning spatio-temporal transformer for visual tracking." Proceedings of the IEEE/CVF international conference on computer vision. 2021.
   * [MixFormer, 2022] Cui, Yutao, et al. "Mixformer: End-to-end tracking with iterative mixed attention." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2022.
   * [ByteTrack, 2022] Zhang, Yifu, et al. "Bytetrack: Multi-object tracking by associating every detection box." European Conference on Computer Vision. Cham: Springer Nature Switzerland, 2022.
-* Image Generation
+* Pose Estimation
+  + Classical: Active Shape Models (ASM), Active Appearance Models (AAM), Pictorial Structures, Deformable Part Models (DPM).
+  + [DeepPose, 2014] Toshev, Alexander, and Christian Szegedy. "DeepPose: Human pose estimation via deep neural networks." CVPR (2014).
+  + [Stacked Hourglass, 2016] Newell, Alejandro, Kaiyu Yang, and Jia Deng. "Stacked hourglass networks for human pose estimation." ECCV (2016).
+  + [OpenPose, 2019] Cao, Zhe, et al. "OpenPose: Realtime multi-person 2D pose estimation using part affinity fields." IEEE TPAMI (2019).
+  + [HRNet, 2019] Wang, Jingdong, et al. "Deep high-resolution representation learning for visual recognition." IEEE TPAMI (2019).
+  + [ViTPose, 2022] Xu, Yufei, et al. "ViTPose: Simple vision transformer baselines for human pose estimation." NeurIPS (2022).
+  + [DWPose, 2023] Yang, Tianhao, et al. "Effective whole-body pose estimation with two-stages distillation." ICCV Workshop (2023).
+  + [RTMPose, 2023] Jiang, Tao, et al. "RTMPose: Real-time multi-person pose estimation based on RTMDet." arXiv (2023).
+  + [UniPose, 2024] Yang, Junjie, et al. "UniPose: Detecting any keypoints." CVPR (2024).
+* Depth Estimation
+  + Classical: stereo matching, structured light, time-of-flight (ToF), SfM (Structure from Motion).
+  + [Make3D, 2009] Saxena, Ashutosh, Min Sun, and Andrew Y. Ng. "Make3D: Learning 3D scene structure from a single still image." IEEE TPAMI (2009).
+  + [Eigen et al., 2014] Eigen, David, Christian Puhrsch, and Rob Fergus. "Depth map prediction from a single image using a multi-scale deep network." NeurIPS (2014).
+  + [DenseDepth, 2018] Alhashim, Ibraheem, and Peter Wonka. "High quality monocular depth estimation via transfer learning." arXiv (2018).
+  + [MiDaS, 2020] Ranftl, René, et al. "Towards robust monocular depth estimation: Mixing datasets for zero-shot cross-dataset transfer." IEEE TPAMI (2020).
+  + [AdaBins, 2021] Bhat, Shariq Farooq, et al. "AdaBins: Depth estimation using adaptive bins." CVPR (2021).
+  + [DPT, 2021] Ranftl, René, et al. "Vision transformers for dense prediction." ICCV (2021).
+  + [ZoeDepth, 2023] Bhat, Shariq Farooq, et al. "ZoeDepth: Zero-shot transfer by combining relative and metric depth." arXiv (2023).
+  + [Depth Anything, 2024] Yang, Lihe, et al. "Depth anything: Unleashing the power of large-scale unlabeled data." CVPR (2024).
+  + [Depth Anything V2, 2024] Yang, Lihe, et al. "Depth Anything V2." NeurIPS (2024).
+  + [Marigold, 2024] Ke, Bingxin, et al. "Repurposing diffusion-based image generators for monocular depth estimation." CVPR (2024).
   * [DCGAN, 2015] Radford, Alec, Luke Metz, and Soumith Chintala. "Unsupervised representation learning with deep convolutional generative adversarial networks." arXiv preprint arXiv:1511.06434 (2015).
   * [BigGAN, 2018] Brock, Andrew, Jeff Donahue, and Karen Simonyan. "Large scale GAN training for high fidelity natural image synthesis." arXiv preprint arXiv:1809.11096 (2018).
   * [StyleGANv3, 2021] Karras, Tero, et al. "Alias-free generative adversarial networks." Advances in Neural Information Processing Systems 34 (2021): 852-863.
@@ -324,6 +421,17 @@ research.
   * [DALL-E 2, 2022] Ramesh, Aditya, et al. "Hierarchical text-conditional image generation with clip latents." arXiv preprint arXiv:2204.06125 1.2 (2022).
   * [DALL-E 3, 2023] Betker, James, et al. "Improving image generation with better captions." Computer Science. <https://cdn.openai.com/papers/dall-e-3.pdf> 2.3 (2023): 8.
   * [SDXL, 2023] Podell, Dustin, et al. "SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis." The Twelfth International Conference on Learning Representations. 2023.
+* Vision-Language Models (VLMs)
+  + [CLIP, 2021] Radford, Alec, et al. "Learning transferable visual models from natural language supervision." ICML (2021). [[paper](https://arxiv.org/abs/2103.00020)]
+  + [ALIGN, 2021] Jia, Chao, et al. "Scaling up visual and vision-language representation learning with noisy text supervision." ICML (2021).
+  + [BLIP, 2022] Li, Junnan, et al. "BLIP: Bootstrapping language-image pre-training for unified vision-language understanding and generation." ICML (2022).
+  + [Flamingo, 2022] Alayrac, Jean-Baptiste, et al. "Flamingo: a visual language model for few-shot learning." NeurIPS (2022).
+  + [BLIP-2, 2023] Li, Junnan, et al. "BLIP-2: Bootstrapping language-image pre-training with frozen image encoders and large language models." ICML (2023).
+  + [LLaVA, 2023] Liu, Haotian, et al. "Visual instruction tuning." NeurIPS (2023).
+  + [InstructBLIP, 2023] Dai, Wenliang, et al. "InstructBLIP: Towards general-purpose vision-language models with instruction tuning." NeurIPS (2023).
+  + [GPT-4V, 2023] OpenAI. "GPT-4 technical report." arXiv (2023).
+  + [LLaVA-1.5, 2023] Liu, Haotian, et al. "Improved baselines with visual instruction tuning." CVPR (2024).
+  + [Qwen-VL, 2023] Bai, Jinze, et al. "Qwen-VL: A versatile vision-language model for understanding, localization, text reading, and beyond." arXiv (2023).
 * Image Retrieval
   * [LSMH, 2016] Lu, Xiaoqiang, Xiangtao Zheng, and Xuelong Li. "Latent semantic minimal hashing for image retrieval." IEEE Transactions on Image Processing 26.1 (2016): 355-368.
   * [R–GeM, 2018] Radenović, Filip, Giorgos Tolias, and Ondřej Chum. "Fine-tuning CNN image retrieval with no human annotation." IEEE transactions on pattern analysis and machine intelligence 41.7 (2018): 1655-1668.
@@ -341,21 +449,18 @@ research.
   * [CiDeR, 2024] Song, Chull Hwan, et al. "On train-test class overlap and detection for image retrieval." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2024.
 * WIP:
   * Image Super-Resolution / Image Restoration
-  * Depth Estimation
   * Saliency Detection
   * Vanishing Point Detection
   * Image Colorization
   * Image Captioning
   * Video Summarization and Captioning
   * Explainable AI (XAI)
-  * Pose Estimation
   * Text Recognition
   * Data Compression
   * Affective Computing
   * Virtual reality (VR)
   * Augmented reality (AR)
   * Visual Question Answering (VQA)
-  * Vision-Language Models (VLMs)
   * DeepFake Detection
   * 3D Reconstruction
   * Biometric Analysis
@@ -409,7 +514,7 @@ research.
 
 ## Repos
 
-* Tags: Object Classification `[ObjCls]`, Object Detection `[ObjDet]`, Object Segmentation `[ObjSeg]`, General Library `[GenLib]`, Text Reading / Object Character Recognition `[OCR]`, Action Recognition `[ActRec]`, Object Tracking `[ObjTrk]`, Data Augmentation `[DatAug]`, Simultaneous Localization and Mapping `[SLAM]`, Outlier/Anomaly/Novelty Detection `[NvlDet]`, Content-based Image Retrieval `[CBIR]`, Image Enhancement `[ImgEnh]`, Aesthetic Assessment `[AesAss]`, Explainable Artificial Intelligence `[XAI]`, Text-to-Image Generation `[TexImg]`, Pose Estimation `[PosEst]`, Video Matting `[VidMat]`, Eye Tracking `[EyeTrk]`
+> Tags: Object Classification `[ObjCls]`, Object Detection `[ObjDet]`, Object Segmentation `[ObjSeg]`, General Library `[GenLib]`, Text Reading / Object Character Recognition `[OCR]`, Action Recognition `[ActRec]`, Object Tracking `[ObjTrk]`, Data Augmentation `[DatAug]`, Simultaneous Localization and Mapping `[SLAM]`, Outlier/Anomaly/Novelty Detection `[NvlDet]`, Content-based Image Retrieval `[CBIR]`, Image Enhancement `[ImgEnh]`, Aesthetic Assessment `[AesAss]`, Explainable Artificial Intelligence `[XAI]`, Text-to-Image Generation `[TexImg]`, Pose Estimation `[PosEst]`, Video Matting `[VidMat]`, Eye Tracking `[EyeTrk]`
 
 | Repo | Tags | Description |
 | --------------- | --------------- | --------------- |
@@ -506,7 +611,7 @@ research.
 
 ## YouTube Channels
 
-* Tags: Popular individuals `[Individual]`, Conference and event `[Conferences]`, University research groups `[University]`, Interactive talks and podscasts `[Talks]`, Research articles' explanation `[Papers]`.
+> Tags: Popular individuals `[Individual]`, Conference and event `[Conferences]`, University research groups `[University]`, Interactive talks and podscasts `[Talks]`, Research articles' explanation `[Papers]`.
 
 * [@AurelienGeron](https://www.youtube.com/@AurelienGeron) `[Individual]`, Aurélien Géron: former lead of YouTube's video classification team, and author of the O'Reilly book Hands-On Machine Learning with Scikit-Learn and TensorFlow.
 * [@howardjeremyp](https://www.youtube.com/@howardjeremyp) `[Individual]`, Jeremy Howard: former president and chief scientist of Kaggle, and co-founder of fast.ai.
@@ -524,6 +629,14 @@ research.
 * [marksaroufim](https://www.youtube.com/@marksaroufim) `[Individual]`, Mark Saroufim: PyTorch engineer at Meta (Facebook), videos about AI.
 * [NicholasRenotte](https://www.youtube.com/@NicholasRenotte) `[Individual]`, Nicholas Renotte: videos about computer vision, natural language processign and reinforcement learning applications.
 * [abhishekkrthakur](https://www.youtube.com/@abhishekkrthakur) `[Individual]`, Abhishek Thakur: world's first Quadruple Grand Master on Kaggle, videos about applied machine learning, deep learning, and data science.
+* [@AladdinPersson](https://www.youtube.com/@AladdinPersson) `[Individual]`, Aladdin Persson: clear implementations of ML and CV papers from scratch in PyTorch and TensorFlow.
+* [@CodeEmporium](https://www.youtube.com/@CodeEmporium) `[Individual]`, The Code Emporium: intuitive explanations of ML concepts and architectures.
+* [@AICoffeeBreak](https://www.youtube.com/@AICoffeeBreak) `[Individual]`, AI Coffee Break with Letitia: short, accessible walkthroughs of recent AI and CV research.
+* [@mildlyoverfitted](https://www.youtube.com/@mildlyoverfitted) `[Individual]`, Mildly Overfitted: hands-on CV and ML tutorials with clean code.
+* [@SmithaKolan](https://www.youtube.com/@SmithaKolan) `[Individual]`, Smitha Kolan: computer vision tutorials focused on practical applications.
+* [@KapilSachdeva](https://www.youtube.com/@KapilSachdeva) `[Individual]`, Kapil Sachdeva: in-depth explanations of ML research and engineering.
+* [@alfcnz](https://www.youtube.com/@alfcnz) `[Individual]`, Alfredo Canziani: assistant professor at NYU, deep learning theory and practice.
+* [@arp_ai](https://www.youtube.com/@arp_ai) `[Individual]`, Jay Alammar: applied ML and computer vision projects.
 * [@bmvabritishmachinevisionas8529](https://www.youtube.com/@bmvabritishmachinevisionas8529) `[Conferences]`, BMVA: British Machine Vision Association.
 * [@ComputerVisionFoundation](https://www.youtube.com/@ComputerVisionFoundation) `[Conferences]`, Computer Vision Foundation (CVF): co-sponsored conferences on computer vision (e.g. CVPR and ICCV).
 * [@cvprtum](https://www.youtube.com/@cvprtum) `[University]`, Computer Vision Group at Technical University of Munich.
@@ -540,19 +653,6 @@ research.
 * [@TwoMinutePapers](https://www.youtube.com/@TwoMinutePapers) `[Papers]`, Two Minute Papers: Explaining AI papers in few mins.
 * [@TheAIEpiphany](https://www.youtube.com/@TheAIEpiphany) `[Papers]`, Aleksa Gordić: x-Google DeepMind, x-Microsoft engineer explaining AI papers.
 * [@bycloudAI](https://www.youtube.com/@bycloudAI) `[Papers]`, bycloud: covers the latest AI tech/research papers for fun.
-* WIP:
-  * <https://www.youtube.com/@AladdinPersson>
-  * <https://www.youtube.com/@CodeEmporium>
-  * <https://www.youtube.com/@arp_ai>
-  * <https://www.youtube.com/@CodeThisCodeThat>
-  * <https://www.youtube.com/@connorshorten6311>
-  * <https://www.youtube.com/@SmithaKolan>
-  * <https://www.youtube.com/@AICoffeeBreak>
-  * <https://www.youtube.com/@independentcode>
-  * <https://www.youtube.com/@alfcnz>
-  * <https://www.youtube.com/@KapilSachdeva>
-  * <https://www.youtube.com/@AICoding>
-  * <https://www.youtube.com/@mildlyoverfitted>
 
 ---
 
@@ -582,7 +682,6 @@ Suggestions and pull requests are welcome. Please check [CONTRIBUTING.md](CONTRI
 ## Thanks
 
 * [Frida de Sigley](https://github.com/fdsig)
-* Dan Harvey
 * [CORE Conference Ranking](http://portal.core.edu.au/conf-ranks/?search=4603&by=all&source=CORE2021&sort=arank&page=1)
 * [Scimago Journal Ranking](https://www.scimagojr.com/journalrank.php)
 * [benthecoder/yt-channels-DS-AI-ML-CS](https://github.com/benthecoder/yt-channels-DS-AI-ML-CS)
