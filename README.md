@@ -51,13 +51,13 @@ research.
 > * **[Python Libraries](#python-libraries)**
 > * **[Rust Libraries](#rust-libraries)**
 > * **[MATLAB/Octave Libraries](#matlab-libraries)**
-> * **[Evaluation Metrics](#evaluation-metrics)**
+> * **[Reference Books](#reference-books)**
+> * **[Courses](#courses)**
 > * **[Conferences](#conferences)**
 > * **[Journals](#journals)**
 > * **[Summer Schools](#summer-schools)**
 > * **[Popular Articles](#popular-articles)**
-> * **[Reference Books](#reference-books)**
-> * **[Courses](#courses)**
+> * **[Evaluation Metrics](#evaluation-metrics)**
 > * **[Repos](#repos)**
 > * **[Dataset Collections](#dataset-collections)**
 > * **[Annotation Tools](#annotation-tools)**
@@ -113,90 +113,46 @@ research.
 
 ---
 
-## Evaluation Metrics
+## Reference Books
 
-* Performance - Classification
-  * Confusion Matrix: TP, FP, TN, and FN for each class
-  * For class-balanced datasets:
-    * Accuracy: (TP+TN) / (TP+FP+TN+FN)
-    * ROC curve: TPR vs FPR · summarised by AUROC (higher is better)
-  * For class-imbalanced datasets:
-    * Precision (P): TP / (TP+FP)
-    * Recall (R): TP / (TP+FN)
-    * F1-Score: 2·P·R / (P+R)
-    * Balanced Accuracy: (TPR+TNR) / 2
-    * Weighted-Averaged Precision, Recall, and F1-Score
-    * PR curve: Precision vs Recall · summarised by AUPRC (higher is better, more informative than AUROC on imbalanced data)
-  * For multi-label classification:
-    * Macro / Micro / Weighted averaging of above metrics
-    * Hamming Loss: fraction of labels incorrectly predicted
+| Book | Links |
+| --------------- | --------------- |
+| Antonio Torralba, Phillip Isola, William T. Freeman. “Foundations of Computer Vision” MIT Press, (2024). | [goodreads](https://www.goodreads.com/book/show/157976035-foundations-of-computer-vision?from_search=true&from_srp=true&qid=y0fzNP4eVX&rank=2) |
+| Nixon, Mark, and Alberto Aguado. “Feature extraction and image processing for computer vision” Academic press, (2019). | [goodreads](https://www.goodreads.com/book/show/14788673-feature-extraction-and-image-processing-for-computer-vision) |
+| González, Rafael Corsino and Richard E. Woods. “Digital image processing, 4th Edition” (2018). | [goodreads](https://www.goodreads.com/book/show/42937189-digital-image-processing) |
+| E.R. Davies. “Computer Vision: Principles, Algorithms, Applications, Learning” Academic press, (2017). | [goodreads](https://www.goodreads.com/book/show/36987287-computer-vision) |
+| Prince, Simon. “Computer Vision: Models, Learning, and Inference” (2012). | [goodreads](https://www.goodreads.com/book/show/15792261-computer-vision) |
+| Forsyth, David Alexander and Jean Ponce. “Computer Vision - A Modern Approach, Second Edition” (2011). |[goodreads](https://www.goodreads.com/book/show/14857613-computer-vision) |
+| Szeliski, Richard. “Computer Vision - Algorithms and Applications” Texts in Computer Science (2010). | [goodreads](https://www.goodreads.com/book/show/9494221-computer-vision) |
+| Bishop, Charles M.. “Pattern recognition and machine learning, 5th Edition” Information science and statistics (2007). | [goodreads](https://www.goodreads.com/book/show/37572203-pattern-recognition-and-machine-learning) |
+| Harltey, Andrew and Andrew Zisserman. “Multiple view geometry in computer vision (2. ed.)” (2003). | [goodreads](https://www.goodreads.com/book/show/89897.Multiple_View_Geometry_in_Computer_Vision) |
+| Stockman, George C. and Linda G. Shapiro. “Computer Vision” (2001). | [goodreads](https://www.goodreads.com/book/show/19371156-computer-vision) |
 
-* Performance - Detection
-  * Intersection over Union (IoU): area of overlap / area of union between predicted and ground-truth box
-  * Average Precision (AP): area under the Precision-Recall curve for a single class
-  * mAP: mean AP averaged over all classes
-  * mAP@0.5: IoU threshold of 0.5 (PASCAL VOC standard)
-  * mAP@0.5:0.95: mean over IoU thresholds 0.5 to 0.95 in steps of 0.05 (COCO standard, harder and preferred)
-  * AR@k: Average Recall at k proposals per image
-  * False Positives Per Image (FPPI): used in pedestrian detection benchmarks (e.g. Caltech)
-  * Log-Average Miss Rate (LAMR): standard metric for pedestrian detection, computed on FPPI vs Miss Rate curve
+---
 
-* Performance - Segmentation
-  * Intersection over Union (IoU) / Jaccard Index: TP / (TP+FP+FN) per class
-  * mean IoU (mIoU): IoU averaged over all classes · primary metric for semantic segmentation benchmarks (Cityscapes, ADE20K)
-  * Dice Coefficient / F1-Score: 2·TP / (2·TP+FP+FN) · standard for medical image segmentation
-  * Mean Pixel Accuracy (mPA): fraction of pixels correctly classified per class, then averaged
-  * Panoptic Quality (PQ): PQ = SQ · RQ · unified metric for panoptic segmentation (COCO Panoptic)
-  * Boundary IoU (BIoU): IoU computed only near object boundaries · penalises coarse masks
-  * Hausdorff Distance (HD): maximum surface distance between predicted and ground-truth masks · common in medical imaging
-  * HD95: 95th-percentile Hausdorff Distance · more robust to outliers than HD
+## Courses
 
-* Performance - Tracking
-  * Multiple Object Tracking Accuracy (MOTA): combines false positives, false negatives, and identity switches
-  * Multiple Object Tracking Precision (MOTP): average localisation precision of matched detections
-  * ID F1-Score (IDF1): ratio of correctly identified detections over average of ground-truth and computed detections · better reflects long-term identity consistency than MOTA
-  * HOTA (Higher Order Tracking Accuracy): geometric mean of detection and association accuracy · increasingly preferred over MOTA/MOTP as a single summary metric
-  * Identity Switches (IDSW): number of times a tracked object changes its assigned ID
-  * Mostly Tracked (MT) / Mostly Lost (ML): fraction of ground-truth trajectories tracked for more than 80% / less than 20% of their lifespan
-
-* Performance - Perceptual Quality (Super-resolution, Denoising, Enhancement)
-  * Reference-based (require a clean ground-truth image):
-    * Peak Signal-to-Noise Ratio (PSNR): 10·log10(MAX² / MSE) · in dB, higher is better · fast to compute but weakly correlated with human perception
-    * Structural Similarity Index (SSIM): measures luminance, contrast, and structure jointly · range [0,1], higher is better
-    * Multi-Scale SSIM (MS-SSIM): SSIM computed at multiple resolutions · more robust to viewing distance
-    * Learned Perceptual Image Patch Similarity (LPIPS): deep feature distance · strongly correlated with human judgement · lower is better
-    * Visual Information Fidelity (VIF): mutual information between reference and distorted image features
-  * No-reference (blind, no ground-truth required):
-    * Natural Image Quality Evaluator (NIQE): lower is better · measures deviation from natural scene statistics
-    * BRISQUE: lower is better · spatial natural scene statistics
-    * Gradient Magnitude Similarity Deviation (GMSD): fast, gradient-based · lower is better
-
-* Performance - Generation (GANs, Diffusion Models)
-  * Fréchet Inception Distance (FID): distance between Inception feature distributions of real and generated images · lower is better · primary benchmark metric
-  * Inception Score (IS): measures quality and diversity jointly using classifier confidence and entropy · higher is better · less reliable than FID on its own
-  * Kernel Inception Distance (KID): like FID but uses MMD instead of Gaussian assumption · unbiased with small sample sizes · lower is better
-  * Perceptual Path Length (PPL): smoothness of the latent space · used for GANs · lower is better
-  * CLIP Score: cosine similarity between CLIP embeddings of generated image and text prompt · used for text-to-image evaluation · higher is better
-  * Human Evaluation: side-by-side preference studies remain the gold standard for generative quality
-
-* Performance - Depth Estimation
-  * Absolute Relative Error (AbsRel): mean( |d - d*| / d* ) · lower is better
-  * Squared Relative Error (SqRel): mean( |d - d*|² / d* )
-  * Root Mean Squared Error (RMSE) and RMSE log
-  * Threshold Accuracy (δ < 1.25, 1.25², 1.25³): fraction of pixels where max(d/d*, d*/d) < threshold · higher is better
-
-* Performance - Pose Estimation
-  * Percentage of Correct Keypoints (PCK): keypoint within α · torso diameter of ground truth · PCK@0.2 is standard
-  * Object Keypoint Similarity (OKS): analogous to IoU for keypoints · accounts for keypoint visibility and scale · used by COCO
-  * Mean Per Joint Position Error (MPJPE): average Euclidean distance between predicted and ground-truth 3D joints · in mm
-
-* Computation
-  * Latency: end-to-end inference time per image (ms) · report hardware, batch size, and input resolution
-  * Throughput: Frames Per Second (FPS) · report the same context as latency
-  * Parameters (M): total trainable parameter count · proxy for memory footprint
-  * FLOPs / MACs: floating-point operations or multiply-accumulate operations per forward pass · hardware-independent complexity measure
-  * Model Size (MB): weight file size on disk
-  * GPU Memory (VRAM, GB): peak memory during inference · critical for deployment constraints
+| Course | Year | Instructor | Source |
+| --------------- | --------------- | --------------- | --------------- |
+| [Introduction to Computer Vision](https://browncsci1430.github.io) | 2026 | James Tompkin | Brown |
+| [Deep Learning for Computer Vision](http://cs231n.stanford.edu) | 2025 | Fei-Fei Li | Stanford |
+| [Advances in Computer Vision](http://6.8300.csail.mit.edu/sp23/) | 2023 | William T. Freeman | MIT |
+| [OpenCV for Python Developers](https://www.linkedin.com/learning/opencv-for-python-developers) | 2023 | Patrick Crawford | LinkedIn Learning |
+| [Computer Vision](https://www.youtube.com/playlist?list=PL05umP7R6ij35L2MHGzis8AEHz7mg381_)| 2021 | Andreas Geiger | University of Tübingen |
+| [Computer Vision](https://www.youtube.com/playlist?list=PLd3hlSJsX_IkXSinyREhlMjFvpNfpazfN) | 2021 | Yogesh S Rawat / Mubarak Shah | University of Central Florida |
+| [Advanced Computer Vision](https://www.youtube.com/playlist?list=PLd3hlSJsX_Ilwca04yxhrjcdzx7BS2vDh) | 2021| Mubarak Shah | University of Central Florida |
+| [Deep Learning for Computer Vision](https://www.youtube.com/playlist?list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r) | 2020 | Justin Johnson | University of Michigan |
+| [Advanced Deep Learning for Computer Vision](https://www.youtube.com/playlist?list=PLog3nOPCjKBnjhuHMIXu4ISE4Z4f2jm39)| 2020 | Laura Leal-Taixé / Matthias Niessner  | Technical University of Munich |
+| [Introduction to Digital Image Processing](https://www.youtube.com/playlist?list=PL2mBI0yFsKk-p73KQ4iPdsi10hQC4Zd-0)| 2020 | Ahmadreza Baghaie | New York Institute of Technology|
+| [Quantitative Imaging](https://www.youtube.com/playlist?list=PLTWuXgjdOrnmXVVQG5DRkVeOIGOcTmCIw) | 2019 | Kevin Mader | ETH Zurich |
+| [Convolutional Neural Networks for Visual Recognition](https://www.youtube.com/playlist?list=PLf7L7Kg8_FNxHATtLwDceyh72QQL9pvpQ) | 2017 | Fei-Fei Li | Stanford University  |
+| [Introduction to Digital Image Processing](https://www.youtube.com/playlist?list=PLuh62Q4Sv7BUf60vkjePfcOQc8sHxmnDX) | 2015|Rich Radke | Rensselaer Polytechnic Institute|
+| [Machine Learning for Robotics and Computer Vision](https://www.youtube.com/playlist?list=PLTBdjV_4f-EIiongKlS9OKrBEp8QR47Wl) | 2014| Rudolph Triebel |  Technical University of Munich |
+| [Multiple View Geometry](https://www.youtube.com/playlist?list=PLTBdjV_4f-EJn6udZ34tht9EVIW7lbeo4) | 2013 | Daniel Cremers | Technical University of Munich |
+| [Variational Methods for Computer Vision](https://www.youtube.com/playlist?list=PLTBdjV_4f-EJ7A2iIH5L5ztqqrWYjP2RI) | 2013 | Daniel Cremers | Technical University of Munich |
+| [Computer Vision](https://www.youtube.com/playlist?list=PLd3hlSJsX_ImKP68wfKZJVIPTd8Ie5u-9) | 2012| Mubarak Shah | University of Central Florida |
+| [Image and video processing](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A79y1StvUUqgyL-O0fZh2rs) | - | Guillermo Sapiro | Duke University|
+| [Introduction to Computer Vision](https://www.udacity.com/course/introduction-tocomputer-vision--ud810) | - | Aaron Bobick / Irfan Essa | Udacity |
 
 ---
 
@@ -473,46 +429,91 @@ research.
 
 ---
 
-## Reference Books
 
-| Book | Links |
-| --------------- | --------------- |
-| Antonio Torralba, Phillip Isola, William T. Freeman. “Foundations of Computer Vision” MIT Press, (2024). | [goodreads](https://www.goodreads.com/book/show/157976035-foundations-of-computer-vision?from_search=true&from_srp=true&qid=y0fzNP4eVX&rank=2) |
-| Nixon, Mark, and Alberto Aguado. “Feature extraction and image processing for computer vision” Academic press, (2019). | [goodreads](https://www.goodreads.com/book/show/14788673-feature-extraction-and-image-processing-for-computer-vision) |
-| González, Rafael Corsino and Richard E. Woods. “Digital image processing, 4th Edition” (2018). | [goodreads](https://www.goodreads.com/book/show/42937189-digital-image-processing) |
-| E.R. Davies. “Computer Vision: Principles, Algorithms, Applications, Learning” Academic press, (2017). | [goodreads](https://www.goodreads.com/book/show/36987287-computer-vision) |
-| Prince, Simon. “Computer Vision: Models, Learning, and Inference” (2012). | [goodreads](https://www.goodreads.com/book/show/15792261-computer-vision) |
-| Forsyth, David Alexander and Jean Ponce. “Computer Vision - A Modern Approach, Second Edition” (2011). |[goodreads](https://www.goodreads.com/book/show/14857613-computer-vision) |
-| Szeliski, Richard. “Computer Vision - Algorithms and Applications” Texts in Computer Science (2010). | [goodreads](https://www.goodreads.com/book/show/9494221-computer-vision) |
-| Bishop, Charles M.. “Pattern recognition and machine learning, 5th Edition” Information science and statistics (2007). | [goodreads](https://www.goodreads.com/book/show/37572203-pattern-recognition-and-machine-learning) |
-| Harltey, Andrew and Andrew Zisserman. “Multiple view geometry in computer vision (2. ed.)” (2003). | [goodreads](https://www.goodreads.com/book/show/89897.Multiple_View_Geometry_in_Computer_Vision) |
-| Stockman, George C. and Linda G. Shapiro. “Computer Vision” (2001). | [goodreads](https://www.goodreads.com/book/show/19371156-computer-vision) |
+## Evaluation Metrics
 
----
+* Performance - Classification
+  * Confusion Matrix: TP, FP, TN, and FN for each class
+  * For class-balanced datasets:
+    * Accuracy: (TP+TN) / (TP+FP+TN+FN)
+    * ROC curve: TPR vs FPR · summarised by AUROC (higher is better)
+  * For class-imbalanced datasets:
+    * Precision (P): TP / (TP+FP)
+    * Recall (R): TP / (TP+FN)
+    * F1-Score: 2·P·R / (P+R)
+    * Balanced Accuracy: (TPR+TNR) / 2
+    * Weighted-Averaged Precision, Recall, and F1-Score
+    * PR curve: Precision vs Recall · summarised by AUPRC (higher is better, more informative than AUROC on imbalanced data)
+  * For multi-label classification:
+    * Macro / Micro / Weighted averaging of above metrics
+    * Hamming Loss: fraction of labels incorrectly predicted
 
-## Courses
+* Performance - Detection
+  * Intersection over Union (IoU): area of overlap / area of union between predicted and ground-truth box
+  * Average Precision (AP): area under the Precision-Recall curve for a single class
+  * mAP: mean AP averaged over all classes
+  * mAP@0.5: IoU threshold of 0.5 (PASCAL VOC standard)
+  * mAP@0.5:0.95: mean over IoU thresholds 0.5 to 0.95 in steps of 0.05 (COCO standard, harder and preferred)
+  * AR@k: Average Recall at k proposals per image
+  * False Positives Per Image (FPPI): used in pedestrian detection benchmarks (e.g. Caltech)
+  * Log-Average Miss Rate (LAMR): standard metric for pedestrian detection, computed on FPPI vs Miss Rate curve
 
-| Course | Year | Instructor | Source |
-| --------------- | --------------- | --------------- | --------------- |
-| [Introduction to Computer Vision](https://browncsci1430.github.io) | 2026 | James Tompkin | Brown |
-| [Deep Learning for Computer Vision](http://cs231n.stanford.edu) | 2025 | Fei-Fei Li | Stanford |
-| [Advances in Computer Vision](http://6.8300.csail.mit.edu/sp23/) | 2023 | William T. Freeman | MIT |
-| [OpenCV for Python Developers](https://www.linkedin.com/learning/opencv-for-python-developers) | 2023 | Patrick Crawford | LinkedIn Learning |
-| [Computer Vision](https://www.youtube.com/playlist?list=PL05umP7R6ij35L2MHGzis8AEHz7mg381_)| 2021 | Andreas Geiger | University of Tübingen |
-| [Computer Vision](https://www.youtube.com/playlist?list=PLd3hlSJsX_IkXSinyREhlMjFvpNfpazfN) | 2021 | Yogesh S Rawat / Mubarak Shah | University of Central Florida |
-| [Advanced Computer Vision](https://www.youtube.com/playlist?list=PLd3hlSJsX_Ilwca04yxhrjcdzx7BS2vDh) | 2021| Mubarak Shah | University of Central Florida |
-| [Deep Learning for Computer Vision](https://www.youtube.com/playlist?list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r) | 2020 | Justin Johnson | University of Michigan |
-| [Advanced Deep Learning for Computer Vision](https://www.youtube.com/playlist?list=PLog3nOPCjKBnjhuHMIXu4ISE4Z4f2jm39)| 2020 | Laura Leal-Taixé / Matthias Niessner  | Technical University of Munich |
-| [Introduction to Digital Image Processing](https://www.youtube.com/playlist?list=PL2mBI0yFsKk-p73KQ4iPdsi10hQC4Zd-0)| 2020 | Ahmadreza Baghaie | New York Institute of Technology|
-| [Quantitative Imaging](https://www.youtube.com/playlist?list=PLTWuXgjdOrnmXVVQG5DRkVeOIGOcTmCIw) | 2019 | Kevin Mader | ETH Zurich |
-| [Convolutional Neural Networks for Visual Recognition](https://www.youtube.com/playlist?list=PLf7L7Kg8_FNxHATtLwDceyh72QQL9pvpQ) | 2017 | Fei-Fei Li | Stanford University  |
-| [Introduction to Digital Image Processing](https://www.youtube.com/playlist?list=PLuh62Q4Sv7BUf60vkjePfcOQc8sHxmnDX) | 2015|Rich Radke | Rensselaer Polytechnic Institute|
-| [Machine Learning for Robotics and Computer Vision](https://www.youtube.com/playlist?list=PLTBdjV_4f-EIiongKlS9OKrBEp8QR47Wl) | 2014| Rudolph Triebel |  Technical University of Munich |
-| [Multiple View Geometry](https://www.youtube.com/playlist?list=PLTBdjV_4f-EJn6udZ34tht9EVIW7lbeo4) | 2013 | Daniel Cremers | Technical University of Munich |
-| [Variational Methods for Computer Vision](https://www.youtube.com/playlist?list=PLTBdjV_4f-EJ7A2iIH5L5ztqqrWYjP2RI) | 2013 | Daniel Cremers | Technical University of Munich |
-| [Computer Vision](https://www.youtube.com/playlist?list=PLd3hlSJsX_ImKP68wfKZJVIPTd8Ie5u-9) | 2012| Mubarak Shah | University of Central Florida |
-| [Image and video processing](https://www.youtube.com/playlist?list=PLZ9qNFMHZ-A79y1StvUUqgyL-O0fZh2rs) | - | Guillermo Sapiro | Duke University|
-| [Introduction to Computer Vision](https://www.udacity.com/course/introduction-tocomputer-vision--ud810) | - | Aaron Bobick / Irfan Essa | Udacity |
+* Performance - Segmentation
+  * Intersection over Union (IoU) / Jaccard Index: TP / (TP+FP+FN) per class
+  * mean IoU (mIoU): IoU averaged over all classes · primary metric for semantic segmentation benchmarks (Cityscapes, ADE20K)
+  * Dice Coefficient / F1-Score: 2·TP / (2·TP+FP+FN) · standard for medical image segmentation
+  * Mean Pixel Accuracy (mPA): fraction of pixels correctly classified per class, then averaged
+  * Panoptic Quality (PQ): PQ = SQ · RQ · unified metric for panoptic segmentation (COCO Panoptic)
+  * Boundary IoU (BIoU): IoU computed only near object boundaries · penalises coarse masks
+  * Hausdorff Distance (HD): maximum surface distance between predicted and ground-truth masks · common in medical imaging
+  * HD95: 95th-percentile Hausdorff Distance · more robust to outliers than HD
+
+* Performance - Tracking
+  * Multiple Object Tracking Accuracy (MOTA): combines false positives, false negatives, and identity switches
+  * Multiple Object Tracking Precision (MOTP): average localisation precision of matched detections
+  * ID F1-Score (IDF1): ratio of correctly identified detections over average of ground-truth and computed detections · better reflects long-term identity consistency than MOTA
+  * HOTA (Higher Order Tracking Accuracy): geometric mean of detection and association accuracy · increasingly preferred over MOTA/MOTP as a single summary metric
+  * Identity Switches (IDSW): number of times a tracked object changes its assigned ID
+  * Mostly Tracked (MT) / Mostly Lost (ML): fraction of ground-truth trajectories tracked for more than 80% / less than 20% of their lifespan
+
+* Performance - Perceptual Quality (Super-resolution, Denoising, Enhancement)
+  * Reference-based (require a clean ground-truth image):
+    * Peak Signal-to-Noise Ratio (PSNR): 10·log10(MAX² / MSE) · in dB, higher is better · fast to compute but weakly correlated with human perception
+    * Structural Similarity Index (SSIM): measures luminance, contrast, and structure jointly · range [0,1], higher is better
+    * Multi-Scale SSIM (MS-SSIM): SSIM computed at multiple resolutions · more robust to viewing distance
+    * Learned Perceptual Image Patch Similarity (LPIPS): deep feature distance · strongly correlated with human judgement · lower is better
+    * Visual Information Fidelity (VIF): mutual information between reference and distorted image features
+  * No-reference (blind, no ground-truth required):
+    * Natural Image Quality Evaluator (NIQE): lower is better · measures deviation from natural scene statistics
+    * BRISQUE: lower is better · spatial natural scene statistics
+    * Gradient Magnitude Similarity Deviation (GMSD): fast, gradient-based · lower is better
+
+* Performance - Generation (GANs, Diffusion Models)
+  * Fréchet Inception Distance (FID): distance between Inception feature distributions of real and generated images · lower is better · primary benchmark metric
+  * Inception Score (IS): measures quality and diversity jointly using classifier confidence and entropy · higher is better · less reliable than FID on its own
+  * Kernel Inception Distance (KID): like FID but uses MMD instead of Gaussian assumption · unbiased with small sample sizes · lower is better
+  * Perceptual Path Length (PPL): smoothness of the latent space · used for GANs · lower is better
+  * CLIP Score: cosine similarity between CLIP embeddings of generated image and text prompt · used for text-to-image evaluation · higher is better
+  * Human Evaluation: side-by-side preference studies remain the gold standard for generative quality
+
+* Performance - Depth Estimation
+  * Absolute Relative Error (AbsRel): mean( |d - d*| / d* ) · lower is better
+  * Squared Relative Error (SqRel): mean( |d - d*|² / d* )
+  * Root Mean Squared Error (RMSE) and RMSE log
+  * Threshold Accuracy (δ < 1.25, 1.25², 1.25³): fraction of pixels where max(d/d*, d*/d) < threshold · higher is better
+
+* Performance - Pose Estimation
+  * Percentage of Correct Keypoints (PCK): keypoint within α · torso diameter of ground truth · PCK@0.2 is standard
+  * Object Keypoint Similarity (OKS): analogous to IoU for keypoints · accounts for keypoint visibility and scale · used by COCO
+  * Mean Per Joint Position Error (MPJPE): average Euclidean distance between predicted and ground-truth 3D joints · in mm
+
+* Computation
+  * Latency: end-to-end inference time per image (ms) · report hardware, batch size, and input resolution
+  * Throughput: Frames Per Second (FPS) · report the same context as latency
+  * Parameters (M): total trainable parameter count · proxy for memory footprint
+  * FLOPs / MACs: floating-point operations or multiply-accumulate operations per forward pass · hardware-independent complexity measure
+  * Model Size (MB): weight file size on disk
+  * GPU Memory (VRAM, GB): peak memory during inference · critical for deployment constraints
 
 ---
 
