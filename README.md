@@ -1,4 +1,4 @@
-# Awesome Computer Vision: From Foundations to Research
+# Awesome Computer Vision Resources: From Foundations to Research
 *A structured learning reference: image fundamentals → classical methods → deep learning → generative artificial intelligence in CV.*
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/mawady/awesome-cv)
@@ -60,7 +60,6 @@ research.
 > * **[Evaluation Metrics](#evaluation-metrics)**
 > * **[Repos](#repos)**
 > * **[Dataset Collections](#dataset-collections)**
-> * **[Annotation Tools](#annotation-tools)**
 > * **[YouTube Channels](#youtube-channels)**
 > * **[Mailing Lists](#mailing-lists)**
 >
@@ -599,18 +598,6 @@ research.
 * [VisualData](https://visualdata.io/discovery)
 * [CUHK Computer Vision](http://www.ee.cuhk.edu.hk/~xgwang/datasets.html)
 * [VGG - University of Oxford](https://www.robots.ox.ac.uk/~vgg/data/)
-
----
-
-## Annotation Tools
-
-* [labelme](https://github.com/wkentaro/labelme), Image Polygonal Annotation with Python (polygon, rectangle, circle, line, point and image-level flag annotation).
-* [CVAT](https://github.com/cvat-ai/cvat), an interactive video and image annotation tool for computer vision.
-* [VoTT](https://github.com/microsoft/VoTT), Microsoft, Visual Object Tagging Tool: An electron app for building end to end Object Detection Models from Images and Videos.
-* [labelImg](https://github.com/tzutalin/labelImg), Graphical image annotation tool and label object bounding boxes in images.
-* [VIA](https://www.robots.ox.ac.uk/~vgg/software/via/), VGG Oxford, HTML-based standalone manual annotation software for image, audio and video.
-* [FiftyOne](https://github.com/voxel51/fiftyone), open-source tool for building high-quality datasets and computer vision models.
-* [makesense.ai](https://github.com/SkalskiP/make-sense), a free-to-use online tool for labeling photos.
 
 ---
 
